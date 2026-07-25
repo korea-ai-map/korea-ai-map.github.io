@@ -1,0 +1,44 @@
+name: Mi:dm K 2.5 Pro
+organization_id: kt
+model_family: Mi:dm K
+release_date: '2026-03-19'
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - reasoning
+  - coding
+  - tool-use
+  - agentic
+  - long-context
+parameter_count:
+  value: 32000000000
+  disclosure: confident
+context_length:
+  value: 131072
+  confidence: confident
+availability:
+  api: true
+  weights: false
+  demo: false
+license:
+  name: proprietary
+  commercial_use: restricted
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+links:
+  official: null
+  model_card: null
+  huggingface: null
+  github: null
+  paper: https://arxiv.org/abs/2603.18788
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2603.18788
+last_verified: '2026-07-26'
+verification_status: official-source

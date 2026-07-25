@@ -1,0 +1,24 @@
+name_ko: 산타
+name_en: Santa (Riiid AI Tutor)
+organization_id: socra
+description_ko: 학습자의 수준과 학습 패턴을 분석해 개인별 학습 경로와 실시간 피드백을 제공하는 뤼이드의 AI 기반 어학시험 학습 서비스다.
+categories:
+  - education
+  - ai-tutor
+  - personalization
+target_users:
+  - student
+  - consumer
+delivery_type:
+  - app
+  - web-service
+models_used: []
+model_ownership: own-model
+pricing_public: true
+status: active
+website: https://www.riiid.com
+sources:
+  - type: official-website
+    url: https://www.riiid.com
+last_verified: '2026-07-26'
+verification_status: official-source

@@ -1,0 +1,26 @@
+name_ko: 엑사원 아틀리에
+name_en: EXAONE Atelier
+organization_id: lg-ai-research
+description_ko: LG AI연구원이 EXAONE의 멀티모달 기술을 바탕으로 개발한 디자인 창작 플랫폼으로, 디자이너와 AI가 텍스트와 이미지를 활용해 아이디어를 시각화하고 공동 창작하도록 지원한다.
+categories:
+  - content-generation
+  - image-generation
+  - design
+target_users:
+  - designer
+  - enterprise
+delivery_type:
+  - cloud
+  - on-premise
+models_used: []
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://github.com/LGAI-Research/EXAONE-Atelier
+sources:
+  - type: press
+    url: https://www.lg.co.kr/media/release/25292
+  - type: github
+    url: https://github.com/LGAI-Research/EXAONE-Atelier
+last_verified: '2026-07-26'
+verification_status: verified

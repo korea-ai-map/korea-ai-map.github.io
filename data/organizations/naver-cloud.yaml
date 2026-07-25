@@ -17,6 +17,8 @@ models:
   - clova-speech-recognition
   - clova-voice
   - donut-base
+  - hcx-003
+  - hcx-dash-001
   - hyperclova-x
   - hyperclovax-seed-omni-8b
   - hyperclovax-seed-text-instruct-15b
@@ -27,6 +29,7 @@ products:
   - clova-studio
   - clova-x
   - naver-agent-n
+  - naver-cue
 open_source_links:
   - https://huggingface.co/naver-hyperclovax
 sources:

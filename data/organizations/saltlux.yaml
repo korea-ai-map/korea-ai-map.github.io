@@ -22,6 +22,7 @@ description_ko: >-
   오픈웨이트 모델로 Hugging Face에 Ko-Llama3-Luxia-8B가 있으며, 상용 루시아 계열 대형 모델(luxia-21.4b 등)은 접근이 제한(gated)되어 있다.
 models:
   - ko-llama3-luxia-8b
+  - luxia-21-4b-alignment
 products:
   - goover
   - knowledge-studio

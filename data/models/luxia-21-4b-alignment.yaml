@@ -1,0 +1,39 @@
+name: Luxia 21.4B Alignment v1.0
+organization_id: saltlux
+model_family: Luxia
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - instruction-following
+parameter_count:
+  value: 21421000000
+  disclosure: confident
+context_length:
+  value: 32768
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: true
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+links:
+  official: https://www.saltlux.com
+  model_card: https://huggingface.co/saltlux/luxia-21.4b-alignment-v1.0
+  huggingface: https://huggingface.co/saltlux/luxia-21.4b-alignment-v1.0
+  github: null
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/saltlux/luxia-21.4b-alignment-v1.0
+last_verified: '2026-07-26'
+verification_status: official-source

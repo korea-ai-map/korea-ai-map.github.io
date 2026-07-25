@@ -1,0 +1,45 @@
+name: Solar Mini
+organization_id: upstage
+model_family: Solar
+release_date: '2024-03-21'
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - summarization
+  - translation
+  - instruction-following
+parameter_count:
+  value: 10731524096
+  disclosure: likely
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: true
+  weights: false
+  demo: true
+license:
+  name: proprietary
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+  - ja
+links:
+  official: https://www.upstage.ai/news/solarmini-aws
+  model_card: null
+  huggingface: null
+  github: null
+  paper: https://arxiv.org/abs/2312.15166
+sources:
+  - type: press
+    url: https://www.upstage.ai/news/solarmini-aws
+  - type: official-blog
+    url: https://www.upstage.ai/ko/blog/en/introducing-solar-mini-compact-yet-powerful
+last_verified: '2026-07-26'
+verification_status: verified

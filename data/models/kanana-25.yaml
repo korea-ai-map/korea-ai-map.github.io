@@ -1,0 +1,42 @@
+name: Kanana 2.5
+organization_id: kakao
+model_family: Kanana
+release_date: '2026-05-07'
+status: announced
+modalities:
+  - text
+tasks:
+  - chat
+  - planning
+  - tool-use
+  - agentic
+parameter_count:
+  value: null
+  disclosure: undisclosed
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: false
+  demo: false
+license:
+  name: proprietary
+  commercial_use: unknown
+deployment:
+  cloud: true
+  on_premise: false
+languages:
+  - ko
+  - en
+links:
+  official: null
+  model_card: null
+  huggingface: null
+  github: null
+  paper: null
+sources:
+  - type: press
+    url: https://en.bizhankook.com/articles/32196.html
+last_verified: '2026-07-26'
+verification_status: needs-review

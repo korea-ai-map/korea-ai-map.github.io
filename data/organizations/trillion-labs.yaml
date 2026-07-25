@@ -16,6 +16,8 @@ description_ko: 2024년 설립된 소버린 AI 지향 스타트업. 창업자는
 models:
   - tri-21b
   - tri-21b-think
+  - tri-70b-preview-sft
+  - tri-7b
   - trillion-7b-preview
 products: []
 open_source_links:

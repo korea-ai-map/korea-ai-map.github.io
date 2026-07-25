@@ -1,0 +1,39 @@
+name: KMed.ai
+organization_id: snuh
+model_family: KMed
+status: active
+modalities:
+  - text
+tasks:
+  - medical-question-answering
+  - clinical-document-understanding
+  - summarization
+parameter_count:
+  value: null
+  disclosure: undisclosed
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: false
+  demo: true
+license:
+  name: proprietary
+  commercial_use: restricted
+deployment:
+  cloud: false
+  on_premise: true
+languages:
+  - ko
+links:
+  official: https://www.snuh.org
+  model_card: null
+  huggingface: null
+  github: null
+  paper: null
+sources:
+  - type: official-docs
+    url: https://www.snuh.org/upload/about/period/magazine/6c8330c176424ab9a582062411fc0058.pdf
+last_verified: '2026-07-26'
+verification_status: official-source

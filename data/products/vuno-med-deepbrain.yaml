@@ -1,0 +1,26 @@
+name_ko: 뷰노메드 딥브레인
+name_en: VUNO Med-DeepBrain
+organization_id: vuno
+description_ko: 뇌 MRI 영상을 정량 분석해 뇌 위축 정도와 치매 관련 지표의 판독을 보조하는 의료영상 AI 솔루션이다.
+categories:
+  - medical-imaging
+  - neurology
+  - diagnostics
+target_users:
+  - hospital
+  - radiologist
+delivery_type:
+  - on-premise
+  - medical-device
+models_used: []
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://www.vuno.co/en/history
+sources:
+  - type: official-website
+    url: https://www.vuno.co/en/history
+  - type: press
+    url: https://www.vuno.co/en/news/view/1126
+last_verified: '2026-07-26'
+verification_status: verified

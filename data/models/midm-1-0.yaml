@@ -1,0 +1,41 @@
+name: Mi:dm 1.0
+organization_id: kt
+model_family: Mi:dm
+release_date: '2023-10-31'
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - summarization
+  - instruction-following
+parameter_count:
+  value: null
+  disclosure: undisclosed
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: true
+  weights: false
+  demo: false
+license:
+  name: proprietary
+  commercial_use: restricted
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+links:
+  official: https://corp.kt.com
+  model_card: null
+  huggingface: null
+  github: null
+  paper: null
+sources:
+  - type: official-docs
+    url: https://corp.kt.com/KT_RAI_Report_EN.pdf
+last_verified: '2026-07-26'
+verification_status: official-source

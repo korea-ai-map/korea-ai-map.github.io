@@ -1,0 +1,28 @@
+name_ko: 뷰노메드 체스트 엑스레이
+name_en: VUNO Med-Chest X-ray
+organization_id: vuno
+description_ko: 흉부 X선 영상에서 주요 이상 소견을 탐지하고 위치를 제시해 폐 질환 영상 판독을 보조하는 의료 AI 솔루션이다.
+categories:
+  - medical-imaging
+  - radiology
+  - diagnostics
+target_users:
+  - hospital
+  - radiologist
+delivery_type:
+  - cloud
+  - on-premise
+  - api
+  - medical-device
+models_used: []
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://vuno.co/en/chest
+sources:
+  - type: official-website
+    url: https://vuno.co/en/chest
+  - type: press
+    url: https://www.vuno.co/news/view/238
+last_verified: '2026-07-26'
+verification_status: verified

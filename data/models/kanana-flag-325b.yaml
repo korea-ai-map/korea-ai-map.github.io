@@ -1,0 +1,43 @@
+name: Kanana Flag 32.5B
+organization_id: kakao
+model_family: Kanana
+release_date: '2024-11-14'
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - reasoning
+  - instruction-following
+parameter_count:
+  value: 32500000000
+  disclosure: confident
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  weights: false
+  demo: false
+license:
+  name: proprietary
+  commercial_use: unknown
+deployment:
+  cloud: true
+  on_premise: false
+languages:
+  - ko
+  - en
+links:
+  official: https://tech.kakao.com/posts/689
+  model_card: null
+  huggingface: null
+  github: null
+  paper: https://arxiv.org/abs/2502.18934
+sources:
+  - type: official-blog
+    url: https://tech.kakao.com/posts/689
+  - type: paper
+    url: https://arxiv.org/abs/2502.18934
+last_verified: '2026-07-26'
+verification_status: verified

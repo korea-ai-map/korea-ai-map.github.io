@@ -1,0 +1,44 @@
+name: Kanana-1.5-o-9.8B-Instruct-2602
+organization_id: kakao
+model_family: Kanana-o
+release_date: '2026-02-12'
+status: active
+modalities:
+  - text
+  - image
+  - audio
+tasks:
+  - chat
+  - image-captioning
+  - speech-recognition
+  - text-to-speech
+parameter_count:
+  value: 9800000000
+  disclosure: confident
+context_length:
+  value: 16384
+  confidence: confident
+availability:
+  api: true
+  weights: false
+  demo: false
+license:
+  name: Kanana License
+  commercial_use: unknown
+deployment:
+  cloud: true
+  on_premise: false
+languages:
+  - ko
+  - en
+links:
+  official: null
+  model_card: https://huggingface.co/kakaocorp/Kanana-1.5-o-9.8B-instruct-2602-API_Doc
+  huggingface: https://huggingface.co/kakaocorp/Kanana-1.5-o-9.8B-instruct-2602-API_Doc
+  github: null
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/kakaocorp/Kanana-1.5-o-9.8B-instruct-2602-API_Doc
+last_verified: '2026-07-26'
+verification_status: official-source

@@ -1,0 +1,25 @@
+name_ko: 서울대학교병원
+name_en: Seoul National University Hospital
+organization_type: public-institution
+country: KR
+headquarters: Seoul
+website: https://www.snuh.org
+founded_year: 1978
+ai_core_level: model_builder
+categories:
+  - healthcare-ai
+  - medical-llm
+  - clinical-ai
+status: active
+description_ko: 서울대학교병원은 의료 AI 연구와 임상 적용을 수행하며, 네이버와 함께 한국형 의료 특화 초거대 언어모델 KMed.ai 및 통합 플랫폼 SNUH.AI를 개발했다.
+models:
+  - kmed-ai
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.snuh.org
+  - type: official-docs
+    url: https://www.snuh.org/upload/about/period/magazine/6c8330c176424ab9a582062411fc0058.pdf
+last_verified: '2026-07-26'
+verification_status: official-source
