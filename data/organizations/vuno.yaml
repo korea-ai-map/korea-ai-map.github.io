@@ -14,6 +14,8 @@ models:
   - vuno-med-deepcars
 products:
   - vuno-deepcars
+  - vuno-med-chest-xray
+  - vuno-med-deepbrain
 open_source_links: []
 sources:
   - type: official-website

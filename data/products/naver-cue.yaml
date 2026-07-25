@@ -1,0 +1,22 @@
+name_ko: '큐:'
+name_en: 'CUE:'
+organization_id: naver-cloud
+description_ko: HyperCLOVA X를 기반으로 복잡한 질의를 해석하고 다단계 검색·추론을 수행해 근거와 함께 답변을 제공하는 네이버의 생성형 AI 검색 서비스다.
+categories:
+  - search-rag
+  - content-generation
+target_users:
+  - consumer
+delivery_type:
+  - web-service
+models_used:
+  - hyperclova-x
+model_ownership: own-model
+pricing_public: false
+status: archived
+website: https://www.navercorp.com/en/media/pressReleasesDetail?seq=2299
+sources:
+  - type: press
+    url: https://www.navercorp.com/en/media/pressReleasesDetail?seq=2299
+last_verified: '2026-07-26'
+verification_status: archived

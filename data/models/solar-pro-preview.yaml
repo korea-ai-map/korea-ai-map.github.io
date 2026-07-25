@@ -1,0 +1,41 @@
+name: Solar Pro Preview
+organization_id: upstage
+model_family: Solar
+release_date: '2024-09-09'
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - instruction-following
+parameter_count:
+  value: 22140032000
+  disclosure: confident
+context_length:
+  value: 4096
+  confidence: confident
+availability:
+  api: true
+  weights: true
+  demo: true
+license:
+  name: MIT
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - en
+links:
+  official: https://www.upstage.ai/products/solar-pro-preview
+  model_card: https://huggingface.co/upstage/solar-pro-preview-instruct
+  huggingface: https://huggingface.co/upstage/solar-pro-preview-instruct
+  github: null
+  paper: null
+sources:
+  - type: official-blog
+    url: https://www.upstage.ai/products/solar-pro-preview
+  - type: model-card
+    url: https://huggingface.co/upstage/solar-pro-preview-instruct
+last_verified: '2026-07-26'
+verification_status: verified

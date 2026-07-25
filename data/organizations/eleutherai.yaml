@@ -16,6 +16,7 @@ description_ko: 2020년 설립된 비영리 대규모 AI 연구 단체. GPT-NeoX
 models:
   - polyglot-ko-128b
   - polyglot-ko-13b
+  - polyglot-ko-38b
   - polyglot-ko-58b
 products: []
 open_source_links:

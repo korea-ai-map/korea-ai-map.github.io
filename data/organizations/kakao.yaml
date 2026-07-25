@@ -17,9 +17,12 @@ models:
   - kakaobrain-align-base
   - kanana-15-157b-a3b-instruct
   - kanana-15-8b-instruct
+  - kanana-15-o-98b-instruct
   - kanana-15-v-3b-instruct
   - kanana-2-30b-a3b-instruct
   - kanana-2-30b-a3b-thinking
+  - kanana-25
+  - kanana-flag-325b
   - kanana-nano-21b-embedding
   - karlo-v1-alpha
   - kogpt-6b

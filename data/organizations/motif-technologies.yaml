@@ -18,7 +18,9 @@ description_ko: >-
   오픈 모델 중 상위권 성능을 기록. 2026년 240억원 규모 시리즈B를 유치하고 과기정통부 독자 AI 파운데이션 모델 정예팀에 선정됐다.
 models:
   - motif-2-12-7b-instruct
+  - motif-2-12-7b-reasoning
   - motif-2-6b
+  - motif-3-beta
 products: []
 open_source_links:
   - https://huggingface.co/Motif-Technologies

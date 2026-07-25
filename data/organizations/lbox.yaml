@@ -1,0 +1,25 @@
+name_ko: 엘박스
+name_en: LBox
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://lbox.kr
+ai_core_level: ai_native
+categories:
+  - legal-ai
+  - search-rag
+  - legal-tech
+status: active
+description_ko: 판례와 법률 문서를 검색·분석하는 AI 기반 법률정보 서비스를 개발·운영하는 리걸테크 기업이다.
+models: []
+products:
+  - lbox-caselaw-ai
+open_source_links:
+  - https://github.com/lbox-kr
+sources:
+  - type: official-website
+    url: https://lbox.kr
+  - type: github
+    url: https://github.com/lbox-kr
+last_verified: '2026-07-26'
+verification_status: official-source

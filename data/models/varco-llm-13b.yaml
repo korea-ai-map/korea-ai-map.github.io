@@ -1,0 +1,41 @@
+name: VARCO LLM 13B
+organization_id: ncsoft
+model_family: VARCO LLM
+release_date: '2023-08-16'
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - text-generation
+  - instruction-following
+parameter_count:
+  value: 13000000000
+  disclosure: confident
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: true
+  weights: false
+  demo: false
+license:
+  name: proprietary
+  commercial_use: restricted
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+links:
+  official: https://about.ncsoft.com/en/news/article/nc-varco-llm-230817
+  model_card: null
+  huggingface: null
+  github: null
+  paper: null
+sources:
+  - type: official-blog
+    url: https://about.ncsoft.com/en/news/article/nc-varco-llm-230817
+last_verified: '2026-07-26'
+verification_status: official-source

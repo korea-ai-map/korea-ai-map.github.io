@@ -14,8 +14,10 @@ categories:
 status: active
 description_ko: KT가 자체 기술로 개발한 Korea-centric LLM Mi:dm(믿음) 계열을 운영한다. Mi:dm 2.0은 KT 자회사 K-intelligence를 통해 오픈 공개된다.
 models:
+  - midm-1-0
   - midm-2-0-base
   - midm-2-0-mini-instruct
+  - midm-k-25-pro
 products:
   - kt-k-intelligence
 open_source_links:

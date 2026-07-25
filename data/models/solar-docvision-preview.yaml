@@ -1,0 +1,43 @@
+name: Solar DocVision Preview
+organization_id: upstage
+model_family: Solar
+release_date: '2024-09-10'
+status: active
+modalities:
+  - text
+  - image
+tasks:
+  - document-understanding
+  - visual-question-answering
+  - summarization
+  - information-extraction
+parameter_count:
+  value: null
+  disclosure: undisclosed
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: true
+  weights: false
+  demo: true
+license:
+  name: proprietary
+  commercial_use: unknown
+deployment:
+  cloud: true
+  on_premise: false
+languages:
+  - ko
+  - en
+links:
+  official: https://www.upstage.ai/products/solar-pro-preview
+  model_card: null
+  huggingface: null
+  github: null
+  paper: null
+sources:
+  - type: official-blog
+    url: https://www.upstage.ai/products/solar-pro-preview
+last_verified: '2026-07-26'
+verification_status: official-source

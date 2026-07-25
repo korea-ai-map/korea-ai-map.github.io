@@ -1,0 +1,45 @@
+name: Motif-2-12.7B-Reasoning
+organization_id: motif-technologies
+model_family: Motif
+release_date: '2025-11-28'
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - reasoning
+  - math
+  - coding
+parameter_count:
+  value: 12703860896
+  disclosure: confident
+context_length:
+  value: 32768
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: true
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+base_model: Motif-2-12.7B-Base
+links:
+  official: https://motiftech.io
+  model_card: https://huggingface.co/Motif-Technologies/Motif-2-12.7B-Reasoning
+  huggingface: https://huggingface.co/Motif-Technologies/Motif-2-12.7B-Reasoning
+  github: null
+  paper: https://arxiv.org/abs/2511.07464
+sources:
+  - type: model-card
+    url: https://huggingface.co/Motif-Technologies/Motif-2-12.7B-Reasoning
+  - type: paper
+    url: https://arxiv.org/abs/2511.07464
+last_verified: '2026-07-26'
+verification_status: verified

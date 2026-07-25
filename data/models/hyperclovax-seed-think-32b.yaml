@@ -1,6 +1,7 @@
 name: HyperCLOVAX-SEED-Think-32B
 organization_id: naver-cloud
 model_family: HyperCLOVA X SEED
+release_date: '2025-12-23'
 status: active
 modalities:
   - text

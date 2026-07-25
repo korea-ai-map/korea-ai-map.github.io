@@ -16,6 +16,7 @@ description_ko: 게임사 엔씨소프트가 개발·공개하는 AI 모델 VARC
 models:
   - gme-varco-vision-embedding
   - llama-varco-8b-instruct
+  - varco-llm-13b
   - varco-vision-2-0-1-7b
   - varco-vision-2-0-1-7b-ocr
   - varco-vision-2-0-14b

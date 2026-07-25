@@ -16,11 +16,14 @@ status: active
 description_ko: 2020년 김성훈 대표가 설립한 AI 기업. Solar 계열 LLM과 Document AI/OCR을 개발하며 오픈웨이트 모델을 Hugging Face에 공개한다.
 models:
   - solar-10-7b
+  - solar-docvision-preview
   - solar-embedding-1-large
+  - solar-mini
   - solar-open-100b
   - solar-open-2-250b
   - solar-pro-2
   - solar-pro-3
+  - solar-pro-preview
 products:
   - upstage-document-parse
   - upstage-solar-llm-api

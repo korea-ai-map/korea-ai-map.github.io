@@ -1,0 +1,42 @@
+name: HCX-003
+organization_id: naver-cloud
+model_family: HyperCLOVA X
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - summarization
+  - extraction
+  - planning
+  - instruction-following
+parameter_count:
+  value: null
+  disclosure: undisclosed
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: true
+  weights: false
+  demo: true
+license:
+  name: proprietary
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: false
+languages:
+  - ko
+  - en
+links:
+  official: https://www.navercorp.com/media/pressReleasesDetail?seq=31745
+  model_card: null
+  huggingface: null
+  github: null
+  paper: null
+sources:
+  - type: press
+    url: https://www.navercorp.com/media/pressReleasesDetail?seq=31745
+last_verified: '2026-07-26'
+verification_status: official-source
