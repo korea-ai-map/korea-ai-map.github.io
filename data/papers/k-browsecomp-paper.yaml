@@ -1,0 +1,18 @@
+title: 'K-BrowseComp: A Web Browsing Agent Benchmark Grounded in Korean Contexts'
+authors_org: Chung-Ang University · KAIST · Seoul National University · OnelineAI · NAVER Cloud AI · Carnegie Mellon University
+venue: arXiv
+year: 2026
+arxiv_id: '2606.02404'
+url: https://arxiv.org/abs/2606.02404
+abstract_ko: 한국 맥락의 어려운 공개 정보를 찾고 여러 웹 출처의 근거와 제약을 유지하는 능력을 평가하는 한국어 웹 탐색 에이전트 벤치마크를 제안한다.
+related_ids:
+  - k-browsecomp
+  - k-browsecomp-dataset
+  - k-browsecomp-eval
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2606.02404
+  - type: github
+    url: https://github.com/prometheus-eval/K-BrowseComp
+last_verified: '2026-07-29'
+verification_status: verified

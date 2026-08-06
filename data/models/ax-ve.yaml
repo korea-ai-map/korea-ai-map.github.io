@@ -1,0 +1,37 @@
+name: A.X VE
+organization_id: skt
+model_family: A.X
+release_date: '2026-07-29'
+status: active
+modalities:
+  - image
+tasks:
+  - image-feature-extraction
+  - visual-understanding
+parameter_count:
+  value: 413000000
+  disclosure: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: false
+  on_premise: true
+languages:
+  - ko
+  - en
+links:
+  official: https://news.sktelecom.com/228501
+  model_card: https://huggingface.co/skt/A.X-VE
+  huggingface: https://huggingface.co/skt/A.X-VE
+sources:
+  - type: official-website
+    url: https://news.sktelecom.com/228501
+  - type: model-card
+    url: https://huggingface.co/skt/A.X-VE
+last_verified: '2026-08-07'
+verification_status: verified

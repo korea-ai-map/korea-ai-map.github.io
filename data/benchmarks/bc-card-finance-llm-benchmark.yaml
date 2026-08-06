@@ -1,0 +1,10 @@
+name: BC Card Finance LLM Benchmark
+organization_id: bc-card
+category: domain-specific
+description_ko: BC카드와 연세대학교 DSL의 산학협력으로 제작된 한국어 금융 LLM 벤치마크. BC카드 FAQ와 일반 금융 영역의 800문항을 참조 답변과 비교하는 LLM-as-a-Judge 평가에 사용한다.
+url: https://huggingface.co/datasets/BCCard/bc-finance-llm-benchmark
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/BCCard/bc-finance-llm-benchmark
+last_verified: '2026-08-02'
+verification_status: official-source

@@ -1,0 +1,35 @@
+name: Motif Vision Encoder
+organization_id: motif-technologies
+model_family: motif
+release_date: '2026-07-21'
+status: active
+modalities:
+  - image
+  - video
+tasks:
+  - image-feature-extraction
+  - video-feature-extraction
+  - visual-understanding
+parameter_count:
+  value: 7000000000
+  disclosure: likely
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: MIT
+  commercial_use: allowed
+deployment:
+  cloud: false
+  on_premise: true
+languages: []
+links:
+  official: https://motiftech.io
+  model_card: https://huggingface.co/Motif-Technologies/Motif-Vision-Encoder
+  huggingface: https://huggingface.co/Motif-Technologies/Motif-Vision-Encoder
+sources:
+  - type: model-card
+    url: https://huggingface.co/Motif-Technologies/Motif-Vision-Encoder
+last_verified: '2026-08-07'
+verification_status: verified

@@ -1,0 +1,34 @@
+name: Motif-Audio
+organization_id: motif-technologies
+model_family: motif
+release_date: '2026-07-22'
+status: active
+modalities:
+  - audio
+tasks:
+  - audio-reconstruction
+  - audio-feature-extraction
+  - neural-vocoder
+parameter_count:
+  value: 726000000
+  disclosure: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: MIT
+  commercial_use: allowed
+deployment:
+  cloud: false
+  on_premise: true
+languages: []
+links:
+  official: https://motiftech.io
+  model_card: https://huggingface.co/Motif-Technologies/Motif-Audio
+  huggingface: https://huggingface.co/Motif-Technologies/Motif-Audio
+sources:
+  - type: model-card
+    url: https://huggingface.co/Motif-Technologies/Motif-Audio
+last_verified: '2026-08-07'
+verification_status: verified

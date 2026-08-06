@@ -1,0 +1,13 @@
+name: KoALa-Bench Evaluation
+repo_type: eval-tool
+url: https://github.com/scai-research/KoALa-Bench
+description_ko: 한국어 오디오 언어모델의 ASR·음성 번역·음성 질의응답·지시 이행·충실도 과제를 실행하는 공식 평가 코드와 백엔드 어댑터 모음.
+language: Python
+stars: 1
+sources:
+  - type: github
+    url: https://github.com/scai-research/KoALa-Bench
+  - type: paper
+    url: https://arxiv.org/abs/2604.19782
+last_verified: '2026-07-29'
+verification_status: verified

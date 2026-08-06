@@ -1,0 +1,58 @@
+name: A.X K2 Raon-Speech 21B-A3B
+organization_id: krafton-ai
+model_family: Raon
+release_date: '2026-07-29'
+status: active
+modalities:
+  - audio
+  - text
+tasks:
+  - chat
+  - speech-understanding
+  - speech-generation
+  - speech-to-text
+  - text-to-speech
+  - question-answering
+  - voice-cloning
+  - tool-use
+parameter_count:
+  value: 21200000000
+  disclosure: confident
+context_length:
+  value: 131072
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: true
+license:
+  name: CC BY-NC 4.0
+  commercial_use: prohibited
+deployment:
+  cloud: false
+  on_premise: true
+languages:
+  - ko
+  - en
+base_model: A.X K2 Light 20B-A3B
+benchmark_results:
+  - benchmark: Korean speech-language aggregate
+    score: 0.72
+    metric: normalized aggregate
+    source: https://huggingface.co/KRAFTON/A.X-K2-Raon-Speech-21B-A3B
+  - benchmark: English speech-language aggregate
+    score: 0.75
+    metric: normalized aggregate
+    source: https://huggingface.co/KRAFTON/A.X-K2-Raon-Speech-21B-A3B
+links:
+  official: https://krafton.ai/
+  model_card: https://huggingface.co/KRAFTON/A.X-K2-Raon-Speech-21B-A3B
+  huggingface: https://huggingface.co/KRAFTON/A.X-K2-Raon-Speech-21B-A3B
+  github: https://github.com/krafton-ai/vllm-omni
+sources:
+  - type: official-website
+    url: https://krafton.ai/
+  - type: model-card
+    url: https://huggingface.co/KRAFTON/A.X-K2-Raon-Speech-21B-A3B
+last_verified: '2026-08-07'
+verification_status: verified

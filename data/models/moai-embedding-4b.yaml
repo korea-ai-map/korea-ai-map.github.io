@@ -1,0 +1,46 @@
+name: MoAI-Embedding-4B
+organization_id: bc-card
+model_family: MoAI Embedding
+release_date: '2026-06-18'
+status: active
+modalities:
+  - text
+tasks:
+  - embedding
+  - information-retrieval
+  - sentence-similarity
+parameter_count:
+  value: 4000000000
+  disclosure: confident
+context_length:
+  value: 1024
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+base_model: Qwen/Qwen3-Embedding-4B
+benchmark_results:
+  - benchmark: BC Card in-domain retrieval
+    score: 0.6906
+    metric: NDCG@10
+    source: https://huggingface.co/BCCard/MoAI-Embedding-4B
+links:
+  official: null
+  model_card: https://huggingface.co/BCCard/MoAI-Embedding-4B
+  huggingface: https://huggingface.co/BCCard/MoAI-Embedding-4B
+  github: null
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/BCCard/MoAI-Embedding-4B
+last_verified: '2026-07-29'
+verification_status: official-source

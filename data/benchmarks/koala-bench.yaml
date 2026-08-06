@@ -1,0 +1,13 @@
+name: KoALa-Bench
+category: multimodal
+description_ko: 대규모 오디오 언어모델의 한국어 음성 이해와 음성 입력 충실도를 평가하는 벤치마크. 음성 인식·번역·질의응답·지시 이행과 두 종류의 음성 충실도 평가를 포함한다.
+url: https://arxiv.org/abs/2604.19782
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2604.19782
+  - type: github
+    url: https://github.com/scai-research/KoALa-Bench
+  - type: huggingface
+    url: https://huggingface.co/datasets/scailaboratory/KoALA
+last_verified: '2026-07-29'
+verification_status: verified

@@ -23,6 +23,7 @@ models:
   - solar-open-2-250b
   - solar-pro-2
   - solar-pro-3
+  - solar-pro-4
   - solar-pro-preview
 products:
   - upstage-document-parse
@@ -34,5 +35,5 @@ sources:
     url: https://www.upstage.ai/about
   - type: huggingface
     url: https://huggingface.co/upstage
-last_verified: '2026-07-23'
+last_verified: '2026-08-07'
 verification_status: verified

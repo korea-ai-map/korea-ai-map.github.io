@@ -1,6 +1,6 @@
 name: Motif-3-Beta
 organization_id: motif-technologies
-model_family: Motif
+model_family: motif
 release_date: '2026-07-20'
 status: active
 modalities:
@@ -8,6 +8,7 @@ modalities:
 tasks:
   - chat
   - reasoning
+  - coding
   - instruction-following
   - long-context
 parameter_count:
@@ -19,7 +20,7 @@ context_length:
 availability:
   api: false
   weights: true
-  demo: false
+  demo: true
 license:
   name: Motif 3 Research License
   commercial_use: prohibited
@@ -38,5 +39,5 @@ links:
 sources:
   - type: model-card
     url: https://huggingface.co/Motif-Technologies/Motif-3-Beta
-last_verified: '2026-07-26'
-verification_status: official-source
+last_verified: '2026-08-07'
+verification_status: verified

@@ -19,8 +19,12 @@ models:
   - kanana-15-8b-instruct
   - kanana-15-o-98b-instruct
   - kanana-15-v-3b-instruct
+  - kanana-2-13b-base
+  - kanana-2-13b-instruct
   - kanana-2-30b-a3b-instruct
   - kanana-2-30b-a3b-thinking
+  - kanana-2-3b-base
+  - kanana-2-3b-instruct
   - kanana-25
   - kanana-flag-325b
   - kanana-nano-21b-embedding
@@ -36,5 +40,5 @@ sources:
     url: https://huggingface.co/kakaocorp
   - type: model-card
     url: https://huggingface.co/kakaocorp/kanana-1.5-8b-instruct-2505
-last_verified: '2026-07-22'
+last_verified: '2026-08-07'
 verification_status: verified

@@ -1,0 +1,47 @@
+name: Kanana 2 3B Instruct
+organization_id: kakao
+model_family: kanana
+release_date: '2026-07-28'
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - reasoning
+  - tool-use
+  - instruction-following
+  - long-context
+parameter_count:
+  value: 3180000000
+  disclosure: confident
+context_length:
+  value: 32768
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: true
+license:
+  name: Kanana Open License Agreement
+  commercial_use: restricted
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+base_model: kakaocorp/kanana-2-3b-base
+benchmark_results: []
+links:
+  official: https://tech.kakao.com/posts/826
+  model_card: https://huggingface.co/kakaocorp/kanana-2-3b-instruct
+  huggingface: https://huggingface.co/kakaocorp/kanana-2-3b-instruct
+  github: null
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/kakaocorp/kanana-2-3b-instruct
+  - type: official-blog
+    url: https://tech.kakao.com/posts/826
+last_verified: '2026-08-02'
+verification_status: verified

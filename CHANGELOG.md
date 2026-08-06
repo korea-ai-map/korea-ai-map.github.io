@@ -5,6 +5,15 @@
 
 형식은 [Keep a Changelog](https://keepachangelog.com/), 버전은 데이터 스냅샷 기준 `YYYY.MM`을 사용합니다.
 
+## [2026.08]
+
+### Added
+- **Kanana-2 SLM 공개 모델**: 3B·1.3B의 Base/Instruct 모델 4종을 공식 기술 블로그와 Hugging Face 모델 카드 기준으로 추가.
+- **BC Card 금융 AI 자산**: 금융 LLM 800문항 벤치마크·회귀 테스트 골든셋·한영 금융 개인정보 탐지 데이터셋을 추가.
+- **최신 국내 기반모델**: Solar Pro 4, A.X K2·ALM·VE, A.X K2 Raon-Speech, K-EXAONE 2.0, Motif-3 Beta·Vision Encoder·Audio를 공식 문서와 모델 카드 기준으로 추가.
+- **신규 기술보고서**: A.X K2, A.X K2 ALM, K-EXAONE 2.0 기술보고서를 모델·개발 조직과 연결.
+- **데이터 확충**: 조직 142 · 모델 167 · 제품 77 · 오픈소스 50 · 데이터셋 117 · 벤치마크 20 · 논문 239 (합계 812).
+
 ## [2026.07]
 
 ### Added
@@ -13,9 +22,10 @@
 - **웹 기능**: 홈 통합검색, 다차원 필터·정렬, 4개 항목 비교, 검증 상태 배지 툴팁, 최근 업데이트 일시 표기.
 - **조직 페이지**: 상세에 개발 모델·제품·오픈소스·관련 논문 섹션. 목록에 모델/오픈소스/논문 보유 필터 + 연결 개수 칩.
 - **SEO**: 사이트맵, JSON-LD, OG/Twitter, canonical, robots.txt, llms.txt.
-- **데이터 확충**: 조직 138 · 모델 127 · 제품 71 · 오픈소스 48 · 데이터셋 110 · 벤치마크 17 · 논문 234 (합계 745).
+- **데이터 확충**: 조직 140 · 모델 130 · 제품 71 · 오픈소스 50 · 데이터셋 114 · 벤치마크 19 · 논문 236 (합계 760).
 - **AI Hub 세분화**: 한국어 카탈로그의 공식 상세 항목 68건을 `dataSetSn`별 데이터셋으로 추가하고, KsponSpeech를 상세 페이지와 연결.
 - **신규 생태계 항목**: K-EXAONE·Solar Pro 3·Solar Open 2·KRAFTON Raon 모델군, KoBALT·KRETA·KVoiceBench 계열, Nota AI·Liner와 제품·논문을 공식 출처로 추가.
+- **2026년 공개 자산 보강**: K-BrowseComp·KoALa-Bench와 데이터·평가 코드·논문, TeamSparta AX의 K-AX Spartan OSS 27B, BC Card의 MoAI 임베딩 모델·금융 검색 데이터를 공식 출처로 추가.
 
 ### Changed
 - `models.organization_id`를 필수로 강제 (org 없는 모델은 개발사 조직을 먼저 등재).

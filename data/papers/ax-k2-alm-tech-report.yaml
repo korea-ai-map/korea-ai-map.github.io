@@ -1,0 +1,16 @@
+title: A.X K2 ALM Technical Report
+authors_org: SK Telecom
+venue: Technical Report
+year: 2026
+url: https://huggingface.co/skt/A.X-K2-ALM/resolve/main/assets/A.X-K2-ALM-Technical-Report.pdf
+abstract_ko: 자체 A.X K2 Light 백본에 한국어 음성 인식·생성·대화와 문맥 기반 VAD를 통합한 약 22B-A4B 스트리밍 오디오 언어모델의 구조와 학습법을 제시한다.
+related_ids:
+  - ax-k2-alm
+  - skt
+sources:
+  - type: paper
+    url: https://huggingface.co/skt/A.X-K2-ALM/resolve/main/assets/A.X-K2-ALM-Technical-Report.pdf
+  - type: model-card
+    url: https://huggingface.co/skt/A.X-K2-ALM
+last_verified: '2026-08-07'
+verification_status: verified

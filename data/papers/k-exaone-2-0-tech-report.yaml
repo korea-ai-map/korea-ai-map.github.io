@@ -1,0 +1,17 @@
+title: K-EXAONE 2.0 Technical Report
+authors_org: LG AI Research
+venue: arXiv
+year: 2026
+arxiv_id: '2608.04505'
+url: https://arxiv.org/abs/2608.04505
+abstract_ko: K-EXAONE을 깊이와 폭 양쪽으로 업사이클링한 750B-A37B MoE 모델을 제시하며, 256K 문맥과 10개 언어, 에이전틱 코딩·장문 이해·한국 사회문화 기반 안전성을 평가한다.
+related_ids:
+  - k-exaone-2-0-750b-a37b
+  - lg-ai-research
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.04505
+  - type: model-card
+    url: https://huggingface.co/LGAI-EXAONE/K-EXAONE-2.0-750B-A37B
+last_verified: '2026-08-07'
+verification_status: verified

@@ -1,0 +1,13 @@
+name: K-BrowseComp
+category: domain-specific
+description_ko: 한국 웹의 지역·문화·제도 맥락을 바탕으로 검색 에이전트의 다단계 탐색과 병렬 제약 추적을 평가하는 벤치마크. 사람이 작성·검증한 300문항과 합성 진단 100문항으로 구성된다.
+url: https://arxiv.org/abs/2606.02404
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2606.02404
+  - type: github
+    url: https://github.com/prometheus-eval/K-BrowseComp
+  - type: huggingface
+    url: https://huggingface.co/datasets/prometheus-eval/k-browsecomp
+last_verified: '2026-07-29'
+verification_status: verified

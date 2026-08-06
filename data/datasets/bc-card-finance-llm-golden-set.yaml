@@ -1,0 +1,13 @@
+name: BC Card Finance LLM Golden Set
+organization_id: bc-card
+category: domain-specific
+description_ko: 금융 LLM 배포 전 회귀 품질 검증을 위한 한국어 골든셋. 핵심 회귀 문항 300건, 금융 엣지 케이스 200건, 하드 네거티브 50건으로 구성된다.
+languages:
+  - ko
+license: Apache-2.0
+url: https://huggingface.co/datasets/BCCard/bc-finance-llm-golden-set
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/BCCard/bc-finance-llm-golden-set
+last_verified: '2026-08-02'
+verification_status: official-source

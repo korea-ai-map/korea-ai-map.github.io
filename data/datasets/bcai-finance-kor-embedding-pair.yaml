@@ -1,0 +1,13 @@
+name: BCAI Finance Kor Embedding Pair
+organization_id: bc-card
+category: domain-specific
+description_ko: BC카드 금융 질의응답과 공식 웹 문서를 가공한 한국어 검색 임베딩 학습 데이터. 45,589개 질의-문서 쌍과 중복 제거된 36,281개 검색 코퍼스 청크를 제공한다.
+languages:
+  - ko
+license: CC BY 4.0
+url: https://huggingface.co/datasets/BCCard/BCAI-Finance-Kor-Embedding-Pair
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/BCCard/BCAI-Finance-Kor-Embedding-Pair
+last_verified: '2026-07-29'
+verification_status: official-source

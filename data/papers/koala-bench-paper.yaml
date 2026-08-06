@@ -1,0 +1,19 @@
+title: 'KoALa-Bench: Evaluating Large Audio Language Models on Korean Speech Understanding and Faithfulness'
+authors_org: Chung-Ang University · Upstage AI
+venue: arXiv
+year: 2026
+arxiv_id: '2604.19782'
+url: https://arxiv.org/abs/2604.19782
+abstract_ko: 대규모 오디오 언어모델의 한국어 음성 이해와 음성 입력 충실도를 여섯 과제로 평가하는 벤치마크를 제안한다.
+related_ids:
+  - koala-bench
+  - koala-bench-dataset
+  - koala-bench-eval
+  - upstage
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2604.19782
+  - type: github
+    url: https://github.com/scai-research/KoALa-Bench
+last_verified: '2026-07-29'
+verification_status: verified

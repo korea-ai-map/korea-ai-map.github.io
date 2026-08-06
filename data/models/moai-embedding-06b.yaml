@@ -1,0 +1,46 @@
+name: MoAI-Embedding-0.6B
+organization_id: bc-card
+model_family: MoAI Embedding
+release_date: '2026-06-17'
+status: active
+modalities:
+  - text
+tasks:
+  - embedding
+  - information-retrieval
+  - sentence-similarity
+parameter_count:
+  value: 600000000
+  disclosure: confident
+context_length:
+  value: 1024
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+base_model: Qwen/Qwen3-Embedding-0.6B
+benchmark_results:
+  - benchmark: BC Card in-domain retrieval
+    score: 0.6695
+    metric: NDCG@10
+    source: https://huggingface.co/BCCard/MoAI-Embedding-0.6B
+links:
+  official: null
+  model_card: https://huggingface.co/BCCard/MoAI-Embedding-0.6B
+  huggingface: https://huggingface.co/BCCard/MoAI-Embedding-0.6B
+  github: null
+  paper: null
+sources:
+  - type: model-card
+    url: https://huggingface.co/BCCard/MoAI-Embedding-0.6B
+last_verified: '2026-07-29'
+verification_status: official-source

@@ -1,0 +1,27 @@
+name_ko: 스파르타AX
+name_en: TeamSparta AX
+organization_type: corporate-research-lab
+country: KR
+headquarters: Seoul
+website: https://ax.spartaclub.kr/
+founded_year: 2024
+ai_core_level: foundation_model
+categories:
+  - foundation-model
+  - llm
+  - agentic-ai
+  - enterprise-ai
+status: active
+description_ko: 팀스파르타의 기업 AI 전환 전문 조직. 기업용 AI 에이전트와 RAG·컴퓨터 비전 솔루션을 개발하며, 한국어 특화 K-AX Spartan 공개 가중치 모델을 연구·배포한다.
+models:
+  - k-ax-spartan-oss-27b
+products: []
+open_source_links:
+  - https://huggingface.co/teamsparta-inc
+sources:
+  - type: official-website
+    url: https://ax.spartaclub.kr/
+  - type: huggingface
+    url: https://huggingface.co/teamsparta-inc
+last_verified: '2026-07-29'
+verification_status: verified

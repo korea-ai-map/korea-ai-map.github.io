@@ -1,0 +1,14 @@
+name: MoAI Privacy Filter Finance
+organization_id: bc-card
+category: safety
+description_ko: 한국어·영어 금융 문맥에서 개인정보를 탐지하기 위한 합성 토큰 분류 데이터셋. 71,788개 문장에 주민등록번호·카드번호·계좌번호 등 18개 개인정보 유형의 BIOES 레이블을 제공한다.
+languages:
+  - ko
+  - en
+license: CC BY 4.0
+url: https://huggingface.co/datasets/BCCard/pii-masking-openpii-finance
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/BCCard/pii-masking-openpii-finance
+last_verified: '2026-08-02'
+verification_status: official-source

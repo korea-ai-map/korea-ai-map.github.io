@@ -21,6 +21,8 @@ models:
   - motif-2-12-7b-reasoning
   - motif-2-6b
   - motif-3-beta
+  - motif-audio
+  - motif-vision-encoder
 products: []
 open_source_links:
   - https://huggingface.co/Motif-Technologies
@@ -29,5 +31,5 @@ sources:
     url: https://motiftech.io/en/company/
   - type: paper
     url: https://arxiv.org/abs/2511.07464
-last_verified: '2026-07-22'
+last_verified: '2026-08-07'
 verification_status: official-source

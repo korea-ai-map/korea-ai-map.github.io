@@ -1,0 +1,14 @@
+name: K-BrowseComp Dataset
+category: qa
+description_ko: 한국 웹 탐색 에이전트 평가용 400문항 데이터셋. 네이티브 한국어 화자가 작성·검증한 300문항과 실패 유형을 겨냥해 생성한 합성 진단 100문항을 분리해 제공한다.
+languages:
+  - ko
+license: MIT
+url: https://huggingface.co/datasets/prometheus-eval/k-browsecomp
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/prometheus-eval/k-browsecomp
+  - type: paper
+    url: https://arxiv.org/abs/2606.02404
+last_verified: '2026-07-29'
+verification_status: verified

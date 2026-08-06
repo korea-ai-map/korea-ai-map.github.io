@@ -1,0 +1,42 @@
+name: Solar Pro 4
+organization_id: upstage
+model_family: solar
+release_date: '2026-08-06'
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - reasoning
+  - coding
+  - instruction-following
+  - structured-output
+  - tool-use
+  - agentic
+parameter_count:
+  value: null
+  disclosure: undisclosed
+context_length:
+  value: 524288
+  confidence: confident
+availability:
+  api: true
+  weights: false
+  demo: true
+license:
+  name: proprietary
+  commercial_use: unknown
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+  - ja
+links:
+  official: https://console.upstage.ai/docs/models/solar-pro-4
+sources:
+  - type: official-docs
+    url: https://console.upstage.ai/docs/models/solar-pro-4
+last_verified: '2026-08-07'
+verification_status: verified

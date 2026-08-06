@@ -1,0 +1,41 @@
+name: A.X K2 ALM
+organization_id: skt
+model_family: A.X
+release_date: '2026-07-29'
+status: announced
+modalities:
+  - audio
+  - text
+tasks:
+  - speech-understanding
+  - speech-generation
+  - speech-to-text
+  - spoken-dialogue
+  - voice-activity-detection
+parameter_count:
+  value: 22000000000
+  disclosure: likely
+availability:
+  api: false
+  weights: false
+  demo: true
+license:
+  name: h-research
+  commercial_use: restricted
+languages:
+  - ko
+base_model: A.X K2 Light 20B-A2.7B
+links:
+  official: https://news.sktelecom.com/228501
+  model_card: https://huggingface.co/skt/A.X-K2-ALM
+  huggingface: https://huggingface.co/skt/A.X-K2-ALM
+  paper: https://huggingface.co/skt/A.X-K2-ALM/resolve/main/assets/A.X-K2-ALM-Technical-Report.pdf
+sources:
+  - type: official-website
+    url: https://news.sktelecom.com/228501
+  - type: model-card
+    url: https://huggingface.co/skt/A.X-K2-ALM
+  - type: paper
+    url: https://huggingface.co/skt/A.X-K2-ALM/resolve/main/assets/A.X-K2-ALM-Technical-Report.pdf
+last_verified: '2026-08-07'
+verification_status: verified

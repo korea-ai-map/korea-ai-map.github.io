@@ -22,6 +22,7 @@ models:
   - exaone-deep-32b
   - exaone-deep-7-8b
   - k-exaone-236b-a23b
+  - k-exaone-2-0-750b-a37b
 products:
   - chatexaone
   - exaone-atelier
@@ -30,5 +31,5 @@ open_source_links:
 sources:
   - type: official-website
     url: https://www.lgresearch.ai
-last_verified: '2026-07-20'
+last_verified: '2026-08-07'
 verification_status: official-source

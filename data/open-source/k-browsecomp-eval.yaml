@@ -1,0 +1,14 @@
+name: K-BrowseComp Evaluation
+repo_type: eval-tool
+url: https://github.com/prometheus-eval/K-BrowseComp
+description_ko: K-BrowseComp 데이터와 웹 검색 에이전트 평가 하네스, 다중 검색 백엔드, 자동 문제 생성 파이프라인을 제공하는 공식 저장소.
+language: Python
+license: MIT
+stars: 14
+sources:
+  - type: github
+    url: https://github.com/prometheus-eval/K-BrowseComp
+  - type: paper
+    url: https://arxiv.org/abs/2606.02404
+last_verified: '2026-07-29'
+verification_status: verified
