@@ -1,0 +1,14 @@
+name: NOLLI Evaluation
+organization_id: haerae-hub
+repo_type: eval-tool
+url: https://github.com/HAE-RAE/NOLLI
+description_ko: >-
+  NOLLI의 퍼즐 생성·유일해 검증·모델 호출·결정적 채점을 재현하는 공식 평가 도구. LiteLLM 기반 상용 API와 vLLM 기반 자체 호스팅 모델을 모두 지원한다.
+language: Python
+license: MIT
+stars: 4
+sources:
+  - type: github
+    url: https://github.com/HAE-RAE/NOLLI
+last_verified: '2026-08-10'
+verification_status: official-source

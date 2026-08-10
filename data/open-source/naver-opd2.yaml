@@ -1,0 +1,16 @@
+name: On-Policy Delta Distillation (OPD²)
+organization_id: naver-cloud
+repo_type: framework
+url: https://github.com/naver-ai/opd2
+description_ko: >-
+  추론 튜닝 교사와 기반 모델의 확률 차이를 학습 신호로 사용하는 NAVER AI Lab의 온폴리시 델타 증류 공식 구현. 수학·과학·코드 및 영어·한국어·일본어 다국어 추론 실험용 학습 레시피와 평가 어댑터를 제공한다.
+language: Python
+license: Apache-2.0
+stars: 58
+sources:
+  - type: github
+    url: https://github.com/naver-ai/opd2
+  - type: paper
+    url: https://arxiv.org/abs/2608.05802
+last_verified: '2026-08-10'
+verification_status: official-source

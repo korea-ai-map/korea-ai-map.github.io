@@ -1,0 +1,18 @@
+title: On-Policy Delta Distillation for Multilingual Math Reasoning
+authors_org: NAVER AI Lab
+venue: arXiv
+year: 2026
+arxiv_id: '2608.05802'
+url: https://arxiv.org/abs/2608.05802
+abstract_ko: >-
+  온폴리시 델타 증류(OPD²)를 영어·한국어·일본어 수학 추론에 적용한 연구. Qwen3 기반 실험에서 기존 온폴리시 증류보다 일관되게 높은 성능을 보였고 특히 한국어·일본어에서 개선 폭이 컸다. 영어 데이터만으로도 점수는 오를 수 있지만 출력 언어가 영어로 기우는 현상을 확인해 다국어 학습 데이터의 중요성을 제시한다.
+related_ids:
+  - naver-cloud
+  - naver-opd2
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.05802
+  - type: github
+    url: https://github.com/naver-ai/opd2
+last_verified: '2026-08-10'
+verification_status: verified

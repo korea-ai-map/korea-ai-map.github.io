@@ -1,0 +1,17 @@
+name: NOLLI Dataset
+organization_id: haerae-hub
+category: qa
+description_ko: >-
+  영어·한국어 논리 퍼즐 7,500문항으로 구성된 NOLLI 평가 데이터. 모든 문항은 절차적으로 생성되고 시드로 재생성할 수 있으며, 유일해 검증과 결정적 채점이 가능하다. 15개 퍼즐 유형을 쉬움·보통·어려움 단계로 제공한다.
+languages:
+  - ko
+  - en
+license: MIT
+url: https://huggingface.co/datasets/HAERAE-HUB/NOLLI
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/HAERAE-HUB/NOLLI
+  - type: paper
+    url: https://arxiv.org/abs/2608.04397
+last_verified: '2026-08-10'
+verification_status: official-source

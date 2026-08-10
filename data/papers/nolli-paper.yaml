@@ -1,0 +1,25 @@
+title: 'NOLLI: A Difficulty-Calibrated Puzzle Benchmark for Diagnosing the English-Korean Performance Gap'
+authors_org: AIM Intelligence · KT Corp. · Sionic AI · Lablup · Hankuk University of Foreign Studies · HAERAE LAB
+venue: arXiv
+year: 2026
+arxiv_id: '2608.04397'
+url: https://arxiv.org/abs/2608.04397
+abstract_ko: >-
+  절차적으로 생성한 15개 퍼즐 유형, 25개 태스크, 7,500개 문항으로 영어와 한국어 사이의 추론 성능 격차를 진단한다. 직접 번역 문제에서는 언어 자체의 비용이 크지 않았지만 문자 체계 의존 과제에서는 최대 68.7%p의 격차가 관찰됐으며, 구조적 크기가 실제 난이도를 안정적으로 대변하지 못함을 보였다.
+related_ids:
+  - aim-intelligence
+  - kt
+  - sionic-ai
+  - haerae-hub
+  - nolli
+  - nolli-dataset
+  - nolli-eval
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.04397
+  - type: github
+    url: https://github.com/HAE-RAE/NOLLI
+  - type: huggingface
+    url: https://huggingface.co/datasets/HAERAE-HUB/NOLLI
+last_verified: '2026-08-10'
+verification_status: verified

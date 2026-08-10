@@ -1,0 +1,15 @@
+name: NOLLI
+organization_id: haerae-hub
+category: korean-understanding
+description_ko: >-
+  영어와 한국어 사이의 추론 성능 격차가 어디서 발생하는지 진단하는 난이도 보정 퍼즐 벤치마크. 직접 번역, 한글 자모 기반 문자 체계 변형, 한국 문화·표기법 전용 문제의 3단계로 구성되며 15개 퍼즐 유형, 25개 태스크, 7,500개 문항을 제공한다.
+url: https://huggingface.co/datasets/HAERAE-HUB/NOLLI
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.04397
+  - type: huggingface
+    url: https://huggingface.co/datasets/HAERAE-HUB/NOLLI
+  - type: github
+    url: https://github.com/HAE-RAE/NOLLI
+last_verified: '2026-08-10'
+verification_status: verified

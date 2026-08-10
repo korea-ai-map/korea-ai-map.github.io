@@ -2,7 +2,7 @@ name: Motif-3-Beta
 organization_id: motif-technologies
 model_family: motif
 release_date: '2026-07-20'
-status: active
+status: archived
 modalities:
   - text
 tasks:
@@ -39,5 +39,5 @@ links:
 sources:
   - type: model-card
     url: https://huggingface.co/Motif-Technologies/Motif-3-Beta
-last_verified: '2026-08-07'
-verification_status: verified
+last_verified: '2026-08-10'
+verification_status: archived
