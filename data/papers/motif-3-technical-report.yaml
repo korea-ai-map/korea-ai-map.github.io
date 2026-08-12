@@ -1,8 +1,9 @@
-title: Motif 3 Technical Report
+title: 'Motif 3: Technical Report'
 authors_org: Motif Technologies
-venue: Technical Report
+venue: arXiv
 year: 2026
-url: https://huggingface.co/Motif-Technologies/Motif-3/blob/main/motif_3_technical_report.pdf
+arxiv_id: '2608.09119'
+url: https://arxiv.org/abs/2608.09119
 abstract_ko: >-
   3,148억 개 전체 파라미터와 토큰당 132억 개 활성 파라미터를 갖는 독자 설계 MoE 언어모델 Motif 3의 기술보고서. 12.5조 토큰 사전학습, 256K 문맥, GDLA 주의집중, 수정 mHC, 전문가별 PolyNorm, 다중 토큰 예측 및 다중 교사 온폴리시 증류를 설명한다.
 related_ids:
@@ -11,8 +12,10 @@ related_ids:
   - motif-3-base
 sources:
   - type: paper
+    url: https://arxiv.org/abs/2608.09119
+  - type: paper
     url: https://huggingface.co/Motif-Technologies/Motif-3/blob/main/motif_3_technical_report.pdf
   - type: model-card
     url: https://huggingface.co/Motif-Technologies/Motif-3
-last_verified: '2026-08-10'
-verification_status: official-source
+last_verified: '2026-08-12'
+verification_status: verified

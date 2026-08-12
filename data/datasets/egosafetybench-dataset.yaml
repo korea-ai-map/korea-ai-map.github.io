@@ -1,0 +1,16 @@
+name: EgoSafetyBench Dataset
+organization_id: aim-intelligence
+category: multimodal
+description_ko: >-
+  가정과 공장 환경에서 생성한 1,200개 1인칭 로봇 영상 안전 시나리오 데이터. 800개 상황 안전 트랙과 거짓·정직 표지를 짝지은 400개 시각 채널 트랙으로 구성되며, 각 5초 영상을 0.5초 청크 단위로 안전성과 시각 채널 불일치에 주석한다.
+languages:
+  - en
+license: CC BY 4.0
+url: https://huggingface.co/datasets/AIM-Intelligence/EgoSafetyBench
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/AIM-Intelligence/EgoSafetyBench
+  - type: paper
+    url: https://arxiv.org/abs/2607.00218
+last_verified: '2026-08-12'
+verification_status: official-source

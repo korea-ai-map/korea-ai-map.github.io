@@ -1,0 +1,15 @@
+name: EgoSafetyBench
+organization_id: aim-intelligence
+category: multimodal
+description_ko: >-
+  체화형 VLM을 실시간 안전 가드로 평가하는 1인칭 로봇 영상 벤치마크. 가정·공장 환경의 1,200개 시나리오를 0.5초 단위로 주석하고, 실제 위험 판단과 장면 속 거짓 표지·화면에 대한 시각 채널 불일치 탐지를 분리해 측정한다.
+url: https://huggingface.co/datasets/AIM-Intelligence/EgoSafetyBench
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2607.00218
+  - type: huggingface
+    url: https://huggingface.co/datasets/AIM-Intelligence/EgoSafetyBench
+  - type: github
+    url: https://github.com/AIM-Intelligence/EgoSafetyBench
+last_verified: '2026-08-12'
+verification_status: verified

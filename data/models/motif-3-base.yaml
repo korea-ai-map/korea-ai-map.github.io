@@ -34,11 +34,11 @@ links:
   official: https://motiftech.io
   model_card: https://huggingface.co/Motif-Technologies/Motif-3-Base
   huggingface: https://huggingface.co/Motif-Technologies/Motif-3-Base
-  paper: https://huggingface.co/Motif-Technologies/Motif-3/blob/main/motif_3_technical_report.pdf
+  paper: https://arxiv.org/abs/2608.09119
 sources:
   - type: model-card
     url: https://huggingface.co/Motif-Technologies/Motif-3-Base
   - type: paper
-    url: https://huggingface.co/Motif-Technologies/Motif-3/blob/main/motif_3_technical_report.pdf
-last_verified: '2026-08-10'
+    url: https://arxiv.org/abs/2608.09119
+last_verified: '2026-08-12'
 verification_status: official-source

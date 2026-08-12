@@ -34,5 +34,7 @@ sources:
     url: https://arxiv.org/abs/2511.07464
   - type: model-card
     url: https://huggingface.co/Motif-Technologies/Motif-3
-last_verified: '2026-08-10'
+  - type: paper
+    url: https://arxiv.org/abs/2608.09119
+last_verified: '2026-08-12'
 verification_status: official-source

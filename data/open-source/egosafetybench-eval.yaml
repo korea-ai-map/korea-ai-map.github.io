@@ -1,0 +1,16 @@
+name: EgoSafetyBench Evaluation
+organization_id: aim-intelligence
+repo_type: eval-tool
+url: https://github.com/AIM-Intelligence/EgoSafetyBench
+description_ko: >-
+  EgoSafetyBench의 시나리오 작성, 영상 생성, 이축 안전 주석, VLM 가드 평가를 재현하는 공식 파이프라인. 로컬 오픈웨이트 모델과 상용 API를 같은 인터페이스로 평가하고 비용 추정·제한·재시도 기능을 제공한다.
+language: Python
+license: Apache-2.0
+stars: 8
+sources:
+  - type: github
+    url: https://github.com/AIM-Intelligence/EgoSafetyBench
+  - type: paper
+    url: https://arxiv.org/abs/2607.00218
+last_verified: '2026-08-12'
+verification_status: official-source

@@ -1,0 +1,15 @@
+title: "Don't Scroll Back: Missing-Evidence Memory for Streaming Dialogue Summarization"
+authors_org: KAIST Data Intelligence System Lab
+venue: arXiv
+year: 2026
+arxiv_id: '2608.09043'
+url: https://arxiv.org/abs/2608.09043
+abstract_ko: >-
+  무한히 누적되는 대화 기록에서 현재 구간이 전제하는 과거 근거만 고정 예산으로 복원하는 스트리밍 대화 요약 문제를 정의한다. 900개 인스턴스의 평가 프로토콜과 누락된 참조·속성·관계에 맞춰 근거를 검색·정제하는 ReMEMBER를 제안하며, 최대 160K 토큰 기록에서 기존 메모리 구성법보다 근거 회수율과 맥락 완결성을 개선했다.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.09043
+last_verified: '2026-08-12'
+verification_status: verified
