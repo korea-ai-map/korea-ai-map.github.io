@@ -1,0 +1,40 @@
+name: MoAI-Privacy-Filter
+organization_id: bc-card
+model_family: MoAI
+release_date: '2026-08-13'
+status: active
+modalities:
+  - text
+tasks:
+  - token-classification
+  - named-entity-recognition
+  - pii-detection
+  - privacy-masking
+parameter_count:
+  value: 1399512505
+  disclosure: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+base_model: openai/privacy-filter
+links:
+  official: https://huggingface.co/BCCard/MoAI-Privacy-Filter
+  model_card: https://huggingface.co/BCCard/MoAI-Privacy-Filter
+  huggingface: https://huggingface.co/BCCard/MoAI-Privacy-Filter
+sources:
+  - type: model-card
+    url: https://huggingface.co/BCCard/MoAI-Privacy-Filter
+  - type: huggingface
+    url: https://huggingface.co/datasets/BCCard/pii-masking-openpii-finance
+last_verified: '2026-08-23'
+verification_status: official-source

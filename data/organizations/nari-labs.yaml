@@ -18,9 +18,12 @@ models:
 products: []
 open_source_links:
   - https://github.com/nari-labs/dia
+  - https://github.com/nari-labs/nari-qwen3-tts
   - https://huggingface.co/nari-labs
 sources:
+  - type: official-website
+    url: https://nari-labs.com/
   - type: huggingface
     url: https://huggingface.co/nari-labs
-last_verified: '2026-07-22'
-verification_status: official-source
+last_verified: '2026-08-23'
+verification_status: verified

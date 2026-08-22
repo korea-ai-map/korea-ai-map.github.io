@@ -17,7 +17,11 @@
 - **NAVER AI Lab OPD²**: 다국어 수학 추론 델타 증류 논문과 Apache-2.0 공식 구현을 추가.
 - **체화형 AI 안전 평가**: AIM Intelligence·서울대의 EgoSafetyBench 벤치마크·영상 데이터·평가 코드·논문을 연결해 추가.
 - **신규 국내 연구**: KAIST DISLab의 스트리밍 대화 요약 메모리 ReMEMBER 논문을 추가하고 Motif 3 기술보고서의 arXiv 정식 공개를 반영.
-- **데이터 확충**: 조직 142 · 모델 169 · 제품 77 · 오픈소스 53 · 데이터셋 119 · 벤치마크 22 · 논문 244 (합계 826).
+- **산업 특화·음성 모델**: EXAONE Tabular·Forecast, Solar Embedding 2, Raon-OpenTTS-1B과 학습 데이터 풀을 공식 문서 기준으로 추가.
+- **한국어 특화 후속학습**: 비씨카드 MoAI-Privacy-Filter와 유니바 Qwen3-ASR 한국어 Beta를 학습 기여·공개 가중치 근거와 함께 추가.
+- **신규 도구·제품**: Nari Qwen3-TTS 실시간 추론 도구와 코난테크놀로지 Agent-X 엔터프라이즈 플랫폼을 추가.
+- **최신 국내 연구**: MoE 학습률 전이 연구, PolicyGuide, SafeBranch, ReWEIGH, LT-Mem, GraniKV, TRACER 논문 7건을 국내 기관 소속과 arXiv 원문 기준으로 추가.
+- **데이터 확충**: 조직 143 · 모델 175 · 제품 78 · 오픈소스 54 · 데이터셋 120 · 벤치마크 22 · 논문 251 (합계 843).
 
 ## [2026.07]
 

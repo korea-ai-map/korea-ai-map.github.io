@@ -1,0 +1,16 @@
+title: 'TRACER: Balancing Stability-Plasticity-Cognitivity Trilemma for LLM Enhanced Continual Recommendation'
+authors_org: POSTECH · Korea University · University of Illinois Urbana-Champaign
+venue: CIKM 2026
+year: 2026
+arxiv_id: '2608.16075'
+url: https://arxiv.org/abs/2608.16075
+abstract_ko: LLM을 결합한 연속 추천에서 과거 선호 보존, 새 관심사 적응, 일반 의미지식 활용 사이의 충돌을 정의하고 세 모듈을 조율하는 TRACER로 이를 완화한다.
+related_ids:
+  - postech-gsai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.16075
+  - type: github
+    url: https://github.com/woo-joo/TRACER_CIKM26
+last_verified: '2026-08-23'
+verification_status: verified

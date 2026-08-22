@@ -8,10 +8,16 @@ abstract_ko: 공개 음성 61만 5천 시간에서 정제한 데이터로 0.3B·
 related_ids:
   - krafton-ai
   - raon-opentts-03b
+  - raon-opentts-1b
+  - raon-opentts-pool
 sources:
   - type: paper
     url: https://arxiv.org/abs/2605.20830
   - type: model-card
     url: https://huggingface.co/KRAFTON/Raon-OpenTTS-0.3B
-last_verified: '2026-07-23'
+  - type: model-card
+    url: https://huggingface.co/KRAFTON/Raon-OpenTTS-1B
+  - type: huggingface
+    url: https://huggingface.co/datasets/KRAFTON/Raon-OpenTTS-Pool
+last_verified: '2026-08-23'
 verification_status: verified

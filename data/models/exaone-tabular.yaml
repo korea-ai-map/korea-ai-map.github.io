@@ -1,0 +1,36 @@
+name: EXAONE Tabular
+organization_id: lg-ai-research
+model_family: EXAONE
+release_date: '2026-08-07'
+status: active
+modalities:
+  - tabular
+tasks:
+  - tabular-classification
+  - tabular-regression
+  - in-context-learning
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: EXAONE 1.1 NC
+  commercial_use: prohibited
+deployment:
+  cloud: true
+  on_premise: true
+languages: []
+links:
+  official: https://www.lg.co.kr/media/release/30433
+  model_card: https://huggingface.co/LG-AI-Research/EXAONE-Tabular
+  huggingface: https://huggingface.co/LG-AI-Research/EXAONE-Tabular
+  github: https://github.com/LGAI-Research/EXAONE-Tabular
+sources:
+  - type: press
+    url: https://www.lg.co.kr/media/release/30433
+  - type: model-card
+    url: https://huggingface.co/LG-AI-Research/EXAONE-Tabular
+  - type: github
+    url: https://github.com/LGAI-Research/EXAONE-Tabular
+last_verified: '2026-08-23'
+verification_status: verified

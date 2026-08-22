@@ -1,0 +1,15 @@
+title: "Let's Scale Step by Step: Compute-Efficient Hyperparameter Transfer for Large-Scale Mixture-of-Experts"
+authors_org: Kakao Corp. · Upstage AI
+venue: COLM 2026
+year: 2026
+arxiv_id: '2608.20061'
+url: https://arxiv.org/abs/2608.20061
+abstract_ko: 소형 프록시 모델에서 폭과 토큰 예산을 단계적으로 확장해 대규모 MoE의 최적 학습률을 저비용으로 추정하고, 155B 규모 자체 사전학습 모델에 적용해 전이 가능성을 검증한다.
+related_ids:
+  - kakao
+  - upstage
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.20061
+last_verified: '2026-08-23'
+verification_status: verified

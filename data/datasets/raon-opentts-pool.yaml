@@ -1,0 +1,15 @@
+name: Raon-OpenTTS-Pool
+organization_id: krafton-ai
+category: speech
+description_ko: 11개 공개 영어 음성 데이터셋을 통합한 약 61만 5천 시간 규모의 TTS 학습 풀. DNSMOS·WER·VAD 기반 품질 정제를 거친 약 51만 시간의 Core 메타데이터와 함께 Raon-OpenTTS의 재현 가능한 학습 기반을 제공한다.
+languages:
+  - en
+license: Mixed (per-source licenses)
+url: https://huggingface.co/datasets/KRAFTON/Raon-OpenTTS-Pool
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/KRAFTON/Raon-OpenTTS-Pool
+  - type: paper
+    url: https://arxiv.org/abs/2605.20830
+last_verified: '2026-08-23'
+verification_status: verified

@@ -1,0 +1,13 @@
+title: 'LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding'
+authors_org: DGIST
+venue: IROS 2026
+year: 2026
+arxiv_id: '2608.19059'
+url: https://arxiv.org/abs/2608.19059
+abstract_ko: 반복 방문 환경의 객체 상태와 변화 이력을 Live·Delta·Meta 메모리로 보존해 장기 로봇 장면 이해와 시간적 질의응답을 지원하며, 다중 세션 LT-VQA 평가 자산을 함께 제안한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.19059
+last_verified: '2026-08-23'
+verification_status: verified

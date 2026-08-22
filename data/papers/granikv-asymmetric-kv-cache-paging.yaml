@@ -1,0 +1,14 @@
+title: 'GraniKV: Asymmetric Granularity KV-Cache Paging for Multi-Agent Systems with Long Shared Prefix'
+authors_org: Seoul National University
+venue: arXiv
+year: 2026
+arxiv_id: '2608.15584'
+url: https://arxiv.org/abs/2608.15584
+abstract_ko: 다중 에이전트 추론의 긴 공유 프리픽스는 연속 HOT 풀에, 요청별 서픽스는 토큰 단위 COLD 풀에 배치하는 비대칭 KV 캐시 페이징으로 처리량과 메모리 효율을 높인다.
+related_ids:
+  - snu-aiis
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.15584
+last_verified: '2026-08-23'
+verification_status: verified

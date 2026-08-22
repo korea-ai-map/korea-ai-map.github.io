@@ -1,0 +1,15 @@
+name: Nari Qwen3-TTS
+organization_id: nari-labs
+repo_type: inference-tool
+url: https://github.com/nari-labs/nari-qwen3-tts
+description_ko: Nari Labs가 공개한 Qwen3-TTS 1.7B CustomVoice용 단일 H100 실시간 추론 서버. 통합 스케줄러·CUDA Graph·상태 캐시 코덱으로 HTTP 및 WebSocket 스트리밍을 지원하며, 외국 원모델이 아닌 국내 팀의 독자적인 서빙 구현을 등재한다.
+language: Python
+license: Apache-2.0
+stars: 93
+sources:
+  - type: github
+    url: https://github.com/nari-labs/nari-qwen3-tts
+  - type: official-blog
+    url: https://nari-labs.com/blog/qwen3-tts-speed-cost-frontier/
+last_verified: '2026-08-23'
+verification_status: verified

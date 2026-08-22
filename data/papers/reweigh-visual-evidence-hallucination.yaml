@@ -1,0 +1,14 @@
+title: 'ReWEIGH the Evidence: Calibrating Token-Level Ordinal Visual Evidence to Mitigate Hallucinations in Large Vision-Language Models'
+authors_org: POSTECH
+venue: arXiv
+year: 2026
+arxiv_id: '2608.19075'
+url: https://arxiv.org/abs/2608.19075
+abstract_ko: 시각 토큰별 어휘 순위 증거를 보정해 이미지 근거가 약한 출력 후보만 억제하는 학습 없는 디코딩 기법으로, 다양한 대형 비전언어모델의 객체 환각을 줄인다.
+related_ids:
+  - postech-gsai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.19075
+last_verified: '2026-08-23'
+verification_status: verified

@@ -1,0 +1,14 @@
+title: 'PolicyGuide: From Guarding One Action to Guiding the Whole Workflow for Policy-Compliant LLM Agents'
+authors_org: KAIST · DeepAuto.ai
+venue: arXiv
+year: 2026
+arxiv_id: '2608.19861'
+url: https://arxiv.org/abs/2608.19861
+abstract_ko: 조직 정책을 워크플로 그래프로 변환하고 대화 단계마다 선제 검증기를 호출해 고객 서비스 LLM 에이전트가 금지 행동뿐 아니라 필수 절차 누락까지 피하도록 안내한다.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.19861
+last_verified: '2026-08-23'
+verification_status: verified

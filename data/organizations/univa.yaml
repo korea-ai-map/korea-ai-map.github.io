@@ -1,0 +1,26 @@
+name_ko: 유니바
+name_en: UNIVA
+organization_type: startup
+country: KR
+headquarters: Daegu
+website: https://univa.ai/ko/
+ai_core_level: model_builder
+categories:
+  - enterprise-ai
+  - agent-ai
+  - speech-ai
+  - korean-ai
+status: active
+description_ko: 대구에 본사를 둔 AI 기업. 국내 업무 환경에 맞춘 엔터프라이즈 에이전트와 한국어 음성인식 후속학습 모델을 개발한다.
+models:
+  - qwen3-asr-17b-ko-beta
+products: []
+open_source_links:
+  - https://huggingface.co/TeamUNIVA
+sources:
+  - type: official-website
+    url: https://univa.ai/ko/
+  - type: huggingface
+    url: https://huggingface.co/TeamUNIVA
+last_verified: '2026-08-23'
+verification_status: verified

@@ -1,0 +1,28 @@
+name_ko: 코난 Agent-X
+name_en: Konan Agent-X
+organization_id: konan-technology
+description_ko: 40여 종의 전문 에이전트와 Agent OS를 묶어 에이전트 구축·배포·운영을 지원하는 통합 엔터프라이즈 AI 플랫폼. 멀티에이전트 오케스트레이션과 RAG·NL2SQL·요약·번역 기능을 제공한다.
+categories:
+  - enterprise-ai
+  - ai-agent
+  - multi-agent
+  - rag
+target_users:
+  - enterprise
+  - public-sector
+delivery_type:
+  - platform
+  - on-premise
+models_used:
+  - konan-llm
+model_ownership: own-model
+pricing_public: false
+status: active
+website: https://www.konantech.com/products/agentx
+sources:
+  - type: official-website
+    url: https://www.konantech.com/products/agentx
+  - type: press
+    url: https://www.konantech.com/company/news/974
+last_verified: '2026-08-23'
+verification_status: verified

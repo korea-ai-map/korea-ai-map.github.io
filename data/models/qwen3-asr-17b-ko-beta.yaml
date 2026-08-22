@@ -1,0 +1,38 @@
+name: Qwen3-ASR-1.7B-KO-Beta
+organization_id: univa
+model_family: Qwen3-ASR-KO
+release_date: '2026-08-20'
+status: active
+modalities:
+  - audio
+  - text
+tasks:
+  - automatic-speech-recognition
+  - speech-to-text
+parameter_count:
+  value: 1700000000
+  disclosure: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+base_model: Qwen/Qwen3-ASR-1.7B
+links:
+  official: https://huggingface.co/TeamUNIVA/qwen3_asr_1.7b_ko_beta
+  model_card: https://huggingface.co/TeamUNIVA/qwen3_asr_1.7b_ko_beta
+  huggingface: https://huggingface.co/TeamUNIVA/qwen3_asr_1.7b_ko_beta
+sources:
+  - type: model-card
+    url: https://huggingface.co/TeamUNIVA/qwen3_asr_1.7b_ko_beta
+  - type: official-website
+    url: https://univa.ai/ko/
+last_verified: '2026-08-23'
+verification_status: verified

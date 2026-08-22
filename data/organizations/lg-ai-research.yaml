@@ -21,6 +21,8 @@ models:
   - exaone-deep-2-4b
   - exaone-deep-32b
   - exaone-deep-7-8b
+  - exaone-forecast
+  - exaone-tabular
   - k-exaone-236b-a23b
   - k-exaone-2-0-750b-a37b
 products:
@@ -28,8 +30,11 @@ products:
   - exaone-atelier
 open_source_links:
   - https://huggingface.co/LGAI-EXAONE
+  - https://huggingface.co/LG-AI-Research
 sources:
   - type: official-website
     url: https://www.lgresearch.ai
-last_verified: '2026-08-07'
-verification_status: official-source
+  - type: huggingface
+    url: https://huggingface.co/LG-AI-Research
+last_verified: '2026-08-23'
+verification_status: verified

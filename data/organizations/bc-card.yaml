@@ -9,12 +9,15 @@ categories:
   - financial-ai
   - embedding
   - rag
+  - privacy-ai
+  - pii-detection
   - open-weights
 status: active
-description_ko: 결제·금융 도메인의 한국어 데이터와 검색·임베딩 모델을 공개하는 카드사. MOAI 오픈 AI 이니셔티브를 통해 금융 언어모델과 추론 최적화 기술을 Hugging Face에 배포한다.
+description_ko: 결제·금융 도메인의 한국어 데이터와 검색·임베딩·한영 개인정보 탐지 모델을 공개하는 카드사. MOAI 오픈 AI 이니셔티브를 통해 금융 AI 자산을 Hugging Face에 배포한다.
 models:
   - moai-embedding-06b
   - moai-embedding-4b
+  - moai-privacy-filter
 products: []
 open_source_links:
   - https://huggingface.co/BCCard
@@ -23,5 +26,5 @@ sources:
     url: https://bccard.com/
   - type: huggingface
     url: https://huggingface.co/BCCard
-last_verified: '2026-07-29'
+last_verified: '2026-08-23'
 verification_status: verified

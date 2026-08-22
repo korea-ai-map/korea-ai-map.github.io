@@ -1,0 +1,14 @@
+title: 'SafeBranch: Branch-Pair Safety Alignment for Embodied Agents'
+authors_org: Dongguk University · Seoul National University
+venue: arXiv
+year: 2026
+arxiv_id: '2608.19729'
+url: https://arxiv.org/abs/2608.19729
+abstract_ko: 체화형 에이전트의 위험 행동 직전으로 환경을 되돌려 안전·위험 행동 쌍을 만들고 학습함으로써, 배포 시 별도 비평기 없이 안전한 행동을 선택하도록 정렬한다.
+related_ids:
+  - snu-aiis
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.19729
+last_verified: '2026-08-23'
+verification_status: verified

@@ -1,0 +1,26 @@
+name: EXAONE Forecast
+organization_id: lg-ai-research
+model_family: EXAONE
+release_date: '2026-08-07'
+status: active
+modalities:
+  - time-series
+tasks:
+  - time-series-forecasting
+  - zero-shot-forecasting
+  - agentic-forecasting
+availability:
+  api: false
+  weights: false
+  demo: false
+license:
+  name: Proprietary
+  commercial_use: unknown
+languages: []
+links:
+  official: https://www.lg.co.kr/media/release/30433
+sources:
+  - type: press
+    url: https://www.lg.co.kr/media/release/30433
+last_verified: '2026-08-23'
+verification_status: official-source

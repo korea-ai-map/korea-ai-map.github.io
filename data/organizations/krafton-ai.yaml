@@ -17,6 +17,7 @@ description_ko: >-
 models:
   - ax-k2-raon-speech-21b-a3b
   - raon-opentts-03b
+  - raon-opentts-1b
   - raon-speech-9b
   - raon-speechchat-9b
   - raon-visionencoder
@@ -29,5 +30,5 @@ sources:
     url: https://www.krafton.ai/
   - type: huggingface
     url: https://huggingface.co/KRAFTON
-last_verified: '2026-08-07'
+last_verified: '2026-08-23'
 verification_status: verified

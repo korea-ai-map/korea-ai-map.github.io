@@ -20,11 +20,12 @@ models:
   - konan-llm-ond
 products:
   - konan-search
+  - konan-agent-x
 open_source_links: []
 sources:
   - type: official-website
     url: https://www.konantech.com
   - type: official-docs
     url: https://demo.konantech.com/LLM/model.html
-last_verified: "2026-07-23"
+last_verified: '2026-08-23'
 verification_status: official-source
