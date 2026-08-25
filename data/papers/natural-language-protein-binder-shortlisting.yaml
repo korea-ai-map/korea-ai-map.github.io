@@ -1,0 +1,18 @@
+title: Natural-Language-Guided Generator-Agnostic Shortlisting for Protein Binder Design
+authors_org: KAIST · LG AI Research · Seoul National University · KETI
+venue: ICML 2026 Workshop on Generative and Agentic AI for Biology
+year: 2026
+arxiv_id: '2608.20755'
+url: https://arxiv.org/abs/2608.20755
+abstract_ko: >-
+  여러 단백질 결합체 생성기에서 얻은 후보와 구조 신뢰도·인터페이스 품질 지표를 입력으로 받아,
+  LLM이 해석 가능한 순위 정책을 생성해 습식 실험에 보낼 후보를 선별한다.
+related_ids:
+  - kaist
+  - lg-ai-research
+  - snu-aiis
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.20755
+last_verified: '2026-08-25'
+verification_status: verified

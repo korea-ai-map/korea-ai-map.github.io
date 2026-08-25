@@ -1,0 +1,16 @@
+name: τ²-bench Korean Translation Dataset
+organization_id: lablup
+category: domain-specific
+description_ko: >-
+  τ²-bench v0.2.0의 유통 114개·항공 50개·통신 114개 등 278개 에이전트 도구사용
+  시나리오를 한국어로 번역한 데이터. 원본 태스크 구조와 식별자·도구 입력값을 보존한다.
+languages:
+  - ko
+  - en
+license: MIT
+url: https://huggingface.co/datasets/lablup/tau2-bench-ko
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/lablup/tau2-bench-ko
+last_verified: '2026-08-25'
+verification_status: official-source

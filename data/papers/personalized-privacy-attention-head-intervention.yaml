@@ -1,0 +1,16 @@
+title: Personalized Privacy Control in LLMs via Attention Head Intervention
+authors_org: Seoul National University IPAI · Max Planck Institute for Software Systems
+venue: EMNLP 2026
+year: 2026
+arxiv_id: '2608.21209'
+url: https://arxiv.org/abs/2608.21209
+abstract_ko: >-
+  사용자마다 다른 정보 공개 허용 범위를 평가하는 P3Bench를 제안하고, 정책 관련 어텐션 헤드를
+  추론 시점에 조정하는 Repair로 LLM 에이전트의 과잉 공개와 과잉 거부를 줄인다.
+related_ids:
+  - snu-aiis
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.21209
+last_verified: '2026-08-25'
+verification_status: verified

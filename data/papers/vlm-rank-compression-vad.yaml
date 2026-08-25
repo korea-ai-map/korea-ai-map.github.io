@@ -1,0 +1,16 @@
+title: 'A VLM Answer Is Not an Anomaly Score: Rank Compression in Training-Free Video Anomaly Detection'
+authors_org: Sungkyunkwan University
+venue: arXiv
+year: 2026
+arxiv_id: '2608.21244'
+url: https://arxiv.org/abs/2608.21244
+abstract_ko: >-
+  VLM의 생성 답변을 곧바로 이상 점수로 쓰면 순위 정보가 압축되는 문제를 규명하고,
+  전체 답변 확률 분포 기반 판독이 네 모델과 모든 실험 설정에서 더 안정적임을 보인다.
+related_ids:
+  - skku-ai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.21244
+last_verified: '2026-08-25'
+verification_status: verified

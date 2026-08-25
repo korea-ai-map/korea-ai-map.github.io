@@ -1,0 +1,18 @@
+title: Evidence-Consistent Generative Detection under Scenario-Level Distribution Shift
+authors_org: Sungkyunkwan University
+venue: CIKM 2026
+year: 2026
+arxiv_id: '2608.21043'
+url: https://arxiv.org/abs/2608.21043
+abstract_ko: >-
+  SMS·보이스피싱의 공격 시나리오 전체를 학습에서 제외하는 OOD 평가를 구성하고, 증거 구간 감독과
+  근거·판정 일관성 목적을 결합한 ECoG로 새로운 사회공학 공격에 대한 탐지 견고성을 높인다.
+related_ids:
+  - skku-ai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.21043
+  - type: github
+    url: https://github.com/kimsan1120/ECoG
+last_verified: '2026-08-25'
+verification_status: verified

@@ -1,0 +1,15 @@
+title: 'Hidden Axis of Uncertainty: Latent-Posterior Alignment in Graph Neural Networks with Bayesian Output Layers'
+authors_org: KIST · Korea University · University of Science and Technology
+venue: arXiv
+year: 2026
+arxiv_id: '2608.20758'
+url: https://arxiv.org/abs/2608.20758
+abstract_ko: >-
+  베이지안 출력층 GNN의 불확실성 감소를 posterior contraction이 아닌 잠재표현과 저분산
+  posterior 방향의 정렬로 설명하고 Alignment-Guided Learning을 제안한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.20758
+last_verified: '2026-08-25'
+verification_status: verified

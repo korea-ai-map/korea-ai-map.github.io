@@ -1,0 +1,15 @@
+title: 'Breaking High Confidence: Practical Face Impersonation under High-Security Thresholds'
+authors_org: Hanyang University
+venue: arXiv
+year: 2026
+arxiv_id: '2608.20884'
+url: https://arxiv.org/abs/2608.20884
+abstract_ko: >-
+  엄격한 요청 제한과 고보안 판정 임계값에서도 가능한 점수 기반 얼굴 사칭 공격을 분석하며,
+  Amazon Rekognition과 공개 얼굴인식 시스템에서 위험을 실증한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.20884
+last_verified: '2026-08-25'
+verification_status: verified

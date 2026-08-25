@@ -1,0 +1,17 @@
+name: ReCurveflow
+repo_type: github-repo
+url: https://github.com/dmis-lab/ReCurveflow
+description_ko: >-
+  곡선 반응 경로와 경로 이탈 보정을 학습해 화학 반응의 전이상태 구조를 예측하는
+  flow matching 연구의 공식 구현. 학습 코드와 세 가지 데이터 분할의 체크포인트를 제공한다.
+language: Python
+license: MIT
+sources:
+  - type: github
+    url: https://github.com/dmis-lab/ReCurveflow
+  - type: paper
+    url: https://arxiv.org/abs/2608.20869
+  - type: github
+    url: https://github.com/dmis-lab/ReCurveflow/releases/tag/v1.0
+last_verified: '2026-08-25'
+verification_status: verified

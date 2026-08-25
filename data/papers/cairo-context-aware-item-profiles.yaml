@@ -1,0 +1,18 @@
+title: 'Profiling What Matters: Context-Aware Item Profiles from Large-Scale Metadata for LLM Recommenders'
+authors_org: Korea University · KT Corporation
+venue: CIKM 2026
+year: 2026
+arxiv_id: '2608.20801'
+url: https://arxiv.org/abs/2608.20801
+abstract_ko: >-
+  방대한 상품 메타데이터와 리뷰를 객관적 속성·주관적 특성으로 구조화한 뒤 사용자와 상품 맥락에
+  중요한 정보만 고르는 CAIRO 프로파일러로 LLM 추천 재정렬을 개선한다.
+related_ids:
+  - kt
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.20801
+  - type: github
+    url: https://github.com/rgbeing/CAIRO
+last_verified: '2026-08-25'
+verification_status: verified

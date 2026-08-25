@@ -1,0 +1,24 @@
+name_ko: 써로마인드
+name_en: Surromind
+organization_type: startup
+country: KR
+website: https://www.surromind.ai/
+ai_core_level: ai_native
+categories:
+  - enterprise-ai
+  - rag
+  - machine-learning
+  - benchmark
+status: active
+description_ko: 기업용 AI 솔루션과 머신러닝 기술을 개발하고 한국어 RAG 평가 자산을 공개하는 기업.
+models: []
+products: []
+open_source_links:
+  - https://huggingface.co/Surromind
+sources:
+  - type: official-website
+    url: https://www.surromind.ai/
+  - type: huggingface
+    url: https://huggingface.co/Surromind
+last_verified: '2026-08-25'
+verification_status: verified

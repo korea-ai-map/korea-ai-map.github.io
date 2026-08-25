@@ -1,0 +1,15 @@
+name: Surromind Korean RAG QA Dataset
+organization_id: surromind
+category: qa
+description_ko: >-
+  한국어 위키백과 12개 문서에서 구축한 RAG 평가 데이터. 사람이 전수 검수한 질문·정답
+  1,000건과 검색 후보 청크 1,370건을 제공해 검색과 생성을 같은 근거 집합에서 평가한다.
+languages:
+  - ko
+license: CC-BY-SA-4.0
+url: https://huggingface.co/datasets/Surromind/rag-qa-benchmark-ko
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/Surromind/rag-qa-benchmark-ko
+last_verified: '2026-08-25'
+verification_status: official-source

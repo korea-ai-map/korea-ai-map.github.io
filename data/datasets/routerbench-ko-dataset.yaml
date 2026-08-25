@@ -1,0 +1,16 @@
+name: RouterBench Korean Translation Dataset
+organization_id: lablup
+category: qa
+description_ko: >-
+  RouterBench의 영어 프롬프트를 한국어로 번역·검수한 공개 데이터. 0-shot 36,497행과
+  5-shot 36,511행을 제공하고 원본 프롬프트·모델 응답·평가 열과 한국어 번역 열을 함께 보존한다.
+languages:
+  - ko
+  - en
+license: MIT
+url: https://huggingface.co/datasets/lablup/routerbench-ko
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/lablup/routerbench-ko
+last_verified: '2026-08-25'
+verification_status: official-source

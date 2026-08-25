@@ -1,0 +1,16 @@
+name: GBDT-Guided Piecewise-Linear Embeddings
+organization_id: lg-ai-research
+repo_type: github-repo
+url: https://github.com/LGAI-Research/gbdt-guided-piecewise-linear-embeddings
+description_ko: >-
+  LG AI연구원이 공개한 KDD 2026 논문의 공식 PyTorch 구현. GBDT가 배정한 구간 경계를 이용해
+  수치형 표 데이터를 조각별 선형 임베딩으로 변환하며, 전처리 도구와 최소 학습 예제를 제공한다.
+language: Python
+license: BSD-3-Clause-LG-AI-Research
+sources:
+  - type: github
+    url: https://github.com/LGAI-Research/gbdt-guided-piecewise-linear-embeddings
+  - type: paper
+    url: https://doi.org/10.1145/3770855.3818128
+last_verified: '2026-08-25'
+verification_status: official-source

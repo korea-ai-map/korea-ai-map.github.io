@@ -1,0 +1,18 @@
+title: 'ReCurveflow: A Flow Matching Framework that Learns Curved Reaction Trajectories to Predict Transition State Geometries'
+authors_org: Korea University · Hankuk University of Foreign Studies
+venue: arXiv
+year: 2026
+arxiv_id: '2608.20869'
+url: https://arxiv.org/abs/2608.20869
+abstract_ko: >-
+  직선 보간 대신 NEB 기반 곡선 반응 경로를 학습하고 경로 이탈 상태를 되돌리는 보정장을 결합해,
+  화학 반응의 전이상태 구조와 전체 반응 궤적을 예측한다.
+related_ids:
+  - recurveflow-oss
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.20869
+  - type: github
+    url: https://github.com/dmis-lab/ReCurveflow
+last_verified: '2026-08-25'
+verification_status: verified

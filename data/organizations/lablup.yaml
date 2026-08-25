@@ -1,0 +1,25 @@
+name_ko: 래블업
+name_en: Lablup
+organization_type: startup
+country: KR
+website: https://www.lablup.com/
+ai_core_level: ai_infrastructure
+categories:
+  - ai-infrastructure
+  - ml-platform
+  - open-source
+  - benchmark
+status: active
+description_ko: AI 컴퓨팅 인프라와 머신러닝 플랫폼을 개발하고 한국어 AI 평가 자산을 공개하는 기업.
+models: []
+products: []
+open_source_links:
+  - https://github.com/lablup
+  - https://huggingface.co/lablup
+sources:
+  - type: official-website
+    url: https://www.lablup.com/
+  - type: huggingface
+    url: https://huggingface.co/lablup
+last_verified: '2026-08-25'
+verification_status: verified

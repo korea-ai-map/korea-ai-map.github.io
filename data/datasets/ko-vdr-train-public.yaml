@@ -1,0 +1,16 @@
+name: Ko-VDR Train Public
+category: multimodal
+description_ko: >-
+  한국어 시각 문서 검색 모델 학습을 위해 KoViDoRe 연구진이 공개한 대규모 학습 데이터.
+  한국어 문서 이미지와 검색 질의·관련성 정보를 제공한다.
+languages:
+  - ko
+license: CC-BY-4.0
+url: https://huggingface.co/datasets/NomaDamas/ko-vdr-train-public
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/NomaDamas/ko-vdr-train-public
+  - type: paper
+    url: https://arxiv.org/abs/2608.20840
+last_verified: '2026-08-25'
+verification_status: verified

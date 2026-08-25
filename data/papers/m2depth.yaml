@@ -1,0 +1,16 @@
+title: 'M2Depth: Unifying Monocular Depth Foundation Priors with Multi-View Stereo'
+authors_org: Dongguk University · 42dot
+venue: arXiv
+year: 2026
+arxiv_id: '2608.20788'
+url: https://arxiv.org/abs/2608.20788
+abstract_ko: >-
+  단안 깊이 파운데이션 모델과 계단식 다중시점 스테레오를 양방향으로 보정해 가림·희소 시점
+  환경에서 깊이 지도의 완전성과 기하 정합성을 함께 높인다.
+related_ids:
+  - 42dot
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.20788
+last_verified: '2026-08-25'
+verification_status: verified

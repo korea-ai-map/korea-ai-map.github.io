@@ -1,0 +1,12 @@
+name: τ²-bench Korean Translation
+organization_id: lablup
+category: domain-specific
+description_ko: >-
+  유통·항공·통신 고객지원 환경에서 한국어 에이전트의 대화와 도구사용을 평가하기 위한
+  τ²-bench 번역판. 278개 태스크와 1,004개 사용자 시나리오 필드를 포함한다.
+url: https://huggingface.co/datasets/lablup/tau2-bench-ko
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/lablup/tau2-bench-ko
+last_verified: '2026-08-25'
+verification_status: official-source

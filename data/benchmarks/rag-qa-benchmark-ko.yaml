@@ -1,0 +1,12 @@
+name: Surromind Korean RAG QA Benchmark
+organization_id: surromind
+category: domain-specific
+description_ko: >-
+  한국어 RAG의 검색 품질(hit@k)과 생성 품질(F1·BERTScore)을 함께 측정하는 벤치마크.
+  위키백과 기반 1,000개 QA와 1,370개 검색 후보 청크로 구성된다.
+url: https://huggingface.co/datasets/Surromind/rag-qa-benchmark-ko
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/Surromind/rag-qa-benchmark-ko
+last_verified: '2026-08-25'
+verification_status: official-source

@@ -1,0 +1,12 @@
+name: RouterBench Korean Translation
+organization_id: lablup
+category: korean-understanding
+description_ko: >-
+  모델 라우팅 성능을 한국어 프롬프트로 평가할 수 있도록 RouterBench를 번역한 벤치마크.
+  0-shot·5-shot 조건과 원본의 86개 평가 태스크 및 모델별 결과 열을 보존한다.
+url: https://huggingface.co/datasets/lablup/routerbench-ko
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/lablup/routerbench-ko
+last_verified: '2026-08-25'
+verification_status: official-source

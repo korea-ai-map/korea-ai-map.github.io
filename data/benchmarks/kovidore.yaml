@@ -1,0 +1,15 @@
+name: KoViDoRe
+category: multimodal
+description_ko: >-
+  표·그림·다단 편집과 여러 페이지의 증거 결합을 포함하는 한국어 시각 문서 검색 벤치마크.
+  공공 문서 기반의 다양한 질의 유형으로 멀티모달 검색 모델을 평가한다.
+url: https://huggingface.co/collections/whybe-choi/kovidore-benchmark
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.20840
+  - type: paper
+    url: https://aclanthology.org/2026.magmar-main.11/
+  - type: huggingface
+    url: https://huggingface.co/collections/whybe-choi/kovidore-benchmark
+last_verified: '2026-08-25'
+verification_status: verified
