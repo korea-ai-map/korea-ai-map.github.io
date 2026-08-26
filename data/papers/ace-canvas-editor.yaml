@@ -1,0 +1,16 @@
+title: 'ACE: A Self-Correcting Agentic Canvas Editor for Multi-Slide Presentation Automation'
+authors_org: Seoul National University
+venue: arXiv
+year: 2026
+arxiv_id: '2608.24103'
+url: https://arxiv.org/abs/2608.24103
+abstract_ko: >-
+  계층적 장면 그래프와 프레젠테이션 전용 98개 도구, 관련 슬라이스만 전달하는 CARE 라우터,
+  지시 준수 판정 기반 자기수정 루프를 결합한 멀티슬라이드 편집 에이전트를 제안한다.
+related_ids:
+  - snu-aiis
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.24103
+last_verified: '2026-08-26'
+verification_status: verified

@@ -1,0 +1,16 @@
+name: Q-CARE
+organization_id: kaist
+category: hallucination
+description_ko: >-
+  정답 참조 없이 검색의 질의 커버리지와 생성 답변 주장의 검증 가능성을 평가하는 RAG 벤치마크.
+  검색기에는 C-Prec@k·C-nDCG@k, 생성기에는 완전성·간결성·검증 가능성 지표를 제공한다.
+url: https://huggingface.co/datasets/DISLab/Q-CARE
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.11238
+  - type: github
+    url: https://github.com/DISL-Lab/Q-CaRE-COLM-26
+  - type: huggingface
+    url: https://huggingface.co/datasets/DISLab/Q-CARE
+last_verified: '2026-08-26'
+verification_status: verified

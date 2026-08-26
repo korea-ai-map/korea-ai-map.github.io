@@ -1,0 +1,18 @@
+title: 'Syn2RealTrack: Bridging the Gap Between Synthetic and Real-World Datasets for Online Multi-View Multi-Target Tracking'
+authors_org: Sungkyunkwan University
+venue: arXiv
+year: 2026
+arxiv_id: '2608.24130'
+url: https://arxiv.org/abs/2608.24130
+abstract_ko: >-
+  다중 카메라 추적의 합성-실세계 격차를 보정·형상·객체 수 사전으로 분해하고, 각 지점에 맞춘
+  온라인 보정과 가시성 가중 특징을 결합해 AI City Challenge 2026에서 평가한다.
+related_ids:
+  - skku-ai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.24130
+  - type: github
+    url: https://github.com/SKKUAutoLab/aic26_mc3dp
+last_verified: '2026-08-26'
+verification_status: verified

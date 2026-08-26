@@ -1,0 +1,17 @@
+title: 'MC-CXR: A Multi-Context Chest X-ray Benchmark for Context-Induced Disruption in Vision-Language Models'
+authors_org: Seoul National University · Seoul National University Hospital
+venue: arXiv
+year: 2026
+arxiv_id: '2608.24118'
+url: https://arxiv.org/abs/2608.24118
+abstract_ko: >-
+  흉부 X선과 신뢰할 수 있거나 오도하는 텍스트·이전 영상 맥락을 짝지은 2,522개 인스턴스 벤치마크로
+  VLM의 맥락 유발 판단 전환을 측정하고 텍스트·시각 맥락의 비대칭을 분석한다.
+related_ids:
+  - snu-aiis
+  - snuh
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.24118
+last_verified: '2026-08-26'
+verification_status: verified

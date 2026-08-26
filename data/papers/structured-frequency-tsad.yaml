@@ -1,0 +1,15 @@
+title: Structured Frequency-Domain Evidence for LLM-Based Time-Series Anomaly Detection
+authors_org: Hanyang University
+venue: arXiv
+year: 2026
+arxiv_id: '2608.24113'
+url: https://arxiv.org/abs/2608.24113
+abstract_ko: >-
+  시계열 이상 탐지 LLM에 전역·국소 FFT 주파수 증거를 추가해 반복 구조와 국소 진동 변화를
+  명시적으로 제공하고, 제로샷 탐지 성능 변화를 평가한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.24113
+last_verified: '2026-08-26'
+verification_status: verified

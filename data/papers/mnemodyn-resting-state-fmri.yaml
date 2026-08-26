@@ -1,0 +1,16 @@
+title: 'MnemoDyn: Learning Resting State Dynamics from 40K fMRI sequences'
+authors_org: Pohang University of Science and Technology (POSTECH)
+venue: arXiv
+year: 2026
+arxiv_id: '2608.23936'
+url: https://arxiv.org/abs/2608.23936
+abstract_ko: >-
+  약 4만 개의 휴지기 fMRI 시퀀스에서 다중 해상도 시간 동역학을 학습하는 모델을 제안하고,
+  다양한 집단·스캔 프로토콜에서 재구성과 전이 성능을 평가한다.
+related_ids:
+  - postech-gsai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.23936
+last_verified: '2026-08-26'
+verification_status: verified

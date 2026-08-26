@@ -1,0 +1,17 @@
+name: Q-CARE Benchmark Dataset
+organization_id: kaist
+category: qa
+description_ko: >-
+  Q-CARE RAG 평가용 800개 질의와 검색 청크·8개 시스템의 답변을 담은 공개 데이터.
+  close-ended와 open-ended 두 설정에서 총 8개 원천 QA 데이터셋을 다룬다.
+languages:
+  - en
+license: CC-BY-SA-4.0
+url: https://huggingface.co/datasets/DISLab/Q-CARE
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/DISLab/Q-CARE
+  - type: paper
+    url: https://arxiv.org/abs/2608.11238
+last_verified: '2026-08-26'
+verification_status: verified

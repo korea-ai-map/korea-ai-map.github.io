@@ -1,0 +1,16 @@
+title: Persistent Cross Entropy
+authors_org: Pohang University of Science and Technology (POSTECH)
+venue: arXiv
+year: 2026
+arxiv_id: '2608.24549'
+url: https://arxiv.org/abs/2608.24549
+abstract_ko: >-
+  서로 다른 persistence diagram 사이의 사건 공간을 유사도와 persistence 가중치로 연결해
+  persistent cross entropy를 정의하고 안정성 정리와 지식 증류·인과 방향 실험을 제시한다.
+related_ids:
+  - postech-gsai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.24549
+last_verified: '2026-08-26'
+verification_status: verified

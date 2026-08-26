@@ -1,0 +1,18 @@
+title: 'Rethinking Pre-Training and Augmentation for Zero-Shot Cross-City Object Detection'
+authors_org: Sungkyunkwan University
+venue: arXiv
+year: 2026
+arxiv_id: '2608.24154'
+url: https://arxiv.org/abs/2608.24154
+abstract_ko: >-
+  도시 간 분포 이동을 줄이기 위해 클래스 비종속 objectness 증류 사전학습과 색상 단서를 억제하는
+  Grayworld 증강을 결합한 객체 검출 파이프라인을 제안한다.
+related_ids:
+  - skku-ai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.24154
+  - type: github
+    url: https://github.com/SKKUAutoLab/aic26_cross_city
+last_verified: '2026-08-26'
+verification_status: verified

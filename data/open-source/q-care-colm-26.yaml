@@ -1,0 +1,19 @@
+name: Q-CARE
+organization_id: kaist
+repo_type: eval-tool
+url: https://github.com/DISL-Lab/Q-CaRE-COLM-26
+description_ko: >-
+  KAIST DISLab의 쿼리 비의존·참조 없는 RAG 평가 구현. 질의를 하위 질의로, 답변을 원자적
+  주장으로 분해해 검색의 커버리지와 생성 주장의 검증 가능성을 함께 측정한다.
+language: Python
+license: MIT
+stars: 3
+sources:
+  - type: github
+    url: https://github.com/DISL-Lab/Q-CaRE-COLM-26
+  - type: paper
+    url: https://arxiv.org/abs/2608.11238
+  - type: huggingface
+    url: https://huggingface.co/datasets/DISLab/Q-CARE
+last_verified: '2026-08-26'
+verification_status: verified

@@ -1,0 +1,21 @@
+title: 'Towards Query-Agnostic RAG Evaluation via Query Coverage and Claim Verifiability'
+authors_org: Korea Advanced Institute of Science and Technology (KAIST) · Cluvion
+venue: COLM 2026
+year: 2026
+arxiv_id: '2608.11238'
+url: https://arxiv.org/abs/2608.11238
+abstract_ko: >-
+  질의를 하위 질의로, 답변을 원자적 주장으로 분해하는 참조 없는 RAG 평가 프레임워크를 제안하고,
+  질의 커버리지와 주장 검증 가능성으로 검색·생성 품질을 한 체계에서 진단한다.
+related_ids:
+  - kaist
+  - q-care
+  - q-care-dataset
+  - q-care-colm-26
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.11238
+  - type: github
+    url: https://github.com/DISL-Lab/Q-CaRE-COLM-26
+last_verified: '2026-08-26'
+verification_status: verified

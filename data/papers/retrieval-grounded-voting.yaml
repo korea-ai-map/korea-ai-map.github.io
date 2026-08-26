@@ -1,0 +1,16 @@
+title: 'Beyond Confidence: Test-Time Scaling for Multi-Turn Search Agents via Retrieval Grounding'
+authors_org: Pohang University of Science and Technology (POSTECH)
+venue: arXiv
+year: 2026
+arxiv_id: '2608.24024'
+url: https://arxiv.org/abs/2608.24024
+abstract_ko: >-
+  검색 문서가 토큰 확률을 부풀리는 copy inflation 문제를 규명하고, 답변과 검색 문서의 어휘 중첩으로
+  롤아웃을 평가하는 Retrieval-Grounded Voting을 제안해 다중 턴 검색 에이전트의 투표를 개선한다.
+related_ids:
+  - postech-gsai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.24024
+last_verified: '2026-08-26'
+verification_status: verified

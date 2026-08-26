@@ -1,0 +1,16 @@
+title: 'Keep-or-Drop? Adaptive Tokenizer for Compact Video Representation'
+authors_org: Kakao Corp.
+venue: arXiv
+year: 2026
+arxiv_id: '2608.24293'
+url: https://arxiv.org/abs/2608.24293
+abstract_ko: >-
+  영상 콘텐츠의 정보량에 따라 토큰을 보존·삭제하는 적응형 VAE 토크나이저 KATok을 제안하고,
+  토큰 삭제로 인한 시공간 정렬 문제를 위치 예측 전략으로 보완한다.
+related_ids:
+  - kakao
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.24293
+last_verified: '2026-08-26'
+verification_status: verified

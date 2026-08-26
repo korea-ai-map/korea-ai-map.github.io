@@ -1,0 +1,16 @@
+title: 'Meta^n: Recursive Self-Improvement through Emergent Depth'
+authors_org: Seoul National University
+venue: arXiv
+year: 2026
+arxiv_id: '2608.24735'
+url: https://arxiv.org/abs/2608.24735
+abstract_ko: >-
+  고정된 메타 연산을 자신의 산출물에 반복 적용해 추론 계층을 확장하는 자기개선 에이전트를 제안하고,
+  수렴 기반 깊이와 진화적 계층 탐색으로 여러 벤치마크에서 성능을 평가한다.
+related_ids:
+  - snu-aiis
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.24735
+last_verified: '2026-08-26'
+verification_status: verified

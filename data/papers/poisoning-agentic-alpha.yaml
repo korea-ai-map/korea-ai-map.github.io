@@ -1,0 +1,17 @@
+title: 'Poisoning Agentic Alpha: Adversarial Vulnerabilities Across Roles and Architectures in Multi-Agent Trading Systems'
+authors_org: Sungkyunkwan University · Ulsan National Institute of Science and Technology (UNIST)
+venue: arXiv
+year: 2026
+arxiv_id: '2608.24069'
+url: https://arxiv.org/abs/2608.24069
+abstract_ko: >-
+  다중 에이전트 거래 시스템의 데이터·프롬프트 입력을 공격하는 역할별 위협 모델을 구성하고,
+  네 통신 토폴로지에서 공격 신호가 최종 의사결정까지 보존되는 양상을 체계적으로 분석한다.
+related_ids:
+  - skku-ai
+  - unist-aigs
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.24069
+last_verified: '2026-08-26'
+verification_status: verified
