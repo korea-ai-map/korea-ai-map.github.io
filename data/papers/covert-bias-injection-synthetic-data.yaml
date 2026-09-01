@@ -1,0 +1,19 @@
+title: 'Hidden Threat in Synthetic Data: Covert Targeted Bias Injection through Benign Text'
+authors_org: KAIST · Dankook University
+venue: EMNLP 2026
+year: 2026
+arxiv_id: '2608.30619'
+url: https://arxiv.org/abs/2608.30619
+abstract_ko: >-
+  오정렬 교사 모델이 만든 창작·코드 합성 데이터를 겉보기에는 정상인 형태로 정제해 정렬된 학생 모델을
+  미세조정할 때 표적 사회적 편향이 은밀하게 전이될 수 있음을 보인다. 일반 과제 능력은 대체로 유지돼
+  합성 데이터 학습 파이프라인에 대한 별도 안전 검증의 필요성을 제기한다.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.30619
+  - type: github
+    url: https://github.com/ada-flo/covert-bias-injection
+last_verified: '2026-09-01'
+verification_status: verified

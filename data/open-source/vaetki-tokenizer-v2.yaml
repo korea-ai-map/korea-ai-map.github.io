@@ -1,0 +1,14 @@
+name: VAETKI tokenizer v2
+organization_id: etri
+repo_type: huggingface-model
+url: https://huggingface.co/etri-lirs/vaetki-tokenizer-v2
+description_ko: >-
+  ETRI LIRS가 공개한 다국어 토크나이저 수정판. 모델 가중치가 아닌 토크나이저 도구로, 기존 137,216개
+  vocab/ID를 유지하면서 도달 불가능한 CJK 슬롯을 복구하고 한국어 토큰화 회귀 없이 8개 언어를 지원한다.
+language: Python
+license: MIT
+sources:
+  - type: huggingface
+    url: https://huggingface.co/etri-lirs/vaetki-tokenizer-v2
+last_verified: '2026-09-01'
+verification_status: official-source

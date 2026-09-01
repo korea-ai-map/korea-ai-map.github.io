@@ -1,0 +1,26 @@
+name_ko: Thaki Cloud Korea
+name_en: Thaki Cloud
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://thakicloud.com
+founded_year: 2026
+ai_core_level: ai_infrastructure
+categories:
+  - enterprise-ai
+  - sovereign-ai
+  - ai-infrastructure
+  - benchmark
+status: active
+description_ko: 서울 강남구에 본사를 둔 Thaki Cloud Korea의 엔터프라이즈·소버린 AI 인프라 및 평가 도구 개발사.
+models: []
+products: []
+open_source_links:
+  - https://huggingface.co/ThakiCloud
+sources:
+  - type: official-website
+    url: https://thakicloud.com
+  - type: huggingface
+    url: https://huggingface.co/ThakiCloud
+last_verified: '2026-09-01'
+verification_status: official-source

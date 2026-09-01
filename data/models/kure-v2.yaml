@@ -1,0 +1,38 @@
+name: KURE-v2
+organization_id: korea-university-nlpai-lab
+model_family: KURE
+release_date: '2026-08-26'
+status: active
+modalities:
+  - text
+tasks:
+  - embedding
+  - retrieval
+parameter_count:
+  value: 148700000
+  disclosure: confident
+context_length:
+  value: 8192
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+base_model: skt/A.X-Encoder-base
+links:
+  model_card: https://huggingface.co/nlpai-lab/KURE-v2
+  huggingface: https://huggingface.co/nlpai-lab/KURE-v2
+sources:
+  - type: model-card
+    url: https://huggingface.co/nlpai-lab/KURE-v2
+last_verified: '2026-09-01'
+verification_status: verified

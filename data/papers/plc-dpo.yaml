@@ -1,0 +1,19 @@
+title: 'PLC-DPO: Posterior Label Correction in Noisy and Ambiguous Preference Optimization'
+authors_org: KAIST · KENTECH
+venue: Findings of EMNLP 2026
+year: 2026
+arxiv_id: '2608.30597'
+url: https://arxiv.org/abs/2608.30597
+abstract_ko: >-
+  정책 모델과 참조 모델의 보정된 마진을 온라인 증거로 사용해 각 선호 쌍을 정상·반전·동률 신호로
+  라우팅하는 PLC-DPO를 제안한다. 57개 데이터셋·모델·벤치마크 조합에서 잡음과 모호한 선호를
+  구분하면서 기존 DPO보다 높은 평균 승률을 보고한다.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.30597
+  - type: github
+    url: https://github.com/VennTum99/PLC-DPO
+last_verified: '2026-09-01'
+verification_status: verified

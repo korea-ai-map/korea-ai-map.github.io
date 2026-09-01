@@ -1,0 +1,22 @@
+name_ko: 브레인크루 AI
+name_en: BrainCrew AI
+organization_type: startup
+country: KR
+headquarters: Seoul
+ai_core_level: model_builder
+categories:
+  - nlp
+  - ai-safety
+status: active
+description_ko: 서울 기반 AI 엔지니어가 개발한 한국어 개인정보 인식 모델·데이터 공개 프로젝트.
+models:
+  - ko-pii-ner-roberta-base
+products: []
+open_source_links: []
+sources:
+  - type: model-card
+    url: https://huggingface.co/seongyeon1/ko-pii-ner-roberta-base
+  - type: huggingface
+    url: https://huggingface.co/datasets/seongyeon1/ko-pii-ner-100k
+last_verified: '2026-09-01'
+verification_status: verified

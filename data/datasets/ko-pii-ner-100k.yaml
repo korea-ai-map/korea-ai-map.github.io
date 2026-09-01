@@ -1,0 +1,13 @@
+name: ko-pii-ner-100k
+organization_id: braincrew-ai
+category: safety
+description_ko: 한국어 개인정보 개체명 인식 데이터셋. 20종 PII를 BIO 태그로 주석한 98,845건과 KDPII 홀드아웃 테스트를 제공하며 합성·지식증류 데이터의 한계를 명시한다.
+languages:
+  - ko
+license: CC-BY-4.0
+url: https://huggingface.co/datasets/seongyeon1/ko-pii-ner-100k
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/seongyeon1/ko-pii-ner-100k
+last_verified: '2026-09-01'
+verification_status: verified

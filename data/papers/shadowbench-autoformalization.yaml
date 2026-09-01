@@ -1,0 +1,20 @@
+title: 'SHADOWBENCH: Toward Reliable Automatic Evaluation of Semantic Alignment in Autoformalization'
+authors_org: ETRI · Seoul National University · University of Maryland · Amazon Web Services
+venue: EMNLP 2026
+year: 2026
+arxiv_id: '2608.29270'
+url: https://arxiv.org/abs/2608.29270
+abstract_ko: >-
+  Lean 자동정형화 결과가 원문 수학 명제와 의미적으로 일치하는지를 보조 명제의 양방향 함의로 판정하는
+  SA-Pass를 제안한다. 대학원·연구 수준 8개 분야 178문제로 ShadowBench를 구성했으며,
+  6개 에이전트 설정의 출력에서 전문가 판단과 98.8% 일치한다고 보고한다.
+related_ids:
+  - etri
+  - snu-aiis
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.29270
+  - type: github
+    url: https://github.com/ldilab/shadowbench
+last_verified: '2026-09-01'
+verification_status: verified

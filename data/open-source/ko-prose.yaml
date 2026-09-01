@@ -1,0 +1,12 @@
+name: ko-prose
+organization_id: dable
+repo_type: github-repo
+url: https://github.com/teamdable/ko-prose
+description_ko: 한국어 번역투·AI 상투어·불필요한 분량 채우기를 실제 리뷰 교정 사례 기반 11개 규칙으로 점검하는 Claude Code 스킬.
+license: MIT
+stars: 6
+sources:
+  - type: github
+    url: https://github.com/teamdable/ko-prose
+last_verified: '2026-09-01'
+verification_status: verified

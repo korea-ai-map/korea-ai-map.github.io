@@ -1,0 +1,14 @@
+name: Korean Contract Derivation Benchmark
+organization_id: thakicloud
+category: domain-specific
+description_ko: >-
+  한국어 계약 문서 RAG에서 답을 가리는 관용 표현과 산술 관계 도출 실패를 분리해 측정하는 240문항
+  평가. 직접 제시(disambiguate), 부가세·할인·단가×수량 도출 모드와 세 가지 시스템 프롬프트를 비교한다.
+url: https://huggingface.co/datasets/ThakiCloud/korean-contract-derivation-bench
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/ThakiCloud/korean-contract-derivation-bench
+  - type: official-website
+    url: https://thakicloud.com
+last_verified: '2026-09-01'
+verification_status: verified

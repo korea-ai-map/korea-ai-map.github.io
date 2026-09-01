@@ -1,0 +1,14 @@
+name: mailcrawl
+repo_type: agent-mcp
+url: https://github.com/NomaDamas/mailcrawl
+description_ko: Himalaya 기반 이메일 증분 동기화와 FTS5·EmbeddingGemma 하이브리드 검색을 제공하고 AI 에이전트·MCP에 JSON 인터페이스를 노출하는 로컬 CLI.
+language: TypeScript
+license: MIT
+stars: 2
+sources:
+  - type: github
+    url: https://github.com/NomaDamas/mailcrawl
+  - type: github
+    url: https://github.com/NomaDamas/mailcrawl/releases/tag/v0.1.4
+last_verified: '2026-09-01'
+verification_status: official-source

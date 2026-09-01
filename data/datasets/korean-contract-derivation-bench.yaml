@@ -1,0 +1,17 @@
+name: Korean Contract Derivation Benchmark Dataset
+organization_id: thakicloud
+category: domain-specific
+description_ko: >-
+  한국어 조달 계약 요약문 240건에서 계약금액을 직접 식별하거나 부가세·할인·단가×수량 관계로
+  도출하는 능력을 평가하는 합성 데이터셋. 질문·정답·모드·방해 숫자와 프롬프트별 측정 결과를 포함한다.
+languages:
+  - ko
+license: Apache-2.0
+url: https://huggingface.co/datasets/ThakiCloud/korean-contract-derivation-bench
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/ThakiCloud/korean-contract-derivation-bench
+  - type: official-website
+    url: https://thakicloud.com
+last_verified: '2026-09-01'
+verification_status: official-source

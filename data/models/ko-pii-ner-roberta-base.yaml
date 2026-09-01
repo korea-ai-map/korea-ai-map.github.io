@@ -1,0 +1,33 @@
+name: ko-pii-ner-roberta-base
+organization_id: braincrew-ai
+model_family: RoBERTa
+release_date: '2026-08-31'
+status: active
+modalities:
+  - text
+tasks:
+  - token-classification
+parameter_count:
+  value: 110100000
+  disclosure: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: CC-BY-SA-4.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+base_model: klue/roberta-base
+links:
+  model_card: https://huggingface.co/seongyeon1/ko-pii-ner-roberta-base
+  huggingface: https://huggingface.co/seongyeon1/ko-pii-ner-roberta-base
+sources:
+  - type: huggingface
+    url: https://huggingface.co/seongyeon1/ko-pii-ner-roberta-base
+last_verified: '2026-09-01'
+verification_status: verified

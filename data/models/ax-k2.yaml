@@ -61,5 +61,5 @@ sources:
     url: https://huggingface.co/skt/A.X-K2
   - type: paper
     url: https://github.com/SKT-AI/A.X-K2/blob/main/A_X_K2_Tech_Report.pdf
-last_verified: '2026-08-07'
+last_verified: '2026-09-01'
 verification_status: verified

@@ -2,15 +2,16 @@ title: A.X K2 Technical Report
 authors_org: SK Telecom
 venue: Technical Report
 year: 2026
-url: https://github.com/SKT-AI/A.X-K2/blob/main/A_X_K2_Tech_Report.pdf
-abstract_ko: 688B 전체·33B 활성 파라미터의 MoE 언어모델 A.X K2가 사용하는 Sparse Gated Attention, Gated Norm, 네이티브 FP8 학습과 Think-Fusion 사후학습을 설명한다.
+arxiv_id: '2608.30181'
+url: https://arxiv.org/abs/2608.30181
+abstract_ko: 688B 파라미터 MoE 언어모델 A.X K2의 Sparse Gated Attention·Gated Norm·네이티브 FP8 학습과 Think-Fusion을 설명하며, 256K 문맥과 에이전트·코딩·한국어 평가 결과를 보고한다.
 related_ids:
   - ax-k2
   - skt
 sources:
   - type: paper
-    url: https://github.com/SKT-AI/A.X-K2/blob/main/A_X_K2_Tech_Report.pdf
+    url: https://arxiv.org/abs/2608.30181
   - type: model-card
     url: https://huggingface.co/skt/A.X-K2
-last_verified: '2026-08-07'
+last_verified: '2026-09-01'
 verification_status: verified

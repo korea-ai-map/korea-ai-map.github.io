@@ -1,0 +1,18 @@
+title: Quantifying and Mitigating Korean Jamo-Level Typographical Vulnerabilities in Large Language Models
+authors_org: Chung-Ang University LILAB
+venue: EMNLP 2026 (Main Conference)
+year: 2026
+arxiv_id: '2608.30229'
+url: https://arxiv.org/abs/2608.30229
+abstract_ko: >-
+  한국어 음절 내부 자모 단위 오탈자가 대규모 언어모델의 토큰화와 정확도에 미치는 영향을 KMMLU로
+  정량화하고, 오탈자 감지 시에만 추론을 강화하는 Typo-Aware Chain-of-Thought(TACoT)를 제안한다.
+related_ids:
+  - kmmlu
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.30229
+  - type: official-website
+    url: https://sites.google.com/view/cau-li/publications
+last_verified: '2026-09-01'
+verification_status: verified

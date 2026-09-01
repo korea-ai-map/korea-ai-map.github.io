@@ -1,0 +1,21 @@
+title: 'EXAONE Tabular 1.0 : Technical Report'
+authors_org: LG AI Research
+venue: arXiv
+year: 2026
+arxiv_id: '2608.25774'
+url: https://arxiv.org/abs/2608.25774
+abstract_ko: >-
+  데이터셋별 경사 업데이트 없이 문맥학습으로 분류와 회귀를 수행하는 소형 표형 파운데이션 모델 계열을
+  제안한다. 합성 구조적 인과 모델 사전분포만으로 사전학습하고 각 층에서 특성 축과 항목 축 어텐션을
+  교차 적용하며, 20.81M 파라미터 분류 모델을 포함한 계열의 성능과 추론 효율을 공개 벤치마크에서 평가한다.
+related_ids:
+  - lg-ai-research
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2608.25774
+  - type: github
+    url: https://github.com/LGAI-Research/EXAONE-Tabular
+  - type: model-card
+    url: https://huggingface.co/LG-AI-Research/EXAONE-Tabular
+last_verified: '2026-09-01'
+verification_status: verified

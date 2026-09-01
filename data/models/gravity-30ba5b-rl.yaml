@@ -1,0 +1,39 @@
+name: Gravity-30BA5B-RL
+organization_id: trillion-labs
+model_family: Gravity
+release_date: '2026-08-30'
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - reasoning
+  - tool-use
+  - agentic
+parameter_count:
+  value: 29560000000
+  disclosure: confident
+context_length:
+  value: 131072
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+links:
+  model_card: https://huggingface.co/trillionlabs/Gravity-30BA5B-RL
+  huggingface: https://huggingface.co/trillionlabs/Gravity-30BA5B-RL
+sources:
+  - type: model-card
+    url: https://huggingface.co/trillionlabs/Gravity-30BA5B-RL
+last_verified: '2026-09-01'
+verification_status: verified

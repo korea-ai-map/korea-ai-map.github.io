@@ -1,0 +1,15 @@
+name: PCBWorld
+organization_id: lg-ai-research
+repo_type: framework
+url: https://github.com/LGAI-Research/PCBWorld
+description_ko: KiCad의 실제 push-and-shove 배선과 DRC를 활용해 LLM·강화학습 기반 PCB 자동배선을 평가하는 Gymnasium 환경과 3단계 평가 파이프라인.
+language: Python
+license: PCBWorld-License-1.0-NC
+stars: 2
+sources:
+  - type: github
+    url: https://github.com/LGAI-Research/PCBWorld
+  - type: github
+    url: https://github.com/LGAI-Research/PCBWorld-Engine
+last_verified: '2026-09-01'
+verification_status: verified
