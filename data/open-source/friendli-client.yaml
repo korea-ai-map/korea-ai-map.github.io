@@ -1,12 +1,14 @@
-name: Friendli Client
+name: Friendli Python SDK
 organization_id: friendliai
 repo_type: inference-tool
-url: https://github.com/friendliai/friendli-client
-description_ko: FriendliAI 서빙 엔드포인트에 접근하는 Python 클라이언트 SDK(동기/비동기). 이후 Friendli Python SDK로 대체되어 아카이브.
+url: https://github.com/friendliai/friendli-python
+description_ko: FriendliAI 추론 엔드포인트를 위한 공식 Python SDK. 동기·비동기 Chat Completions, 스트리밍·tool call·구조화 출력과 사용량 API를 지원한다.
 language: Python
 license: Apache-2.0
 sources:
   - type: github
-    url: https://github.com/friendliai/friendli-client
-last_verified: '2026-07-22'
-verification_status: official-source
+    url: https://github.com/friendliai/friendli-python
+  - type: github
+    url: https://github.com/friendliai/friendli-python/releases/tag/v0.15.0
+last_verified: '2026-09-03'
+verification_status: verified

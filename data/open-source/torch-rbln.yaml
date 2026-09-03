@@ -1,0 +1,14 @@
+name: torch-rbln
+organization_id: rebellions
+repo_type: inference-tool
+url: https://github.com/RBLN-SW/torch-rbln
+description_ko: PyTorch의 rbln 디바이스와 torch.compile을 연결하는 리벨리온 공식 확장. 스트림·이벤트·메모리 바인딩과 CPU↔NPU 복사를 지원한다.
+language: Python
+license: Apache-2.0
+sources:
+  - type: github
+    url: https://github.com/RBLN-SW/torch-rbln
+  - type: github
+    url: https://github.com/RBLN-SW/torch-rbln/releases/tag/v0.4.0
+last_verified: '2026-09-03'
+verification_status: verified

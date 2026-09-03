@@ -8,5 +8,7 @@ license: Apache-2.0
 sources:
   - type: github
     url: https://github.com/rebellions-sw/optimum-rbln
-last_verified: '2026-07-22'
-verification_status: official-source
+  - type: github
+    url: https://github.com/rebellions-sw/optimum-rbln/releases/tag/v0.11.2
+last_verified: '2026-09-03'
+verification_status: verified

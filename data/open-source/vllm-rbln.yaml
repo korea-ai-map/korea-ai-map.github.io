@@ -1,0 +1,14 @@
+name: vLLM-RBLN
+organization_id: rebellions
+repo_type: inference-tool
+url: https://github.com/RBLN-SW/vllm-rbln
+description_ko: 리벨리온 NPU에서 vLLM 추론을 지원하는 공식 플러그인. Qwen 계열·MoE, reranker score API, KV 전송과 비동기 스케줄링을 제공한다.
+language: Python
+license: Apache-2.0
+sources:
+  - type: github
+    url: https://github.com/RBLN-SW/vllm-rbln
+  - type: github
+    url: https://github.com/RBLN-SW/vllm-rbln/releases/tag/v0.11.2
+last_verified: '2026-09-03'
+verification_status: verified
