@@ -34,5 +34,5 @@ links:
 sources:
   - type: model-card
     url: https://huggingface.co/nlpai-lab/KURE-v2
-last_verified: '2026-09-01'
+last_verified: '2026-09-09'
 verification_status: verified
