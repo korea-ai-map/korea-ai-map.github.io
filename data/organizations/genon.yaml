@@ -1,0 +1,26 @@
+name_ko: 제논
+name_en: GenON
+organization_type: corporate
+country: KR
+headquarters: Seoul
+website: https://www.genon.ai
+ai_core_level: model_builder
+categories:
+  - enterprise-ai
+  - llm
+  - agentic-ai
+  - physical-ai
+status: active
+description_ko: 서울 소재 생성형 AI 기업. 기업용 AI 플랫폼과 에이전트, GUI 조작·컴퓨터 사용에 특화한 Hunmin 모델을 개발한다.
+models:
+  - hunmin-397b-a17b-cua
+products: []
+open_source_links:
+  - https://huggingface.co/mncai
+sources:
+  - type: official-website
+    url: https://www.genon.ai
+  - type: huggingface
+    url: https://huggingface.co/mncai
+last_verified: '2026-09-16'
+verification_status: verified

@@ -13,7 +13,8 @@ categories:
   - benchmark
 status: active
 description_ko: 서울 강남구에 본사를 둔 Thaki Cloud Korea의 엔터프라이즈·소버린 AI 인프라 및 평가 도구 개발사.
-models: []
+models:
+  - qwen3-8-27b-human-ko-safety
 products: []
 open_source_links:
   - https://huggingface.co/ThakiCloud

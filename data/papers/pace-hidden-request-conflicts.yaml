@@ -1,0 +1,19 @@
+title: 'PACE: Towards Surfacing Hidden Conflicts in User Requests'
+authors_org: POSTECH
+venue: EMNLP 2026
+year: 2026
+arxiv_id: '2609.03293'
+url: https://arxiv.org/abs/2609.03293
+abstract_ko: >-
+  겉보기에는 합리적인 사용자 요청과 개인 지식·사건의 잠재 충돌을 판별하는 PACE 데이터셋을 제안한다.
+  PaceMaker가 질의 재작성·다중 홉 그래프 탐색·충돌 필터링 에이전트를 조율해 요청의 적절성을
+  판단하는 데 결정적인 개인 맥락을 검색한다.
+related_ids:
+  - postech-gsai
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2609.03293
+  - type: github
+    url: https://github.com/p2chp2t/pacemaker
+last_verified: '2026-09-16'
+verification_status: verified

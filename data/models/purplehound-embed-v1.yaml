@@ -1,0 +1,39 @@
+name: PurpleHound-Embed-v1
+organization_id: 78researchlab
+model_family: PurpleHound
+release_date: '2026-09-08'
+status: active
+modalities:
+  - text
+tasks:
+  - embedding
+  - retrieval
+  - cybersecurity
+parameter_count:
+  value: 595776512
+  disclosure: confident
+context_length:
+  value: 32768
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+base_model: Qwen/Qwen3-Embedding-0.6B
+links:
+  model_card: https://huggingface.co/78ResearchLab/PurpleHound-Embed-v1
+  huggingface: https://huggingface.co/78ResearchLab/PurpleHound-Embed-v1
+sources:
+  - type: model-card
+    url: https://huggingface.co/78ResearchLab/PurpleHound-Embed-v1
+last_verified: '2026-09-16'
+verification_status: verified

@@ -1,0 +1,19 @@
+title: 'ACE: Adapter Consolidation across Experts for Parameter-Efficient Fine-Tuning of MoE LLMs'
+authors_org: UNIST
+venue: EMNLP 2026
+year: 2026
+arxiv_id: '2609.06072'
+url: https://arxiv.org/abs/2609.06072
+abstract_ko: >-
+  MoE의 전문가별 LoRA 가운데 기능적으로 중복되는 어댑터를 묶어 같은 PEFT 예산에서 그룹 공유형
+  고랭크 LoRA로 통합한다. 12개 데이터셋과 4개 MoE 백본에서 정확도를 높이면서 전문가별 LoRA보다
+  학습 시간을 1.31~1.48배 단축했다고 보고한다.
+related_ids:
+  - unist-aigs
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2609.06072
+  - type: github
+    url: https://github.com/UbiquitousAILab/ACE
+last_verified: '2026-09-16'
+verification_status: verified

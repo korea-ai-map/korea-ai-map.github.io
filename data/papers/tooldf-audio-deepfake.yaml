@@ -1,0 +1,18 @@
+title: 'ToolDF: Tool-Integrated Reasoning for Mixed-Authenticity Audio Deepfake Detection'
+authors_org: KETI · Korea University · National Forensic Service
+venue: Findings of EMNLP 2026
+year: 2026
+arxiv_id: '2609.03620'
+url: https://arxiv.org/abs/2609.03620
+abstract_ko: >-
+  진짜·조작 음성이 시간 전환이나 음원 중첩으로 섞인 상황에서 오디오 LLM이 음원 분리와 도메인별
+  탐지기를 선택 호출하고 근거를 통합하도록 한다. 혼합 진위 오디오 딥페이크 벤치마크도 제시하며,
+  시간 구간과 음원에 근거를 연결한 해석 가능한 판정을 생성한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2609.03620
+  - type: github
+    url: https://github.com/rlataewoo/tooldf
+last_verified: '2026-09-16'
+verification_status: verified

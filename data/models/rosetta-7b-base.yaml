@@ -1,0 +1,36 @@
+name: Rosetta-7B-Base
+organization_id: postmedia
+model_family: Rosetta-7B
+release_date: '2026-09-07'
+status: active
+modalities:
+  - text
+tasks:
+  - text-generation
+parameter_count:
+  value: 7798894592
+  disclosure: confident
+context_length:
+  value: 65536
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+links:
+  model_card: https://huggingface.co/PoSTMEDIA/Rosetta-7B-Base
+  huggingface: https://huggingface.co/PoSTMEDIA/Rosetta-7B-Base
+sources:
+  - type: model-card
+    url: https://huggingface.co/PoSTMEDIA/Rosetta-7B-Base
+last_verified: '2026-09-16'
+verification_status: verified

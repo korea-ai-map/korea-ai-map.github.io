@@ -1,0 +1,25 @@
+name_ko: 인포뱅크
+name_en: Infobank Corporation
+organization_type: corporate
+country: KR
+headquarters: Seongnam
+website: https://www.infobank.net
+ai_core_level: model_builder
+categories:
+  - nlp
+  - privacy
+  - enterprise-ai
+status: active
+description_ko: 국내 기업용 메시징·AI 서비스를 개발하는 기업. 한국어 개인정보 탐지·비식별화 모델과 도구를 공개한다.
+models:
+  - koredact-bert-base
+products: []
+open_source_links:
+  - https://huggingface.co/infobank-corp
+sources:
+  - type: official-website
+    url: https://www.infobank.net
+  - type: huggingface
+    url: https://huggingface.co/infobank-corp
+last_verified: '2026-09-16'
+verification_status: verified

@@ -1,0 +1,29 @@
+name_ko: 한국전자기술연구원
+name_en: Korea Electronics Technology Institute (KETI)
+organization_type: government-research
+country: KR
+headquarters: Seongnam
+website: https://www.keti.re.kr
+founded_year: 1991
+ai_core_level: model_builder
+categories:
+  - ai-research
+  - multimodal
+  - llm
+  - ocr
+  - government-research
+status: active
+description_ko: 산업 기술 연구를 수행하는 한국 연구기관. AI 파운데이션모델 연구센터를 통해 한국 문화유산·OCR·에이전트 특화 HAECHI 모델을 개발한다.
+models:
+  - qwen3-5-keti-haechi-27b
+  - hyperclovax-keti-haechi-32b
+products: []
+open_source_links:
+  - https://huggingface.co/KETI-NLP
+sources:
+  - type: official-website
+    url: https://www.keti.re.kr
+  - type: huggingface
+    url: https://huggingface.co/KETI-NLP
+last_verified: '2026-09-16'
+verification_status: verified

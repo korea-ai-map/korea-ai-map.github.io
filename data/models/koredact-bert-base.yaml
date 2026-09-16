@@ -1,0 +1,38 @@
+name: koredact-bert-base
+organization_id: infobank
+model_family: koredact
+release_date: '2026-09-03'
+status: active
+modalities:
+  - text
+tasks:
+  - token-classification
+  - named-entity-recognition
+  - pii-detection
+parameter_count:
+  value: 110047515
+  disclosure: confident
+context_length:
+  value: 512
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: CC-BY-SA-4.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+base_model: klue/bert-base
+links:
+  model_card: https://huggingface.co/infobank-corp/koredact-bert-base
+  huggingface: https://huggingface.co/infobank-corp/koredact-bert-base
+sources:
+  - type: model-card
+    url: https://huggingface.co/infobank-corp/koredact-bert-base
+last_verified: '2026-09-16'
+verification_status: verified

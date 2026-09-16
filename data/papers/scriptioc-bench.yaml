@@ -1,0 +1,18 @@
+title: 'SCRIPTIOC-BENCH: A Benchmark for Recognizing Actionable Threat Intelligence from Script-Based Malware using LLMs'
+authors_org: KAIST · ETRI · University of Illinois Urbana-Champaign
+venue: arXiv
+year: 2026
+arxiv_id: '2609.06149'
+url: https://arxiv.org/abs/2609.06149
+abstract_ko: >-
+  실제 JavaScript·PowerShell·VBScript 악성코드 634개에서 URL·도메인·IP·파일시스템 침해지표를
+  정적으로 추출하는 LLM 벤치마크다. 직접 노출된 지표부터 디코딩·재구성이 필요한 수준까지 구분하고,
+  실행 없이 위협정보를 복원하는 모델의 성능과 오류 유형을 분석한다.
+related_ids:
+  - kaist
+  - etri
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2609.06149
+last_verified: '2026-09-16'
+verification_status: verified

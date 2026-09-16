@@ -1,0 +1,19 @@
+title: 'Towards Understanding Pause Token Fine-Tuning Dynamics: A Mode Retention Perspective'
+authors_org: HodooAI Lab · Seoul National University
+venue: arXiv
+year: 2026
+arxiv_id: '2609.04489'
+url: https://arxiv.org/abs/2609.04489
+abstract_ko: >-
+  일시정지 토큰을 추론 단계 경계에 두고 손실을 마스킹하는 MBP를 제안한다. 기존 분포의 덮어쓰기를
+  줄이고 경계 인접 토큰에 다음 단계 정보를 압축해 1B~8B Qwen·Llama 모델에서 수학·코드 추론을
+  개선하면서 일반 언어 이해 능력을 보존했다고 보고한다.
+related_ids:
+  - snu-aiis
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2609.04489
+  - type: github
+    url: https://github.com/jkpizza/emnlp2026-pause-token-dynamics
+last_verified: '2026-09-16'
+verification_status: verified

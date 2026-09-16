@@ -1,0 +1,19 @@
+title: '</think> Doesn''t Stop Reasoning: Analysis of Spurious CoT Termination'
+authors_org: KAIST
+venue: EMNLP 2026 Main Conference
+year: 2026
+arxiv_id: '2609.03633'
+url: https://arxiv.org/abs/2609.03633
+abstract_ko: >-
+  추론 중간에 종료 토큰을 주입해도 답변 구간에서 추론이 계속되다가 종료 토큰이 다시 생성되는
+  허위 사고과정 종료 현상을 규명한다. 종료 토큰에 대한 어텐션을 높이는 EAB가 4개 추론 모델과
+  5개 벤치마크에서 이 현상과 답변 구간 길이를 줄임을 보인다.
+related_ids:
+  - kaist
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2609.03633
+  - type: github
+    url: https://github.com/Seunghee-Koh/Spurious-CoT-Termination
+last_verified: '2026-09-16'
+verification_status: verified

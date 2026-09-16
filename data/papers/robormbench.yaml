@@ -1,0 +1,18 @@
+title: 'Same Trajectory, Contradictory Rewards (ROBORMBENCH): Paraphrase Fragility in Vision Language Reward Models'
+authors_org: Yonsei University · Carnegie Mellon University · Seoul National University
+venue: arXiv
+year: 2026
+arxiv_id: '2609.05401'
+url: https://arxiv.org/abs/2609.05401
+abstract_ko: >-
+  같은 로봇 궤적의 의미가 같은 목표 문장 표현만 바뀌어도 VLM 보상이 달라지는 문제를 측정한다.
+  실제 로봇 궤적 2,390개와 검증된 패러프레이즈 21,673개로 ROBORMBENCH를 구성해 모델 규모와
+  명시적 추론만으로는 패러프레이즈 불변성이 보장되지 않음을 보인다.
+related_ids:
+  - yonsei-ai
+  - snu-aiis
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2609.05401
+last_verified: '2026-09-16'
+verification_status: verified

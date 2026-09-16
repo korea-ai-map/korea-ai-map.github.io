@@ -1,0 +1,18 @@
+name: vLLM MBLT
+organization_id: mobilint
+repo_type: inference-tool
+url: https://github.com/mobilint/vllm-mblt
+description_ko: >-
+  모빌린트 NPU 런타임을 vLLM 서빙·벤치마크 스택에 연결하는 공식 out-of-tree 플러그인.
+  텍스트·비전언어 모델을 OpenAI 호환 API로 제공하고 모델별 프리필·배치 스케줄링을 자동
+  조정하며, v0.3.0부터 vLLM 프로파일러를 통한 NPU 이벤트 추적을 지원한다.
+language: Python
+license: Apache-2.0
+stars: 12
+sources:
+  - type: github
+    url: https://github.com/mobilint/vllm-mblt
+  - type: github
+    url: https://github.com/mobilint/vllm-mblt/releases/tag/v0.3.0
+last_verified: '2026-09-16'
+verification_status: verified

@@ -1,0 +1,20 @@
+name: WHALE
+organization_id: krafton-ai
+repo_type: github-repo
+url: https://github.com/krafton-ai/WHALE
+description_ko: >-
+  모델 가중치와 에이전트 하네스를 번갈아 최적화하는 KRAFTON AI의 공식 연구 구현.
+  온라인 rejection-sampling 미세조정과 Meta-Harness 탐색을 결합하며 검색 QA, 파이썬 도구를
+  사용하는 수학 추론, 체스 퍼즐 실험의 재현 코드와 데이터 준비 절차를 제공한다.
+language: Python
+license: Apache-2.0
+stars: 43
+sources:
+  - type: github
+    url: https://github.com/krafton-ai/WHALE
+  - type: official-blog
+    url: https://krafton.ai/blog/whale/
+  - type: paper
+    url: https://arxiv.org/abs/2609.00196
+last_verified: '2026-09-16'
+verification_status: verified

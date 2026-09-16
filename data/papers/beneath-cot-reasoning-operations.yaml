@@ -1,0 +1,20 @@
+title: 'Beneath the Surface of Chains-of-Thought: A Mechanistic Interpretation of Reasoning Operations in LLMs'
+authors_org: KAIST · NAVER AI Lab
+venue: EMNLP 2026 Main Conference
+year: 2026
+arxiv_id: '2609.04753'
+url: https://arxiv.org/abs/2609.04753
+abstract_ko: >-
+  문제 정식화·목표 분해·연역 등 사고과정 연산이 LLM 은닉표현 공간에서 구분되는지 분석한다.
+  연산 분리도가 중간 층에서 가장 높고 어휘·위치 혼입만으로 설명되지 않으며, 같은 표면 토큰도 주변
+  추론 연산에 따라 다르게 표현됨을 보인다.
+related_ids:
+  - kaist
+  - naver-cloud
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2609.04753
+  - type: github
+    url: https://github.com/naver-ai/beneath-cot
+last_verified: '2026-09-16'
+verification_status: verified

@@ -1,0 +1,17 @@
+title: 'Agents Trust Tools Too Much: Measuring Reliance on Unreliable Tools'
+authors_org: Seoul National University
+venue: arXiv
+year: 2026
+arxiv_id: '2609.05587'
+url: https://arxiv.org/abs/2609.05587
+abstract_ko: >-
+  웹 검색·하위 LLM 에이전트·코드 실행 도구의 반환값을 오염시켜 14개 LLM 에이전트가 잘못된 내용을
+  최종 답에 채택하는지 측정한다. 모든 도구에서 평균 채택률이 3분의 1을 넘었으며, 내부 추론에서
+  충돌을 인지하고도 사용자에게 경고하지 않는 도구 과신 실패를 확인한다.
+related_ids:
+  - snu-aiis
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2609.05587
+last_verified: '2026-09-16'
+verification_status: verified

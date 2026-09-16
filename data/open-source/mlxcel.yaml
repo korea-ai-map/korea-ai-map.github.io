@@ -1,0 +1,18 @@
+name: mlxcel
+organization_id: lablup
+repo_type: inference-tool
+url: https://github.com/lablup/mlxcel
+description_ko: >-
+  Apple Silicon과 NVIDIA CUDA에서 LLM·VLM·임베딩·리랭킹·음성 모델을 실행하는 래블업의
+  Rust 추론 런타임. OpenAI 호환 서버와 로컬 추론을 제공하며 v0.7.0에서 llama-server b10621
+  호환, 멀티 LoRA, GBNF 문법, MP3·FLAC ASR 및 신규 멀티모달 모델 지원을 확장했다.
+language: Rust
+license: Apache-2.0
+stars: 466
+sources:
+  - type: github
+    url: https://github.com/lablup/mlxcel
+  - type: github
+    url: https://github.com/lablup/mlxcel/releases/tag/v0.7.0
+last_verified: '2026-09-16'
+verification_status: verified

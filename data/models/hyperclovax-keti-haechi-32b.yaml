@@ -1,0 +1,43 @@
+name: HyperCLOVA-X-KETI-HAECHI-32B
+organization_id: keti
+model_family: KETI-HAECHI
+release_date: '2026-09-04'
+status: active
+modalities:
+  - text
+  - image
+tasks:
+  - chat
+  - reasoning
+  - vision
+  - ocr
+  - tool-use
+  - agentic
+parameter_count:
+  value: 33313410304
+  disclosure: confident
+context_length:
+  value: 131072
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: HyperCLOVA X SEED Model License
+  commercial_use: restricted
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+base_model: naver-hyperclovax/HyperCLOVAX-SEED-Think-32B
+links:
+  model_card: https://huggingface.co/KETI-NLP/HyperCLOVA-X-KETI-HAECHI-32B
+  huggingface: https://huggingface.co/KETI-NLP/HyperCLOVA-X-KETI-HAECHI-32B
+sources:
+  - type: model-card
+    url: https://huggingface.co/KETI-NLP/HyperCLOVA-X-KETI-HAECHI-32B
+last_verified: '2026-09-16'
+verification_status: verified

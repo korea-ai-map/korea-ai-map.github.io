@@ -1,0 +1,30 @@
+name_ko: 포스트미디어
+name_en: PoSTMEDIA
+organization_type: corporate
+country: KR
+headquarters: Seoul
+website: https://www.postmedia.co.kr
+founded_year: 1993
+ai_core_level: foundation_model
+categories:
+  - foundation-model
+  - llm
+  - cultural-heritage
+  - digital-human
+status: active
+description_ko: 서울에 기반을 둔 문화기술·뉴미디어 기업. 한국어·영어 이중언어 Rosetta 기반 모델과 문화유산 특화 AI를 개발한다.
+models:
+  - rosetta-7b-base
+  - rosetta-7b-instruct
+  - rosetta-7b-think
+  - lux-v1-pro-heritage-ko
+products: []
+open_source_links:
+  - https://huggingface.co/PoSTMEDIA
+sources:
+  - type: official-website
+    url: https://www.postmedia.co.kr
+  - type: huggingface
+    url: https://huggingface.co/PoSTMEDIA
+last_verified: '2026-09-16'
+verification_status: verified
