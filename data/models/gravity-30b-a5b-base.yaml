@@ -1,0 +1,25 @@
+name: Gravity-30B-A5B-Base
+organization_id: trillion-labs
+model_family: Gravity
+release_date: '2026-09-09'
+status: active
+modalities: [text]
+tasks: [chat, reasoning, coding, math]
+parameter_count:
+  value: 29560000000
+  disclosure: confident
+context_length:
+  value: 131072
+  confidence: confident
+availability: {api: false, weights: true, demo: false}
+license: {name: Apache-2.0, commercial_use: allowed}
+deployment: {cloud: true, on_premise: true}
+languages: [ko, en]
+links:
+  model_card: https://huggingface.co/trillionlabs/Gravity-30B-A5B-Base
+  huggingface: https://huggingface.co/trillionlabs/Gravity-30B-A5B-Base
+sources:
+  - type: model-card
+    url: https://huggingface.co/trillionlabs/Gravity-30B-A5B-Base
+last_verified: '2026-09-18'
+verification_status: verified

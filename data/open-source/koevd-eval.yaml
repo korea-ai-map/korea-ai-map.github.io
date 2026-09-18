@@ -1,0 +1,12 @@
+name: KoEVD Evaluation Toolkit
+organization_id: keti
+repo_type: eval-tool
+url: https://github.com/KETI-NLP/KoEVD
+description_ko: KoEVD 한국어 안전성 데이터셋과 단계별 평가를 재현하는 KETI 공식 코드. 데이터는 연구·평가·교육용 커스텀 약관을 따른다.
+language: Python
+license: Apache-2.0
+sources:
+  - type: github
+    url: https://github.com/KETI-NLP/KoEVD
+last_verified: '2026-09-18'
+verification_status: verified

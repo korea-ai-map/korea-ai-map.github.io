@@ -1,0 +1,24 @@
+name: Xin-V1
+organization_id: postmedia
+model_family: Xin
+release_date: '2026-09-15'
+status: active
+modalities: [text]
+tasks: [chat, reasoning, coding, instruction-following]
+parameter_count: {value: 27000000000, disclosure: likely}
+context_length: {value: 32768, confidence: likely}
+availability: {api: false, weights: true, demo: false}
+license: {name: Apache-2.0, commercial_use: allowed}
+deployment: {cloud: true, on_premise: true}
+languages: [ko, en]
+base_model: Qwen/Qwen3.8-27B
+links:
+  model_card: https://huggingface.co/PoSTMEDIA/Xin-V1
+  huggingface: https://huggingface.co/PoSTMEDIA/Xin-V1
+sources:
+  - type: model-card
+    url: https://huggingface.co/PoSTMEDIA/Xin-V1
+  - type: official-website
+    url: https://www.postmedia.co.kr
+last_verified: '2026-09-18'
+verification_status: verified

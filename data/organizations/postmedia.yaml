@@ -14,6 +14,9 @@ categories:
 status: active
 description_ko: 서울에 기반을 둔 문화기술·뉴미디어 기업. 한국어·영어 이중언어 Rosetta 기반 모델과 문화유산 특화 AI를 개발한다.
 models:
+  - lux-v2
+  - lux-v2-pro
+  - xin-v1
   - rosetta-7b-base
   - rosetta-7b-instruct
   - rosetta-7b-think

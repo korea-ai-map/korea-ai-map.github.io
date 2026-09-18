@@ -1,0 +1,23 @@
+name: TxGravity-30B-A6B-Open
+organization_id: trillion-labs
+model_family: TxGravity
+release_date: '2026-09-09'
+status: active
+modalities: [text]
+tasks: [chat, reasoning, coding, tool-use]
+parameter_count:
+  value: 29560000000
+  disclosure: confident
+context_length: {value: 8192, confidence: confident}
+availability: {api: false, weights: true, demo: false}
+license: {name: Apache-2.0, commercial_use: allowed}
+deployment: {cloud: true, on_premise: true}
+languages: [en, ko]
+links:
+  model_card: https://huggingface.co/trillionlabs/TxGravity-30B-A6B-Open
+  huggingface: https://huggingface.co/trillionlabs/TxGravity-30B-A6B-Open
+sources:
+  - type: model-card
+    url: https://huggingface.co/trillionlabs/TxGravity-30B-A6B-Open
+last_verified: '2026-09-18'
+verification_status: verified

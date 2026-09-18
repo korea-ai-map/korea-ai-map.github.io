@@ -1,0 +1,12 @@
+name: KoEVD
+organization_id: keti
+category: safety
+description_ko: 한국어 대화형 AI의 유해성·안전 응답·전략·도구 행동을 단계별로 평가하는 KETI 안전성 벤치마크.
+url: https://huggingface.co/datasets/KETI-NLP/KoEVD
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/KETI-NLP/KoEVD
+  - type: github
+    url: https://github.com/KETI-NLP/KoEVD
+last_verified: '2026-09-18'
+verification_status: verified
