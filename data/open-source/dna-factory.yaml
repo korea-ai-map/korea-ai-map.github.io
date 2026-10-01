@@ -1,0 +1,19 @@
+name: DNA Factory
+organization_id: dnotitia
+repo_type: framework
+url: https://github.com/dnotitia/dna-factory
+description_ko: >-
+  Hugging Face TRL과 DeepSpeed 기반의 디노티시아 LLM 후학습 프레임워크. 공통 설정·저장 경로에서
+  SFT, DPO, GRPO, on-policy distillation을 실행하며 다중 GPU·노드와 가중 데이터 혼합을 지원한다.
+language: Python
+license: Apache-2.0
+stars: 7
+sources:
+  - type: github
+    url: https://github.com/dnotitia/dna-factory
+  - type: github
+    url: https://github.com/dnotitia/dna-factory/releases/tag/v2.3.0
+  - type: official-website
+    url: https://www.dnotitia.com/ko
+last_verified: '2026-09-18'
+verification_status: verified

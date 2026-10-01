@@ -29,5 +29,5 @@ sources:
     url: https://www.postmedia.co.kr
   - type: huggingface
     url: https://huggingface.co/PoSTMEDIA
-last_verified: '2026-09-16'
+last_verified: '2026-09-18'
 verification_status: verified

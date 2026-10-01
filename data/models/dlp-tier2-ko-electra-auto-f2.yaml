@@ -1,0 +1,39 @@
+name: DLP Tier2 KoELECTRA Auto-F2
+organization_id: querypie
+model_family: QueryPie DLP
+release_date: '2026-09-16'
+status: active
+modalities:
+  - text
+tasks:
+  - text-classification
+  - data-loss-prevention
+  - privacy-risk-detection
+parameter_count:
+  value: 14122498
+  disclosure: confident
+context_length:
+  value: 256
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+base_model: monologg/koelectra-small-v3-discriminator
+links:
+  official: https://huggingface.co/querypieai/dlp-tier2-ko-electra-auto-f2
+  model_card: https://huggingface.co/querypieai/dlp-tier2-ko-electra-auto-f2
+  huggingface: https://huggingface.co/querypieai/dlp-tier2-ko-electra-auto-f2
+sources:
+  - type: model-card
+    url: https://huggingface.co/querypieai/dlp-tier2-ko-electra-auto-f2
+last_verified: '2026-09-18'
+verification_status: verified

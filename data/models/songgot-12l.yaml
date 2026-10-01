@@ -1,0 +1,42 @@
+name: Songgot 12L
+organization_id: palette
+model_family: Songgot
+release_date: '2026-09-10'
+status: active
+modalities:
+  - text
+tasks:
+  - tool-use
+  - function-calling
+parameter_count:
+  value: 50213376
+  disclosure: confident
+context_length:
+  value: 2048
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: true
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+base_model: from-scratch
+links:
+  official: https://hanishkeloth.github.io/songgot/
+  model_card: https://huggingface.co/palette-lab/songgot-12l
+  huggingface: https://huggingface.co/palette-lab/songgot-12l
+  github: https://github.com/hanishkeloth/songgot
+sources:
+  - type: model-card
+    url: https://huggingface.co/palette-lab/songgot-12l
+  - type: github
+    url: https://github.com/hanishkeloth/songgot
+last_verified: '2026-09-18'
+verification_status: verified

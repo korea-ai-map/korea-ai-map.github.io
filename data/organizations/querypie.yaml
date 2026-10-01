@@ -1,0 +1,30 @@
+name_ko: 쿼리파이
+name_en: QueryPie
+organization_type: corporate
+country: KR
+headquarters: Seoul
+website: https://www.querypie.com/ko
+ai_core_level: model_builder
+categories:
+  - enterprise-ai
+  - security-ai
+  - privacy-ai
+  - pii-detection
+  - open-weights
+status: active
+description_ko: 서울에 R&D 법인을 둔 엔터프라이즈 AI·데이터 보안 기업. 한국어·영어 개인정보 탐지와 데이터 유출 위험 분류 모델을 공개한다.
+models:
+  - qwen3-5-9b-dlp-pii-lora
+  - gemma4-12b-dlp-pii-lora
+  - dlp-tier2-ko-electra-auto-f2
+products: []
+open_source_links:
+  - https://huggingface.co/querypieai
+  - https://github.com/querypie
+sources:
+  - type: official-website
+    url: https://www.querypie.com/ko/company/about-us
+  - type: huggingface
+    url: https://huggingface.co/querypieai
+last_verified: '2026-09-18'
+verification_status: verified

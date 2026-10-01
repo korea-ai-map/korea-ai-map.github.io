@@ -28,5 +28,5 @@ open_source_links:
 sources:
   - type: huggingface
     url: https://huggingface.co/trillionlabs
-last_verified: "2026-07-22"
-verification_status: official-source
+last_verified: '2026-09-18'
+verification_status: verified

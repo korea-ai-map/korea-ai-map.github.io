@@ -1,0 +1,27 @@
+name_ko: 디노티시아
+name_en: Dnotitia
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://www.dnotitia.com/ko
+founded_year: 2023
+ai_core_level: foundation_model
+categories:
+  - foundation-model
+  - vector-database
+  - ai-infrastructure
+  - open-source
+status: active
+description_ko: 서울 소재 AI 스타트업. DNA 언어모델, Seahorse 벡터 데이터베이스, 엣지 AI 시스템과 LLM 후학습 도구를 개발한다.
+models: []
+products: []
+open_source_links:
+  - https://github.com/dnotitia
+  - https://huggingface.co/dnotitia
+sources:
+  - type: official-website
+    url: https://www.dnotitia.com/ko
+  - type: github
+    url: https://github.com/dnotitia
+last_verified: '2026-09-18'
+verification_status: verified

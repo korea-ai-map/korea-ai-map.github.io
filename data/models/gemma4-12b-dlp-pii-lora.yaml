@@ -1,0 +1,37 @@
+name: Gemma4-12B DLP PII LoRA
+organization_id: querypie
+model_family: QueryPie DLP
+release_date: '2026-09-16'
+status: active
+modalities:
+  - text
+tasks:
+  - pii-detection
+  - information-extraction
+  - privacy-masking
+parameter_count:
+  value: null
+  disclosure: undisclosed
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+base_model: google/gemma-4-12B-it
+links:
+  official: https://huggingface.co/querypieai/gemma4-12b-dlp-pii-lora
+  model_card: https://huggingface.co/querypieai/gemma4-12b-dlp-pii-lora
+  huggingface: https://huggingface.co/querypieai/gemma4-12b-dlp-pii-lora
+sources:
+  - type: model-card
+    url: https://huggingface.co/querypieai/gemma4-12b-dlp-pii-lora
+last_verified: '2026-09-18'
+verification_status: verified

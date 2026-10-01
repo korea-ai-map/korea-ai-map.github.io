@@ -1,0 +1,17 @@
+name: Songgot Tools KO
+organization_id: palette
+category: domain-specific
+description_ko: >-
+  한국어 도구 호출 학습용 합성 데이터셋. 60개 서비스 영역의 183,737개 도구 스키마에 대해
+  336,602개 요청·호출 쌍을 공개 교사 모델로 생성하고 동일 교사의 재도출 일치 검사를 거쳤다.
+languages:
+  - ko
+license: Apache-2.0
+url: https://huggingface.co/datasets/palette-lab/songgot-tools-ko
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/palette-lab/songgot-tools-ko
+  - type: github
+    url: https://github.com/hanishkeloth/songgot
+last_verified: '2026-09-18'
+verification_status: verified
