@@ -1,0 +1,30 @@
+name_ko: 네이버
+name_en: NAVER Corporation
+organization_type: corporate
+country: KR
+headquarters: Seongnam
+website: https://navercorp.com/company/about
+founded_year: 1999
+ai_core_level: ai_enabled
+categories:
+  - search
+  - agent
+  - browser
+status: active
+description_ko: >-
+  검색·커머스·콘텐츠 서비스를 운영하며 AI 검색과 사용자 업무 실행 기능을 개발하는 국내 인터넷 기업.
+  네이버지도 플레이스 에이전트와 웨일 AI Chat 등 자사 서비스에 통합된 AI 기능을 제공한다.
+models: []
+products:
+  - naver-place-agent
+  - naver-whale-ai-chat
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://navercorp.com/company/about
+  - type: official-website
+    url: https://navercorp.com/media/pressReleasesDetail?seq=10034667
+  - type: official-website
+    url: https://navercorp.com/media/pressReleasesDetail?seq=10034705
+last_verified: '2026-10-14'
+verification_status: official-source

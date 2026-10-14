@@ -1,0 +1,29 @@
+name_ko: KAIST 응용인공지능 연구실 (AAILab)
+name_en: KAIST Applied Artificial Intelligence Laboratory
+organization_type: university-lab
+country: KR
+headquarters: Daejeon
+website: https://aai.kaist.ac.kr/
+ai_core_level: research_only
+categories:
+  - ai-research
+  - generative-ai
+  - diffusion
+  - knowledge-distillation
+  - reinforcement-learning
+status: active
+description_ko: >-
+  Il-Chul Moon 교수가 이끄는 KAIST 산업및시스템공학과 응용인공지능 연구실.
+  생성 모델·LLM 지식 증류·강화학습을 연구하며 WASD와 BoNG 등의 공식 구현을 공개한다.
+models: []
+products: []
+open_source_links:
+  - https://github.com/aailab-kaist/WASD
+  - https://github.com/aailab-kaist/BoNG
+sources:
+  - type: official-website
+    url: https://aai.kaist.ac.kr/
+  - type: official-website
+    url: https://aai.kaist.ac.kr/bbs/board.php?bo_table=sub2_1
+last_verified: '2026-10-14'
+verification_status: official-source

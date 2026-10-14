@@ -1,0 +1,20 @@
+title: "North or South? Diagnosing LLMs' Understanding of North Korean Language, Society, and Knowledge"
+authors_org: KAIST
+venue: AACL-IJCNLP 2026
+year: 2026
+arxiv_id: '2610.15282'
+url: https://arxiv.org/abs/2610.15282
+abstract_ko: >-
+  북한의 언어·사회문화·분야별 지식에 대한 LLM 이해도를 평가하는 LENS를 제안한다.
+  사람이 검증한 1,765개 문항으로 언어적 강건성, 사회문화적 관점 정합성, 분야별 지식을
+  구분해 평가하고 남북한 언어의 유사성이 사회문화적 이해를 보장하지 않음을 분석한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.15282
+  - type: official-website
+    url: https://marspak.github.io/
+  - type: official-website
+    url: https://sites.google.com/view/thenlab
+last_verified: '2026-10-14'
+verification_status: verified

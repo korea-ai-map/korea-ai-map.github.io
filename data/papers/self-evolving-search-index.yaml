@@ -1,0 +1,19 @@
+title: 'Self-Evolving Search Index'
+authors_org: Yonsei University · Samsung Research · University of California, Irvine · Korea University
+venue: arXiv
+year: 2026
+arxiv_id: '2609.19656'
+url: https://arxiv.org/abs/2609.19656
+abstract_ko: >-
+  검색 실패를 진단하고 관련 색인 키를 수정·검증하는 Self-Index를 제안한다.
+  질의 시뮬레이터로 새로운 검색 요구를 탐색하면서 색인을 반복 개선하며,
+  다양한 문서 검색과 검색 에이전트·장기 메모리 검색 과제에서 효과를 평가한다.
+related_ids:
+  - samsung-research
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2609.19656
+  - type: github
+    url: https://github.com/augustinLib/Self-Index
+last_verified: '2026-10-14'
+verification_status: verified

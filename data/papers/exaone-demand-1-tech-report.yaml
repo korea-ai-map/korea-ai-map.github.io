@@ -1,0 +1,18 @@
+title: 'EXAONE Demand 1.0: A Time Series Foundation Model for Demand Forecasting'
+authors_org: LG AI Research
+venue: arXiv
+year: 2026
+arxiv_id: '2609.30880'
+url: https://arxiv.org/abs/2609.30880
+abstract_ko: >-
+  짧은 이력과 빈번한 0값 등 수요 시계열의 특성을 반영하는 EXAONE Demand 1.0을 소개한다.
+  73개 출처의 1,130만 시계열·484억 관측값으로 구성한 코퍼스와 합성 데이터를 사용하며,
+  입력 통계에 따라 수요 유형별 저랭크 어댑터를 혼합하는 라우터를 제안한다.
+related_ids:
+  - lg-ai-research
+  - exaone-forecast-demand-1-0
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2609.30880
+last_verified: '2026-10-14'
+verification_status: official-source

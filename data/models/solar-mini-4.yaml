@@ -1,0 +1,46 @@
+name: Solar Mini 4
+organization_id: upstage
+model_family: solar
+release_date: '2026-09-22'
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - reasoning
+  - instruction-following
+  - structured-output
+  - tool-use
+  - agentic
+  - long-context
+parameter_count:
+  value: 35000000000
+  disclosure: confident
+context_length:
+  # 공식 문서는 512K로 표기하며 정확한 정수 토큰 수는 공개하지 않는다.
+  value: null
+  confidence: undisclosed
+availability:
+  api: true
+  weights: false
+  demo: true
+license:
+  name: proprietary
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+  - ja
+base_model: from-scratch
+links:
+  official: https://console.upstage.ai/docs/models/solar-mini-4
+sources:
+  - type: official-docs
+    url: https://console.upstage.ai/docs/models/solar-mini-4
+  - type: official-blog
+    url: https://www.upstage.ai/blog/ko/solar-mini-4
+last_verified: '2026-10-14'
+verification_status: official-source

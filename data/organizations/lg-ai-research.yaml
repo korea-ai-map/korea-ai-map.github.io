@@ -22,6 +22,7 @@ models:
   - exaone-deep-32b
   - exaone-deep-7-8b
   - exaone-forecast
+  - exaone-forecast-demand-1-0
   - exaone-tabular
   - k-exaone-236b-a23b
   - k-exaone-2-0-750b-a37b
@@ -36,5 +37,5 @@ sources:
     url: https://www.lgresearch.ai
   - type: huggingface
     url: https://huggingface.co/LG-AI-Research
-last_verified: '2026-08-23'
+last_verified: '2026-10-14'
 verification_status: verified

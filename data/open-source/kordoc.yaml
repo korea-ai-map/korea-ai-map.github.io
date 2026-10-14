@@ -1,0 +1,17 @@
+name: kordoc
+repo_type: agent-mcp
+url: https://github.com/chrisryugj/kordoc
+description_ko: >-
+  국내 개발자 chrisryugj가 만든 한국어 문서 처리 라이브러리·CLI·MCP 서버.
+  HWP·HWPX·PDF·Office 문서를 Markdown과 구조화된 데이터로 변환하고, AI 에이전트가 문서 생성·양식 채우기·신구대조를 수행할 수 있는 도구를 제공한다.
+language: TypeScript
+license: MIT
+sources:
+  - type: github
+    url: https://github.com/chrisryugj/kordoc
+  - type: github
+    url: https://github.com/chrisryugj/kordoc/releases/tag/v4.21.31
+  - type: github
+    url: https://github.com/chrisryugj/kordoc/blob/main/LICENSE
+last_verified: '2026-10-14'
+verification_status: official-source

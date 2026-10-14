@@ -1,0 +1,20 @@
+title: 'WASD: Wasserstein-based Knowledge Distillation for Large Language Models'
+authors_org: KAIST · summary.ai
+venue: NeurIPS 2026
+year: 2026
+arxiv_id: '2610.07706'
+url: https://arxiv.org/abs/2610.07706
+abstract_ko: >-
+  토큰 임베딩에서 얻은 의미적 거리를 지식 증류에 반영하는 WASD를 제안한다.
+  Sinkhorn 발산과 동일한 기울기를 갖는 목적함수로 교사·학생 모델의 출력 분포를 정렬하며,
+  추가 신경망 없이 지시 따르기·수학 추론·코드 생성 과제에서 평가한다.
+related_ids:
+  - kaist-aailab
+  - wasd
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.07706
+  - type: github
+    url: https://github.com/aailab-kaist/WASD
+last_verified: '2026-10-14'
+verification_status: verified

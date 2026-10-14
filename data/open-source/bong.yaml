@@ -1,0 +1,16 @@
+name: BoNG
+organization_id: kaist-aailab
+repo_type: github-repo
+url: https://github.com/aailab-kaist/BoNG
+description_ko: >-
+  확산 모델의 추론 중 Best-of-N 선택을 안내 신호로 사용하는 BoNG의 공식 구현.
+  Stable Diffusion 1.5와 SDXL의 샘플링 실행 예제 및 ImageReward 기반 평가 설정을 제공한다.
+language: Python
+license: Apache-2.0
+sources:
+  - type: github
+    url: https://github.com/aailab-kaist/BoNG
+  - type: paper
+    url: https://arxiv.org/abs/2610.05108
+last_verified: '2026-10-14'
+verification_status: verified

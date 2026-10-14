@@ -1,0 +1,16 @@
+name: WASD
+organization_id: kaist-aailab
+repo_type: github-repo
+url: https://github.com/aailab-kaist/WASD
+description_ko: >-
+  토큰의 의미적 거리를 활용하는 LLM 지식 증류 방법 WASD의 공식 구현.
+  Sinkhorn 발산 기반 학습과 GPT-2 교사·학생 모델의 증류·평가 스크립트를 제공한다.
+language: Python
+license: Apache-2.0
+sources:
+  - type: github
+    url: https://github.com/aailab-kaist/WASD
+  - type: paper
+    url: https://arxiv.org/abs/2610.07706
+last_verified: '2026-10-14'
+verification_status: verified

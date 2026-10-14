@@ -1,0 +1,26 @@
+name_ko: 네이버지도 플레이스 에이전트
+name_en: NAVER Map Place Agent
+organization_id: naver
+description_ko: >-
+  네이버가 2026년 9월 17일 공개한 지도 앱의 AI 장소 탐색 서비스.
+  대화 맥락·위치와 플레이스 정보·리뷰를 바탕으로 복합 조건에 맞는 장소를 추천하고, 추가 대화로 결과를 좁히거나 사용자 확인을 거쳐 네이버 예약 신청으로 연결한다.
+categories:
+  - agent
+  - local-search
+  - conversational-search
+target_users:
+  - consumer
+delivery_type:
+  - embedded
+  - agent
+models_used: []
+model_ownership: unknown
+status: active
+website: https://navercorp.com/media/pressReleasesDetail?seq=10034667
+sources:
+  - type: official-website
+    url: https://navercorp.com/media/pressReleasesDetail?seq=10034667
+  - type: official-website
+    url: https://navercorp.com/service/map
+last_verified: '2026-10-14'
+verification_status: official-source

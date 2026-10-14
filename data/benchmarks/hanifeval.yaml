@@ -1,0 +1,13 @@
+name: HanIFEval
+category: korean-understanding
+description_ko: >-
+  developer0hye가 Google IFEval의 429문항을 한국어 프롬프트와 규칙 기반 채점 인자가 일치하도록 번역·수정한 지시 이행 벤치마크.
+  2026년 10월 3일 공개한 v1.1은 수량 조건·금지어 등 채점 규칙과 한국어 지시의 일관성을 검증하며, 모델 검토를 거쳤으나 사람의 검수는 수행하지 않았다.
+url: https://huggingface.co/datasets/developer0hye/HanIFEval
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/developer0hye/HanIFEval
+  - type: github
+    url: https://github.com/developer0hye/llm-evals
+last_verified: '2026-10-14'
+verification_status: official-source

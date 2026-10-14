@@ -5,6 +5,19 @@
 
 형식은 [Keep a Changelog](https://keepachangelog.com/), 버전은 데이터 스냅샷 기준 `YYYY.MM`을 사용합니다.
 
+## [2026.10]
+
+### Added
+- **10월 14일 모델 갱신**: 업스테이지 Solar Mini 4와 LG AI연구원의 EXAONE Forecast for Demand 1.0을 공식 출시 문서·모델 카드·기술보고서 기준으로 추가.
+- **AI 제품**: Upstage Studio, 네이버 플레이스 에이전트와 웨일 AI Chat을 추가하고 네이버 본사를 네이버클라우드와 구분해 연결.
+- **한국어 평가·문서 도구**: HanIFEval 429문항 벤치마크·데이터셋과 kordoc 문서 처리 CLI·MCP 서버를 추가. HanIFEval의 원본 계보와 사람 검수 부재를 명시.
+- **국내 연구**: EXAONE Demand, WASD, BoNG, LENS, Self-Index 논문 5건과 WASD·BoNG 공식 구현을 추가. KAIST 산업및시스템공학과 AAILab을 별도 조직으로 연결.
+- **데이터 확충**: 조직 157 · 모델 200 · 제품 81 · 오픈소스 71 · 데이터셋 130 · 벤치마크 30 · 논문 296 (합계 965).
+
+### Changed
+- 업스테이지·LG AI연구원의 모델·제품 역참조를 갱신하고 업스테이지 소재지를 현재 공식 회사 정보의 서울로 정정.
+- README와 PLAN의 집계 기준일·수록 규모를 실제 YAML 파일 수에 맞춤.
+
 ## [2026.08]
 
 ### Added

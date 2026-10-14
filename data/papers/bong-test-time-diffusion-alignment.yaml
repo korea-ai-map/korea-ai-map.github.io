@@ -1,0 +1,20 @@
+title: 'Best-of-N Guidance for Test-time Diffusion Alignment'
+authors_org: KAIST · summary.ai
+venue: NeurIPS 2026
+year: 2026
+arxiv_id: '2610.05108'
+url: https://arxiv.org/abs/2610.05108
+abstract_ko: >-
+  확산 모델의 생성 과정에 Best-of-N 선택 원리를 결합하는 BoNG를 제안한다.
+  각 단계에서 보상이 가장 높은 입자를 다른 입자의 안내 신호로 사용해 역확산 경로를 조정하며,
+  단일 최종 샘플뿐 아니라 여러 생성 결과의 평균 품질을 함께 개선하는 방법을 연구한다.
+related_ids:
+  - kaist-aailab
+  - bong
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.05108
+  - type: github
+    url: https://github.com/aailab-kaist/BoNG
+last_verified: '2026-10-14'
+verification_status: verified
