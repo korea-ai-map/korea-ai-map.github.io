@@ -1,0 +1,44 @@
+name: EXAONE Forecast for Finance 1.0
+organization_id: lg-ai-research
+model_family: EXAONE Forecast
+release_date: '2026-09-03'
+status: active
+modalities:
+  - time-series
+tasks:
+  - financial-forecasting
+  - time-series-forecasting
+  - zero-shot-forecasting
+  - probabilistic-forecasting
+parameter_count:
+  value: 202000000
+  disclosure: confident
+context_length:
+  value: 512
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: EXAONE AI Model License Agreement 1.2 - NC
+  commercial_use: prohibited
+deployment:
+  cloud: true
+  on_premise: true
+languages: []
+links:
+  official: https://github.com/LGAI-Research/EXAONE-Forecast
+  model_card: https://huggingface.co/LG-AI-Research/EXAONE-Forecast-for-Finance-1.0
+  huggingface: https://huggingface.co/LG-AI-Research/EXAONE-Forecast-for-Finance-1.0
+  github: https://github.com/LGAI-Research/EXAONE-Forecast
+  paper: https://arxiv.org/abs/2609.04239
+sources:
+  - type: model-card
+    url: https://huggingface.co/LG-AI-Research/EXAONE-Forecast-for-Finance-1.0
+  - type: paper
+    url: https://arxiv.org/abs/2609.04239
+  - type: github
+    url: https://github.com/LGAI-Research/EXAONE-Forecast
+last_verified: '2026-10-20'
+verification_status: verified

@@ -1,0 +1,26 @@
+name_ko: 채널코퍼레이션
+name_en: Channel Corporation
+organization_type: startup
+country: KR
+website: https://channel.io/kr
+ai_core_level: model_builder
+categories:
+  - customer-service
+  - agent
+  - speech
+  - enterprise-ai
+status: active
+description_ko: >-
+  채널톡과 채널웍스를 개발·운영하는 국내 기업. 고객 상담 AI 에이전트 ALF와 업무용 AI CoS를 제공하며,
+  전화 상담용 음성 인식·합성·발화 종료 감지 모델 및 상담 데이터 분석용 언어모델을 자체 개발한다.
+models: []
+products:
+  - channelworks-ai
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://channel.io/kr
+  - type: official-blog
+    url: https://channel.io/kr/team/blog/articles/6bbc2dc2
+last_verified: '2026-10-20'
+verification_status: official-source

@@ -12,6 +12,7 @@ categories:
 status: active
 description_ko: 고려대학교 자연어처리·인공지능 연구실. 한국어 검색 특화 임베딩 모델 KURE, KoE5 등을 오픈소스로 공개.
 models:
+  - kure-v3
   - kure-v2
   - koe5
   - kullm-polyglot-128b-v2
@@ -26,5 +27,5 @@ sources:
     url: https://huggingface.co/nlpai-lab
   - type: github
     url: https://github.com/nlpai-lab/KURE
-last_verified: '2026-07-22'
+last_verified: '2026-10-20'
 verification_status: official-source

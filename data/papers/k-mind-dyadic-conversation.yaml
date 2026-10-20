@@ -1,0 +1,24 @@
+title: 'K-MIND: Korean Multimodal INteraction Data for Dyadic Conversation Analysis'
+authors_org: Korea Electronics Technology Institute (KETI) · MaumAI
+venue: LREC 2026
+year: 2026
+url: https://aclanthology.org/2026.lrec-1.715/
+doi: 10.63317/3mz4q73vpu6q
+abstract_ko: >-
+  한국어 1대1 대화의 언어·준언어·비언어 신호를 시간축에 정렬한 K-MIND 말뭉치와
+  계층적 주석 체계를 제안한다. 논문은 292명·200세트·935클립의 약 115시간 대화를
+  보고하며, 주석 분포와 계층 간 관계를 분석해 대화형 AI와 인간-컴퓨터 상호작용 연구를 지원한다.
+  2026년 10월 공개된 AI Hub 배포판은 화자 수와 구간 수를 별도로 안내한다.
+related_ids:
+  - keti
+  - maum-ai
+  - k-mind-dyadic
+sources:
+  - type: paper
+    url: https://aclanthology.org/2026.lrec-1.715/
+  - type: paper
+    url: https://aclanthology.org/2026.lrec-1.715.pdf
+  - type: gov
+    url: https://aihub.or.kr/aihubdata/data/view.do?dataSetSn=71986
+last_verified: '2026-10-20'
+verification_status: official-source

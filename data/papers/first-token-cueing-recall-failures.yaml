@@ -1,0 +1,18 @@
+title: 'On the Tip of the Tongue: First-Token Cueing as a Behavioral Probe of Recall Failures in LLMs'
+authors_org: Seoul National University
+venue: arXiv
+year: 2026
+arxiv_id: '2610.23400'
+url: https://arxiv.org/abs/2610.23400
+abstract_ko: >-
+  정답의 첫 토큰을 응답 시작 부분에 제공하는 First-Token Cueing으로 언어 모델의 사실 회상
+  실패를 분석한다. 16개 공개 모델과 한국어를 포함한 7개 언어에서 회복 가능한 오류를 측정하고,
+  올바른 시작을 인식하는 능력과 정답 단서 없이 스스로 생성하는 능력의 차이를 조사한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.23400
+  - type: paper
+    url: https://arxiv.org/html/2610.23400v1
+last_verified: '2026-10-20'
+verification_status: official-source

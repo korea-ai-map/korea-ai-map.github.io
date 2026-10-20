@@ -1,0 +1,18 @@
+title: 'Thunder-DeID+: Boundary-Aware Korean De-identification from Court Judgments to Broader Sensitive Documents'
+authors_org: Seoul National University
+venue: arXiv
+year: 2026
+arxiv_id: '2610.22733'
+url: https://arxiv.org/abs/2610.22733
+abstract_ko: >-
+  한국어 판결문에서 개인정보와 인접 조사가 하나의 토큰으로 합쳐지는 경계 문제를 다루는
+  Thunder-DeID+를 제안한다. 3단계 개인정보 분류체계와 경계 인식 토크나이저를 결합하고,
+  토크나이저와 독립적인 어절 세그먼트 평가를 통해 판결문과 일반 민감 문서의 비식별화를 분석한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.22733
+  - type: paper
+    url: https://arxiv.org/html/2610.22733v1
+last_verified: '2026-10-20'
+verification_status: official-source

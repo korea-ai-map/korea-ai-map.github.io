@@ -2,8 +2,8 @@ name_ko: 카나나
 name_en: Kanana
 organization_id: kakao
 description_ko: >-
-  카카오의 AI 에이전트 앱 서비스로, 개인 메이트 '나나'와 그룹 메이트 '카나'가 대화 맥락과 사용자 관심사를 기억해 개인화된 답변을 제공한다. 웹 검색, 음성·멀티모달 기능과 주제별 스페셜 AI 메이트를
-  앱과 웹에서 제공한다.
+  개인 메이트 '나나'와 그룹 메이트 '카나'를 통해 대화 맥락을 기억하고, 음성 대화·이미지 생성·스페셜 메이트를 제공하던 카카오의 독립형 AI 앱·PC 베타 서비스.
+  2026년 10월 15일 서비스를 종료했다. 카나나 인 카카오톡 등 카카오톡 내 AI 서비스는 별도로 운영된다.
 categories:
   - agent
   - content-generation
@@ -16,8 +16,8 @@ delivery_type:
 models_used: []
 model_ownership: unknown
 pricing_public: false
-status: active
-website: https://mate.kanana.ai/home
+status: archived
+website: https://brunch.co.kr/@kanana/37
 sources:
   - type: official-website
     url: https://www.kakaocorp.com/page/detail/11809
@@ -25,5 +25,7 @@ sources:
     url: https://www.kakaocorp.com/page/detail/11850?lang=KOR
   - type: official-website
     url: https://www.kakaocorp.com/page/detail/11545?lang=KOR
-last_verified: '2026-07-23'
-verification_status: verified
+  - type: official-blog
+    url: https://brunch.co.kr/@kanana/37
+last_verified: '2026-10-20'
+verification_status: archived

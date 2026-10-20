@@ -1,0 +1,20 @@
+title: 'OliO: ODE-based Linear Transition Operator for Self-Supervised Time Series Forecasting'
+authors_org: UNIST · KAIST
+venue: NeurIPS 2026
+year: 2026
+arxiv_id: '2610.23345'
+url: https://arxiv.org/abs/2610.23345
+abstract_ko: >-
+  서로 다른 시점의 시계열 잠재 표현을 선형 상미분방정식 기반 전이 연산자로 정렬하는
+  자기지도학습 방법 OliO를 제안한다. 엄격한 상삼각 행렬 제약으로 시간 이동에 따른 지수적 발산을
+  억제하며, 사전학습 후 보조 모듈을 제거해 기존 예측 모델의 추론 구조를 유지한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.23345
+  - type: paper
+    url: https://arxiv.org/html/2610.23345v1
+  - type: github
+    url: https://github.com/eai-lab/OliO
+last_verified: '2026-10-20'
+verification_status: verified

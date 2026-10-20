@@ -1,0 +1,18 @@
+title: 'GLOBE: Evolving Structured Agentic Memory for E-commerce Product Optimization in Generative Search'
+authors_org: LG Electronics AI Lab
+venue: EMNLP 2026 REALM Workshop
+year: 2026
+arxiv_id: '2610.23709'
+url: https://arxiv.org/abs/2610.23709
+abstract_ko: >-
+  생성형 검색에서 상품 정보를 개선하는 편집 전략을 필드별 행동 지침으로 축적하는
+  에이전트 프레임워크 GLOBE를 제안한다. 상품 순위 피드백으로 지침을 수정하고 중복되거나
+  반복적으로 해로운 행동을 걸러내며, 학습하지 않은 상품 범주와 순위 모델로의 전이를 평가한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.23709
+  - type: paper
+    url: https://arxiv.org/html/2610.23709v1
+last_verified: '2026-10-20'
+verification_status: official-source

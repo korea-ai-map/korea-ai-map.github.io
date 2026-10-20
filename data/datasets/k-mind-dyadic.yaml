@@ -1,0 +1,21 @@
+name: K-MIND Dyadic
+organization_id: keti
+category: multimodal
+description_ko: >-
+  한국전자기술연구원이 주관한 한국어 1대1 대화의 영상·음성·텍스트 데이터셋으로,
+  2026년 10월 7일 AI Hub에 공개됐다. 배포 페이지 기준 286명·200세트·940개 하위 구간,
+  약 115.6시간이며 발화·운율·표정·제스처와 감정·의도 주석을 시간축에 맞춰 제공한다.
+  LREC 2026 논문에 보고된 292명·935클립과 배포판 통계가 다르다.
+  AI Hub의 내국인 대상 신청·승인 절차를 통해 이용한다.
+languages:
+  - ko
+url: https://aihub.or.kr/aihubdata/data/view.do?dataSetSn=71986
+sources:
+  - type: gov
+    url: https://aihub.or.kr/aihubdata/data/view.do?dataSetSn=71986
+  - type: paper
+    url: https://aclanthology.org/2026.lrec-1.715/
+  - type: github
+    url: https://github.com/AIRC-KETI/K-MIND
+last_verified: '2026-10-20'
+verification_status: official-source

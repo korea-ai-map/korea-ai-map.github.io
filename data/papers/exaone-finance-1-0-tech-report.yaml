@@ -1,0 +1,21 @@
+title: 'EXAONE Finance 1.0: An Attention-free Time Series Foundation Model for Financial Time Series'
+authors_org: LG AI Research
+venue: arXiv
+year: 2026
+arxiv_id: '2609.04239'
+url: https://arxiv.org/abs/2609.04239
+abstract_ko: >-
+  LG AI연구원의 금융 시계열 예측 모델 EXAONE Finance 1.0 기술보고서.
+  자기어텐션 대신 시간축의 인과적 1차원 합성곱과 변수축의 그룹 인식 풀링 MLP를 사용한다.
+  금융 시계열의 두꺼운 꼬리·변동성 군집·국면 전환 등을 반영한 합성 데이터와 결측 구간 증강으로 사전학습하며,
+  FinVerse에서 점 예측·자산 순위·포트폴리오 성과를 평가한다.
+related_ids:
+  - lg-ai-research
+  - exaone-forecast-finance-1-0
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2609.04239
+  - type: model-card
+    url: https://huggingface.co/LG-AI-Research/EXAONE-Forecast-for-Finance-1.0
+last_verified: '2026-10-20'
+verification_status: verified

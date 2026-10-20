@@ -19,8 +19,11 @@ license:
 languages: []
 links:
   official: https://www.lg.co.kr/media/release/30433
+  github: https://github.com/LGAI-Research/EXAONE-Forecast
 sources:
   - type: press
     url: https://www.lg.co.kr/media/release/30433
-last_verified: '2026-08-23'
+  - type: github
+    url: https://github.com/LGAI-Research/EXAONE-Forecast
+last_verified: '2026-10-20'
 verification_status: official-source

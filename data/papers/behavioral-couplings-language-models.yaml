@@ -1,0 +1,18 @@
+title: 'Behavioral Couplings: From Formation to Behavioral Emergence in Language Models'
+authors_org: KAIST · IBM Research
+venue: arXiv
+year: 2026
+arxiv_id: '2610.23847'
+url: https://arxiv.org/abs/2610.23847
+abstract_ko: >-
+  두 행동을 함께 묘사한 문서를 학습한 언어 모델이 이후 한 행동만을 파인튜닝해도 다른 행동을
+  드러내는 행동 결합 현상을 분석한다. 서로 다른 문서에 걸친 결합의 합성과 프롬프트·활성값 조정에
+  따른 발현을 실험해, 현재 출력만으로는 드러나지 않는 후속 학습의 부작용을 연구한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.23847
+  - type: paper
+    url: https://arxiv.org/html/2610.23847v1
+last_verified: '2026-10-20'
+verification_status: official-source

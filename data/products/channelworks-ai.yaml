@@ -1,0 +1,34 @@
+name_ko: 채널웍스 AI 에디션
+name_en: Channel Works AI Edition
+organization_id: channel-corporation
+description_ko: >-
+  채널코퍼레이션이 2026년 10월 16일 정식 출시한 고객 상담·데이터 분석·마케팅 업무용 AI 서비스.
+  채팅·전화 상담 에이전트 ALF와 업무용 AI CoS를 제공하며, 상담 기록과 외부 데이터를 연결해 분석·보고서 작성과 마케팅 실행을 지원한다.
+categories:
+  - agent
+  - customer-service
+  - data-analysis
+  - workflow-automation
+target_users:
+  - enterprise
+delivery_type:
+  - saas
+  - agent
+models_used: []
+model_ownership: hybrid
+pricing_public: true
+status: active
+website: https://channel.io/kr/works
+sources:
+  - type: official-docs
+    url: https://docs.channel.io/updates/ko/articles/Important-Notice-AI-Beta-Services-Including-ALF-Marketing-and-CoS-to-End-as-Features-Officially-Launch-Oct-16-2026-169b9f23
+  - type: official-website
+    url: https://channel.io/kr/works
+  - type: official-website
+    url: https://channel.io/kr/pricing
+  - type: official-blog
+    url: https://channel.io/kr/team/blog/articles/6bbc2dc2
+  - type: official-blog
+    url: https://docs.channel.io/tech-blog/ko/articles/channel-talk-gpt-5-6-luna-d1671db1
+last_verified: '2026-10-20'
+verification_status: official-source

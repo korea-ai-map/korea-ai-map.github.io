@@ -1,0 +1,20 @@
+title: 'Beyond SAEs: Consistent Concept Discovery with Sparse Coding'
+authors_org: KAIST · Helmholtz Munich
+venue: arXiv
+year: 2026
+arxiv_id: '2610.23801'
+url: https://arxiv.org/abs/2610.23801
+abstract_ko: >-
+  희소 오토인코더가 학습 시드에 따라 서로 다른 개념 사전을 얻는 문제를 다루는 ConSDL을 제안한다.
+  샘플별 희소 코딩, 계수 재추정, 함께 활성화되는 원소의 유사도 정규화를 결합하고,
+  합성 데이터와 시각·언어 모델 활성값에서 사전·계수의 복원성과 학습 간 일관성을 평가한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.23801
+  - type: paper
+    url: https://arxiv.org/html/2610.23801v1
+  - type: github
+    url: https://github.com/dynamical-inference/consdl
+last_verified: '2026-10-20'
+verification_status: verified

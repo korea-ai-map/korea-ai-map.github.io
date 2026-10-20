@@ -1,0 +1,47 @@
+name: KURE-v3
+organization_id: korea-university-nlpai-lab
+model_family: KURE
+release_date: '2026-10-20'
+status: active
+modalities:
+  - text
+tasks:
+  - embedding
+  - semantic-search
+  - retrieval
+parameter_count:
+  value: 1140918272
+  disclosure: confident
+context_length:
+  value: 8192
+  confidence: confident
+availability:
+  api: true
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+# KURE-v2 SFT 데이터로 교사 점수 KL 증류와 2048/1024/512/256차원 Matryoshka 학습을 수행한 파생 모델.
+# 공식 GitHub의 Training Details와 train/dense 코드가 독자적인 후속 학습을 문서화한다.
+base_model: nvidia/Nemotron-3-Embed-1B-BF16
+links:
+  official: https://kure.kullm.ai/
+  model_card: https://huggingface.co/nlpai-lab/KURE-v3
+  huggingface: https://huggingface.co/nlpai-lab/KURE-v3
+  github: https://github.com/nlpai-lab/KURE
+sources:
+  - type: model-card
+    url: https://huggingface.co/nlpai-lab/KURE-v3
+  - type: github
+    url: https://github.com/nlpai-lab/KURE
+  - type: official-website
+    url: https://kure.kullm.ai/
+last_verified: '2026-10-20'
+verification_status: verified

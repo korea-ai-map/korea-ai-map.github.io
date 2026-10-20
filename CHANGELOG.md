@@ -8,13 +8,19 @@
 ## [2026.10]
 
 ### Added
+- **10월 20일 모델 보강**: 고려대 NLP & AI Lab의 KURE-v3를 NVIDIA Nemotron 기반의 증류·Matryoshka 후속학습 모델로 명시해 추가. 9월 3일 공개됐으나 누락된 EXAONE Forecast for Finance 1.0과 기술보고서도 연결.
+- **AI 고객 상담·업무 도구**: 10월 16일 정식 출시한 채널웍스 AI 에디션과 개발사 채널코퍼레이션을 추가.
+- **한국어 멀티모달 대화**: 10월 7일 AI Hub에 공개된 K-MIND Dyadic 데이터셋과 LREC 2026 논문을 추가하고, 배포판과 논문 간 화자·클립 수 차이를 구분해 기록.
+- **최신 국내 연구 7건**: KoLing, Thunder-DeID+, Behavioral Couplings, ConSDL, OliO, GLOBE, First-Token Cueing을 논문 원문과 국내 소속 근거로 추가.
 - **10월 14일 모델 갱신**: 업스테이지 Solar Mini 4와 LG AI연구원의 EXAONE Forecast for Demand 1.0을 공식 출시 문서·모델 카드·기술보고서 기준으로 추가.
 - **AI 제품**: Upstage Studio, 네이버 플레이스 에이전트와 웨일 AI Chat을 추가하고 네이버 본사를 네이버클라우드와 구분해 연결.
 - **한국어 평가·문서 도구**: HanIFEval 429문항 벤치마크·데이터셋과 kordoc 문서 처리 CLI·MCP 서버를 추가. HanIFEval의 원본 계보와 사람 검수 부재를 명시.
 - **국내 연구**: EXAONE Demand, WASD, BoNG, LENS, Self-Index 논문 5건과 WASD·BoNG 공식 구현을 추가. KAIST 산업및시스템공학과 AAILab을 별도 조직으로 연결.
-- **데이터 확충**: 조직 157 · 모델 200 · 제품 81 · 오픈소스 71 · 데이터셋 130 · 벤치마크 30 · 논문 296 (합계 965).
+- **데이터 확충**: 조직 158 · 모델 202 · 제품 82 · 오픈소스 71 · 데이터셋 131 · 벤치마크 30 · 논문 305 (합계 979).
 
 ### Changed
+- 카나나 독립 앱·PC 베타의 10월 15일 서비스 종료를 공식 공지로 확인해 보관 상태로 전환. 별도로 운영되는 카나나 인 카카오톡 및 카나나 모델군과 구분.
+- EXAONE Forecast의 일반·금융·수요 예측 모델별 가중치 공개 상태를 공식 저장소로 확인하고, LG AI연구원·고려대 NLP & AI Lab의 모델 역참조를 갱신.
 - 업스테이지·LG AI연구원의 모델·제품 역참조를 갱신하고 업스테이지 소재지를 현재 공식 회사 정보의 서울로 정정.
 - README와 PLAN의 집계 기준일·수록 규모를 실제 YAML 파일 수에 맞춤.
 

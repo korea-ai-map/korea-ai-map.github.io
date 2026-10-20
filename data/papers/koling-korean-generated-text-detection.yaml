@@ -1,0 +1,18 @@
+title: 'Beyond Surface Cues: Robust LLM-Generated Korean Text Detection'
+authors_org: Korea University
+venue: arXiv
+year: 2026
+arxiv_id: '2610.22940'
+url: https://arxiv.org/abs/2610.22940
+abstract_ko: >-
+  한국어 문장의 길이·문장부호 같은 표면적 단서에 의존하는 생성 텍스트 탐지를 분석하고,
+  사람이 쓴 글·LLM이 수정한 글·LLM이 생성한 글을 구분하는 50,902개 평가 사례의 KoLing을 제안한다.
+  음운·형태·통사·의미·화용의 47개 특징을 결합한 KoLingProbe로 탐지 성능과 오탈자 강건성을 평가한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.22940
+  - type: paper
+    url: https://arxiv.org/html/2610.22940v1
+last_verified: '2026-10-20'
+verification_status: official-source
