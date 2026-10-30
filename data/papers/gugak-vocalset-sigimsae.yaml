@@ -1,0 +1,19 @@
+title: 'Gugak-VocalSet: A Multi-Genre Studio-Quality Dataset of Korean Traditional Singing with Sigimsae Annotations'
+authors_org: KAIST·뉴튠·국립국악원
+venue: ISMIR 2026
+year: 2026
+arxiv_id: '2610.15350'
+url: https://arxiv.org/abs/2610.15350
+abstract_ko: >-
+  전문 성악가 20명의 한국 전통 무반주 가창 305곡·24.5시간에 시김새 구간 주석을 부착하고,
+  시김새 분류·검출 및 장르 간 전이 실험을 제시한다.
+  2026년 10월 30일 기준 공식 페이지는 5곡의 40초 샘플과 메타데이터를 공개하며,
+  전체 데이터 배포와 이용 조건은 추후 공지 예정이다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.15350
+  - type: official-website
+    url: https://www.danbinaerin.com/Gugak-VocalSet/
+last_verified: '2026-10-30'
+verification_status: verified

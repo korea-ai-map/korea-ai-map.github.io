@@ -1,0 +1,38 @@
+name: Kanana-2-vision-encoder-tiny
+organization_id: kakao
+model_family: Kanana
+release_date: '2026-10-21'
+status: active
+modalities:
+  - image
+tasks:
+  - image-feature-extraction
+  - vision-encoding
+parameter_count:
+  value: 98000000
+  disclosure: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Kanana Open License Agreement
+  commercial_use: restricted
+deployment:
+  cloud: true
+  on_premise: true
+languages: []
+# 자체 Kanana-2-0.9B 언어모델 기반 시각 인코더를 프루닝·증류하고 on-policy distillation을 추가 적용했다.
+# 텍스트 생성 모듈을 제외한 이미지 특징 추출기로, 온디바이스 VLM 구성요소를 목표로 한다.
+base_model: Kanana-2-0.9B
+links:
+  official: https://tech.kakao.com/posts/840
+  model_card: https://huggingface.co/kakaocorp/kanana-2-vision-encoder-tiny
+  huggingface: https://huggingface.co/kakaocorp/kanana-2-vision-encoder-tiny
+sources:
+  - type: model-card
+    url: https://huggingface.co/kakaocorp/kanana-2-vision-encoder-tiny
+  - type: official-blog
+    url: https://tech.kakao.com/posts/840
+last_verified: '2026-10-30'
+verification_status: verified

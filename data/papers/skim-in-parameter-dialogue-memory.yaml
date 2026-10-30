@@ -1,0 +1,19 @@
+title: 'Self-Keyed In-Parameter Memorization for External Memory-Free Dialogue Recall in Frozen Language Models'
+authors_org: Korea University, Department of Electrical and Computer Engineering
+venue: arXiv
+year: 2026
+arxiv_id: '2610.36948'
+url: https://arxiv.org/abs/2610.36948
+abstract_ko: >-
+  대화 내용을 외부 저장소 없이 언어 모델의 파라미터에 기록하고 나중에 회상하는 Skim을
+  제안한다. 모델이 대화 턴마다 스스로 생성한 질문을 검색 키로 삼고, 한 피드포워드 계층에
+  닫힌 형태의 가중치 편집을 적용한다. 다섯 언어 모델에서 미래 질문을 미리 알지 못하는
+  조건의 대화 기억 가능성과 실패 양상을 분석한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.36948
+  - type: paper
+    url: https://arxiv.org/html/2610.36948v1
+last_verified: '2026-10-30'
+verification_status: official-source

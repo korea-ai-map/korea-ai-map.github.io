@@ -1,0 +1,43 @@
+name: KOMOS
+organization_id: upskyy
+model_family: KOMOS
+release_date: '2026-09-18'
+status: active
+modalities:
+  - audio
+tasks:
+  - speech-quality-assessment
+  - mean-opinion-score-prediction
+parameter_count:
+  value: 309084545
+  disclosure: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: MIT
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+# Whisper-medium의 디코더를 제거하고 한국어 청취 평점으로 인코더와 청취자 조건부 회귀 헤드를 학습했다.
+# 합성곱 전처리부는 고정하며, 10초 단위 음성에 대해 1~5 MOS를 예측한다.
+base_model: openai/whisper-medium
+links:
+  official: https://github.com/upskyy/komos
+  model_card: https://huggingface.co/upskyy/komos
+  huggingface: https://huggingface.co/upskyy/komos
+  github: https://github.com/upskyy/komos
+  paper: https://arxiv.org/abs/2610.15353
+sources:
+  - type: model-card
+    url: https://huggingface.co/upskyy/komos
+  - type: paper
+    url: https://arxiv.org/abs/2610.15353
+  - type: github
+    url: https://github.com/upskyy/komos
+last_verified: '2026-10-30'
+verification_status: verified

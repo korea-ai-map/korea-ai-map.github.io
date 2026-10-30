@@ -1,0 +1,38 @@
+name: Kanana-2-vision-encoder-medium
+organization_id: kakao
+model_family: Kanana
+release_date: '2026-10-21'
+status: active
+modalities:
+  - image
+tasks:
+  - image-feature-extraction
+  - vision-encoding
+parameter_count:
+  value: 426000000
+  disclosure: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Kanana Open License Agreement
+  commercial_use: restricted
+deployment:
+  cloud: true
+  on_premise: true
+languages: []
+# 자체 Kanana-2-0.9B 언어모델에서 출발해 시각 학습한 Large 인코더를 프루닝·증류한 모델.
+# 텍스트 생성 모듈을 제외한 이미지 특징 추출기이며 VLM 구성요소로 사용한다.
+base_model: Kanana-2-0.9B
+links:
+  official: https://tech.kakao.com/posts/840
+  model_card: https://huggingface.co/kakaocorp/kanana-2-vision-encoder-medium
+  huggingface: https://huggingface.co/kakaocorp/kanana-2-vision-encoder-medium
+sources:
+  - type: model-card
+    url: https://huggingface.co/kakaocorp/kanana-2-vision-encoder-medium
+  - type: official-blog
+    url: https://tech.kakao.com/posts/840
+last_verified: '2026-10-30'
+verification_status: verified

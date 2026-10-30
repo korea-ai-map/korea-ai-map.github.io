@@ -1,0 +1,27 @@
+name_ko: 에이아이비
+name_en: AIB Inc.
+organization_type: startup
+country: KR
+website: https://www.aib.vote/
+ai_core_level: ai_native
+categories:
+  - evaluation
+  - benchmark
+  - korean-nlp
+status: active
+description_ko: >-
+  AI 모델의 답변 비교·투표와 성능 평가 서비스를 운영하는 국내 기업.
+  한국어·일본어 공개 데이터셋을 활용해 판정 모델의 정확도, 확률 신뢰도와 선택지 순서에 따른
+  안정성을 비교하는 DecisionBench-KJ 벤치마크 결과를 공개한다.
+models: []
+products: []
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.aib.vote/terms
+  - type: official-website
+    url: https://luma.com/xcgxkc48
+  - type: official-website
+    url: https://www.aib.vote/en/benchmarks/decisionbench-kj
+last_verified: '2026-10-30'
+verification_status: official-source

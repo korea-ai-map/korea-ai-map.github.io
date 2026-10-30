@@ -1,0 +1,21 @@
+title: 'ClusterSplat: Semantic Cluster Selection for 3D Visual Grounding in Gaussian Splatting'
+authors_org: KAIST, School of Computing
+venue: NeurIPS 2026 Spotlight
+year: 2026
+arxiv_id: '2610.36462'
+url: https://arxiv.org/abs/2610.36462
+abstract_ko: >-
+  자연어 표현이 가리키는 물체를 3D 가우시안 집합과 렌더링된 2D 마스크로 찾는
+  ClusterSplat을 제안한다. 물체별 특징을 학습한 뒤 장면에 맞춰 군집 후보를 구성하고,
+  질문 조건부 점수로 하나의 일관된 3차원 대상을 선택한다. ScanRefer·ScanNet v2·Ref-LERF에서
+  물체 대응과 분할을 평가하며, 구현 공개는 프로젝트 페이지에 예정으로 표시한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.36462
+  - type: paper
+    url: https://arxiv.org/html/2610.36462v1
+  - type: official-website
+    url: https://jaesung8.github.io/clustersplat/
+last_verified: '2026-10-30'
+verification_status: official-source

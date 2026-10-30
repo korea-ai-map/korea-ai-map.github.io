@@ -1,0 +1,47 @@
+name: Kanana-2-1.3B Embedding
+organization_id: kakao
+model_family: Kanana
+release_date: '2026-10-29'
+status: active
+modalities:
+  - text
+tasks:
+  - embedding
+  - semantic-search
+  - retrieval
+  - text-similarity
+parameter_count:
+  value: 1291478272
+  disclosure: confident
+context_length:
+  value: 4096
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Kanana Open License Agreement
+  commercial_use: restricted
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+# 자체 Kanana-2 SLM을 양방향 어텐션·평균 풀링으로 전환하고 3B 임베딩 모델로부터 증류했다.
+# 기본 1280차원이며 MRL로 1024/512/256/128차원 출력을 지원한다.
+base_model: Kanana-2 SLM (1.3B)
+links:
+  official: https://www.kakaocorp.com/page/detail/12181
+  model_card: https://huggingface.co/kakaocorp/kanana-2-1.3b-embedding
+  huggingface: https://huggingface.co/kakaocorp/kanana-2-1.3b-embedding
+sources:
+  - type: model-card
+    url: https://huggingface.co/kakaocorp/kanana-2-1.3b-embedding
+  - type: official-blog
+    url: https://tech.kakao.com/posts/826
+  - type: official-website
+    url: https://www.kakaocorp.com/page/detail/12181
+last_verified: '2026-10-30'
+verification_status: verified

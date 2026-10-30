@@ -1,0 +1,54 @@
+name: Raon-1 mini preview
+organization_id: krafton-ai
+model_family: Raon
+release_date: '2026-10-21'
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - reasoning
+  - tool-use
+  - agent
+parameter_count:
+  value: 28800000000
+  disclosure: confident
+context_length:
+  value: 262144
+  confidence: confident
+availability:
+  api: true
+  weights: true
+  demo: true
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+  - ja
+  - zh
+  - es
+  - fr
+  - th
+# 크래프톤이 처음부터 학습한 프리뷰 모델. 28.8B 중 토큰당 4.3B가 활성화되는 MoE이며,
+# Raon Delta Attention 18개 층과 full attention 7개 층을 결합한다.
+# 공개 가중치는 Apache-2.0이며 호스팅 API·플레이그라운드는 별도 서비스 약관을 적용한다.
+base_model: from-scratch
+links:
+  official: https://raon-console.krafton.ai/playground/guest
+  model_card: https://huggingface.co/KRAFTON/Raon-1-mini-preview
+  huggingface: https://huggingface.co/KRAFTON/Raon-1-mini-preview
+  github: https://github.com/krafton-ai/Raon-1-mini-preview
+sources:
+  - type: model-card
+    url: https://huggingface.co/KRAFTON/Raon-1-mini-preview
+  - type: github
+    url: https://github.com/krafton-ai/Raon-1-mini-preview
+  - type: official-website
+    url: https://raon-console.krafton.ai/playground/guest
+last_verified: '2026-10-30'
+verification_status: verified

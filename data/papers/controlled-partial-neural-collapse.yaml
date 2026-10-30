@@ -1,0 +1,19 @@
+title: 'Full Collapse Is Suboptimal: Controlled Partial Neural Collapse for Long-Tailed Recognition'
+authors_org: KAIST · RTST
+venue: WACV 2027
+year: 2026
+arxiv_id: '2610.36460'
+url: https://arxiv.org/abs/2610.36460
+abstract_ko: >-
+  표본 수가 적은 클래스의 특징이 지나치게 한 점으로 수렴하는 문제를 줄이기 위해
+  부분적인 신경 붕괴를 제어하는 장꼬리 분류 방법을 제안한다. 클래스 적응형 희소 활성
+  분류기 CASA와 빈도에 따라 달라지는 ETF 제약 마진 손실을 결합해 소수 클래스의
+  내부 다양성을 보존하며, 네 이미지 분류 데이터셋에서 일반화 성능을 평가한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.36460
+  - type: paper
+    url: https://arxiv.org/html/2610.36460v1
+last_verified: '2026-10-30'
+verification_status: official-source

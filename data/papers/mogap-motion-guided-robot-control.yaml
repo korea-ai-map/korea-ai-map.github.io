@@ -1,0 +1,25 @@
+title: Adapting Video Models for Robot Control via Motion-guided Asymmetric Prediction
+authors_org: KAIST · RLWRLD
+venue: arXiv
+year: 2026
+arxiv_id: '2610.36624'
+url: https://arxiv.org/abs/2610.36624
+abstract_ko: >-
+  비디오 생성 모델 기반 로봇 제어 학습에서 움직이는 영역의 예측에 집중하도록 하는
+  MoGAP을 제안한다. 동적 영역에는 더 강한 잡음을 주고 정적 영역은 문맥으로 활용하는
+  보조 예측 경로를 학습 시에만 사용한다. 학습 영상 자체에서 얻은 움직임 단서를 활용하며,
+  로봇 조작 시뮬레이션과 실제 휴머노이드에서 정책 성능을 평가한다.
+related_ids:
+  - kaist
+  - rlwrld
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.36624
+  - type: paper
+    url: https://arxiv.org/html/2610.36624v1
+  - type: official-website
+    url: https://ismty0805.github.io/mogap/
+  - type: official-website
+    url: https://alinlab.kaist.ac.kr/shin.html
+last_verified: '2026-10-30'
+verification_status: official-source

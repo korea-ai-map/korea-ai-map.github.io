@@ -1,0 +1,19 @@
+title: 'V-LUMEN: Visual Lookup Memory for Embedding Scaling in Vision-Language Models'
+authors_org: Korea University · Amazon
+venue: NeurIPS 2026
+year: 2026
+arxiv_id: '2610.37019'
+url: https://arxiv.org/abs/2610.37019
+abstract_ko: >-
+  시각 언어 모델의 용량을 조회형 시각 메모리로 확장하는 V-LUMEN을 제안한다.
+  고정된 코드북으로 시각 특징을 이산화하고 공간 구조와 질문 관련성을 반영해 메모리 키를
+  구성하며, 조회한 임베딩을 게이트가 있는 잔차 경로로 결합한다. 동결한 모델과
+  동일 파라미터 예산의 어댑터 실험으로 외부 메모리의 효과와 미학습 이미지로의 전이를 평가한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.37019
+  - type: paper
+    url: https://arxiv.org/html/2610.37019v1
+last_verified: '2026-10-30'
+verification_status: official-source

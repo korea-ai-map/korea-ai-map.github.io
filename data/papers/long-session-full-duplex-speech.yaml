@@ -1,0 +1,24 @@
+title: Diagnosing and Mitigating Long-Session Degradation in Full-Duplex Speech Models
+authors_org: Seoul National University · University of Seoul
+venue: arXiv
+year: 2026
+arxiv_id: '2610.34991'
+url: https://arxiv.org/abs/2610.34991
+abstract_ko: >-
+  동시 발화와 듣기를 지원하는 음성 대화 모델이 긴 세션에서 보이는 응답성·발화 내용·목소리
+  일관성의 저하를 폐루프 시뮬레이션으로 분석한다. 짧은 대화에 문맥 요약을 제공한 교사의
+  예측을 자기 증류하고, 최근 대화는 상세하게 유지하면서 이전 대화는 압축하는 TRC 구조를
+  제안한다. 세 모델의 장시간 안정성을 평가하고 시뮬레이션·평가 코드를 공개한다.
+related_ids:
+  - snu-aiis
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.34991
+  - type: paper
+    url: https://arxiv.org/html/2610.34991v2
+  - type: official-website
+    url: https://kimjunho333.github.io/dmlsd-fdsm/
+  - type: github
+    url: https://github.com/KIMJUNHO333/dmlsd-fdsm-code
+last_verified: '2026-10-30'
+verification_status: verified

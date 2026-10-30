@@ -1,0 +1,21 @@
+title: Learning Quality-Controllable Robot Policies with Iterative Hindsight Relabeling
+authors_org: KAIST · LG Electronics · Microsoft Research
+venue: arXiv
+year: 2026
+arxiv_id: '2610.37393'
+url: https://arxiv.org/abs/2610.37393
+abstract_ko: >-
+  로봇이 작업을 수행하는 속도·부드러움 등 행동 품질을 추론 시 조절하는 QCP를 제안한다.
+  목표 품질 조건으로 수집한 성공 궤적을 누적하고 실제 측정된 품질로 다시 라벨링해
+  정책을 반복 학습한다. 시뮬레이션과 실제 로봇의 컨베이어 작업·와인잔 운반에서
+  품질 제어와 초기 시연 범위를 넘어서는 개선을 평가한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.37393
+  - type: paper
+    url: https://arxiv.org/html/2610.37393v1
+  - type: official-website
+    url: https://sinnnj.github.io/qcp/
+last_verified: '2026-10-30'
+verification_status: official-source

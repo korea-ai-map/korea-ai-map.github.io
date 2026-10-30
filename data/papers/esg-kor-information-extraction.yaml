@@ -1,0 +1,24 @@
+title: 'ESG-Kor: A Korean Dataset for ESG-related Information Extraction and Practical Use Cases'
+authors_org: 한양대학교 데이터사이언스학과
+venue: Findings of EMNLP 2024
+year: 2024
+arxiv_id: '2610.21368'
+url: https://aclanthology.org/2024.findings-emnlp.387/
+doi: 10.18653/v1/2024.findings-emnlp.387
+abstract_ko: >-
+  한국 기업의 지속가능경영보고서에서 ESG 정보를 추출하기 위한 한국어 문장 데이터와 분류 실험을 제시한다.
+  평가기관의 기준에 따른 수작업 레이블을 사용하고 중소기업 문서 분석으로 적용 범위를 살핀다.
+  2024년 발표 논문으로, arXiv에는 2026년 10월 등록됐다.
+related_ids:
+  - esg-kor
+sources:
+  - type: paper
+    url: https://aclanthology.org/2024.findings-emnlp.387/
+  - type: paper
+    url: https://arxiv.org/abs/2610.21368
+  - type: paper
+    url: https://arxiv.org/html/2610.21368v1
+  - type: github
+    url: https://github.com/nowzer0/ESG-Kor
+last_verified: '2026-10-30'
+verification_status: verified

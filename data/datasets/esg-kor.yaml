@@ -1,0 +1,17 @@
+name: ESG-Kor
+category: domain-specific
+description_ko: >-
+  한양대 데이터사이언스학과 연구진이 기업 지속가능경영보고서에서 추출한 한국어 118,946문장에
+  ESG 관련성 및 환경·사회·지배구조 분류를 수작업으로 부착한 데이터셋.
+  이진·다중 분류 데이터를 공개하며 원 연구는 Findings of EMNLP 2024에 발표됐다.
+languages:
+  - ko
+license: AFL-3.0
+url: https://github.com/nowzer0/ESG-Kor
+sources:
+  - type: github
+    url: https://github.com/nowzer0/ESG-Kor
+  - type: paper
+    url: https://aclanthology.org/2024.findings-emnlp.387/
+last_verified: '2026-10-30'
+verification_status: verified

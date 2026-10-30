@@ -1,0 +1,19 @@
+title: 'ReForest: Interpretability Meets Reasoning in Isolation Forest'
+authors_org: Sungkyunkwan University
+venue: PAKDD 2026
+year: 2026
+arxiv_id: '2610.37316'
+url: https://arxiv.org/abs/2610.37316
+abstract_ko: >-
+  Isolation Forest의 통계적 이상 탐지에 언어 모델의 문맥 추론을 결합하는 ReForest를
+  제안한다. 트리의 결정 경로를 자연어 설명으로 변환하고, 개별 사례의 불확실성에 따라
+  통계 점수와 언어 모델 판단의 비중을 조절한다. 의료·금융 분야의 네 데이터셋에서
+  탐지 성능과 통계적 근거에 연결된 설명을 평가한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.37316
+  - type: paper
+    url: https://arxiv.org/pdf/2610.37316
+last_verified: '2026-10-30'
+verification_status: official-source

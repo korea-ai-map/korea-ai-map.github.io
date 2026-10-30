@@ -1,0 +1,28 @@
+name_ko: 큐빅
+name_en: CUBIG
+organization_type: startup
+country: KR
+headquarters: 경기도 성남시
+website: https://cubig.ai/
+founded_year: 2021
+ai_core_level: ai_infrastructure
+categories:
+  - data-centric-ai
+  - privacy
+  - enterprise-ai
+status: active
+description_ko: >-
+  2021년 설립된 국내 AI 데이터 기술 기업. Syntitan, DTS, LLM Capsule을 통해 기업 데이터를
+  AI 업무에 맞게 준비·검증하고 민감정보의 일관된 치환과 복원을 지원한다.
+  한국어 개인정보 치환 방식에 따른 LLM의 정보 조회·추출 성능을 비교하는 공개 벤치마크를 배포한다.
+models: []
+products: []
+open_source_links:
+  - https://huggingface.co/datasets/CUBIGCorp/korean-pii-replacement-benchmark
+sources:
+  - type: official-website
+    url: https://cubig.ai/company/
+  - type: huggingface
+    url: https://huggingface.co/CUBIGCorp
+last_verified: '2026-10-30'
+verification_status: official-source

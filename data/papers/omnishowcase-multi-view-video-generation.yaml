@@ -1,0 +1,23 @@
+title: 'OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images'
+authors_org: KAIST AI · Inha University · FLIPTION
+venue: arXiv
+year: 2026
+arxiv_id: '2610.35684'
+url: https://arxiv.org/abs/2610.35684
+abstract_ko: >-
+  여러 참조 이미지에서 특정 물체의 모습과 3차원 구조를 유지하는 영상을 생성하는
+  OmniShowcase를 제안한다. 참조 시점에서 복원한 표면 법선의 회전 영상을 조건으로 활용하고,
+  다양한 카메라 경로의 3D 에셋 기반 학습 데이터를 합성한다. 논문은 Showcase-4K와
+  ShowcaseBench를 소개하며, 저장소에는 데이터·추론·학습 코드 공개가 예정으로 표시돼 있다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.35684
+  - type: paper
+    url: https://arxiv.org/html/2610.35684v1
+  - type: official-website
+    url: https://justin4ai.github.io/OmniShowcase/
+  - type: github
+    url: https://github.com/justin4ai/OmniShowcase
+last_verified: '2026-10-30'
+verification_status: official-source

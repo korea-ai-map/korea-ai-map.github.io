@@ -1,0 +1,22 @@
+title: 'KBS: A Korean Benchmark Suite for Foundation Model Evaluation'
+authors_org: 서울대학교 데이터사이언스대학원·컴퓨터공학부
+venue: arXiv
+year: 2026
+arxiv_id: '2610.21227'
+url: https://arxiv.org/abs/2610.21227
+abstract_ko: >-
+  한국어 기반모델 평가를 위한 여섯 태스크·9,396문항의 KBS를 제안한다.
+  번역 검수와 문화적 현지화, 한국어 문학 원문, 한국어용 지시 검증 규칙을 결합하고,
+  모델 접근 방식·프롬프트·채점 설정이 결과 해석에 미치는 영향을 분석한다.
+related_ids:
+  - kbs-korean-benchmark-suite
+  - kbs-evaluation
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.21227
+  - type: paper
+    url: https://arxiv.org/html/2610.21227v1
+  - type: github
+    url: https://github.com/mcrl/korean_benchmarks
+last_verified: '2026-10-30'
+verification_status: verified

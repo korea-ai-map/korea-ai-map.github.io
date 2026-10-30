@@ -1,0 +1,19 @@
+title: 'ReCoPII: A Relation-Grounded Framework for Building Contextual PII Masking Datasets'
+authors_org: Hanyang University, Department of Data Science
+venue: arXiv
+year: 2026
+arxiv_id: '2610.35925'
+url: https://arxiv.org/abs/2610.35925
+abstract_ko: >-
+  개체 간 관계를 근거로 개인정보를 가릴지 보존할지 구분하는 한국어 문맥 기반 마스킹
+  데이터 구축 방법 ReCoPII를 제안한다. 온톨로지로 관계를 설계하고 자리표시자가 있는
+  문장 생성·코드 기반 주석 복원·별도 언어 모델 검토를 결합한다. 여섯 분야의 합성 문서로
+  만든 ReCoPII-Ko에서 과도한 마스킹과 정보 누출을 평가하며, 데이터와 코드 공개는 예정으로 명시한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.35925
+  - type: paper
+    url: https://arxiv.org/html/2610.35925v1
+last_verified: '2026-10-30'
+verification_status: official-source

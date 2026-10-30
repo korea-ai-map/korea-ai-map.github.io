@@ -8,16 +8,19 @@ ai_core_level: model_builder
 categories:
   - embedding
   - korean-nlp
+  - speech-quality-assessment
 status: active
-description_ko: 한국어 특화 문장 임베딩 모델(e5-large-korean, kf-deberta-multitask 등)을 공개한 개인 오픈소스 기여자.
+description_ko: 한국어 특화 문장 임베딩 모델(e5-large-korean, kf-deberta-multitask 등)과 한국어 음질 평가 모델 KOMOS를 공개한 개인 오픈소스 기여자.
 models:
   - e5-large-korean
   - kf-deberta-multitask
+  - komos
 products: []
 open_source_links:
   - https://huggingface.co/upskyy
+  - https://github.com/upskyy/komos
 sources:
   - type: huggingface
     url: https://huggingface.co/upskyy
-last_verified: '2026-07-22'
+last_verified: '2026-10-30'
 verification_status: official-source

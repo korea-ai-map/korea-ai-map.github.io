@@ -1,0 +1,17 @@
+name: KBS (Korean Benchmark Suite)
+category: korean-understanding
+description_ko: >-
+  서울대 연구진이 한국어 기반모델의 여섯 역량을 평가하도록 구성한 9,396문항 벤치마크.
+  Ko-ARC·Ko-GSM8K·Ko-EQ-Bench·Ko-WinoGrande·Ko-LAMBADA·Ko-IFEval을 묶으며,
+  번역 검수·문화적 현지화·한국어 원문 구성·지시 검증 재설계를 적용한다.
+  태스크별 데이터 접근 조건과 라이선스가 다르다.
+url: https://github.com/mcrl/korean_benchmarks
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.21227
+  - type: github
+    url: https://github.com/mcrl/korean_benchmarks
+  - type: huggingface
+    url: https://huggingface.co/collections/thunder-research-group/snu-thunder-llm-korean-benchmark-suite
+last_verified: '2026-10-30'
+verification_status: verified

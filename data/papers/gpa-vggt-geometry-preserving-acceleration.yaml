@@ -1,0 +1,19 @@
+title: 'GPA-VGGT: Geometry-Preserving Acceleration of VGGT'
+authors_org: Seoul National University
+venue: WACV 2027
+year: 2026
+arxiv_id: '2610.37000'
+url: https://arxiv.org/abs/2610.37000
+abstract_ko: >-
+  다중 시점 3차원 기하 추정 모델 VGGT를 추가 학습 없이 가속하는 GPA-VGGT를 제안한다.
+  초기 계층에는 프레임 간 정보를 공유하는 압축된 키·값을 사용하고, 이후 계층에서는
+  모든 쿼리를 보존한 채 키·값만 병합한다. 병합 토큰의 크기 보정과 저차원 매칭을
+  결합해 카메라 자세·포인트맵 추정의 정밀도와 실행 시간을 평가한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.37000
+  - type: paper
+    url: https://arxiv.org/html/2610.37000v1
+last_verified: '2026-10-30'
+verification_status: official-source

@@ -1,0 +1,23 @@
+title: 'KOMOS: Automatic Mean Opinion Score Estimation for Korean Speech'
+authors_org: Independent Researcher; Sungkyunkwan University
+venue: arXiv
+year: 2026
+arxiv_id: '2610.15353'
+url: https://arxiv.org/abs/2610.15353
+abstract_ko: >-
+  독립 연구자와 성균관대학교 연구진이 한국어 낭독·자발화의 전반적인 음질을 예측하는 KOMOS를 제안한다.
+  한국어 모어 화자 29명이 1,000개 발화에 부여한 5,000개 평점을 구축하고,
+  Whisper-medium 인코더와 청취자 조건부 회귀 헤드를 학습한다.
+  810·90·100개 발화로 학습·검증·평가를 나누며, 평가 발화에서 SRCC 0.900을 보고한다.
+  합성 시스템이 데이터 분할 사이에 겹칠 수 있는 평가 조건과 화자·문장 비중복 부분집합을 구분한다.
+related_ids:
+  - upskyy
+  - komos
+  - komos-inference
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.15353
+  - type: github
+    url: https://github.com/upskyy/komos
+last_verified: '2026-10-30'
+verification_status: verified

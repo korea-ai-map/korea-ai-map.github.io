@@ -1,0 +1,15 @@
+name: AIB DecisionBench-KJ
+organization_id: aib
+category: korean-understanding
+description_ko: >-
+  에이아이비가 한국어·일본어 판정 모델을 비교하기 위해 8개 공개 데이터셋에서 추출한 2,000문항으로
+  구성한 벤치마크. 정확도, 예측 확률의 신뢰도와 선택지 순서 변경에 따른 안정성을 평가한다.
+  2026년 10월 3일 처음 공개됐으며, 0.2 버전의 모델별 결과가 10월 24일 갱신됐다.
+  공개 결과 데이터는 CC BY 4.0으로 제공하지만, 평가 문항과 실행 코드는 공개 페이지에서 제공하지 않는다.
+  표본 추출 시드와 문항 집합의 SHA-256 해시를 공개하며 원본 데이터 행 목록은 요청 시 제공한다.
+url: https://www.aib.vote/en/benchmarks/decisionbench-kj
+sources:
+  - type: official-website
+    url: https://www.aib.vote/en/benchmarks/decisionbench-kj
+last_verified: '2026-10-30'
+verification_status: official-source

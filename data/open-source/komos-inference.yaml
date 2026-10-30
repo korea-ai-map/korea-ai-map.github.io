@@ -1,0 +1,19 @@
+name: KOMOS Inference
+organization_id: upskyy
+repo_type: eval-tool
+url: https://github.com/upskyy/komos
+description_ko: >-
+  한국어 음성의 평균 의견 점수(MOS)를 예측하는 KOMOS의 공개 추론 패키지.
+  Whisper-medium 기반으로 추가 학습한 모델을 PyTorch·ONNX Runtime에서 실행하며,
+  음성을 16kHz 모노로 변환해 1~5점으로 평가한다.
+  기본 추론은 첫 10초를 처리하고, 긴 음성은 최대 60초까지 겹치지 않는 10초 구간의
+  원시 점수를 구간 길이로 가중평균한 뒤 보정하고 1~5점 범위로 제한한다.
+language: Python
+license: MIT
+sources:
+  - type: github
+    url: https://github.com/upskyy/komos
+  - type: model-card
+    url: https://huggingface.co/upskyy/komos
+last_verified: '2026-10-30'
+verification_status: verified

@@ -8,6 +8,9 @@
 ## [2026.10]
 
 ### Added
+- **10월 30일 모델 보강 7건**: KRAFTON Raon-1 mini preview, Kanana-2 비전 인코더 Medium·Tiny, 10월 29일 공개된 Kanana-2 임베딩 1.3B·3B를 추가. 한국어 청취 평점으로 Whisper 인코더를 학습한 KOMOS도 계보·학습 기여를 명시해 논문·추론 도구와 연결. 9월 22일 베타 공개된 업스테이지 Solar Decide의 누락분도 공식 API 문서 기준으로 보완.
+- **한국어 평가·데이터 자산**: 서울대 KBS 9,396문항 벤치마크와 평가 코드를 추가. CUBIG의 개인정보 치환 벤치마크와 AIB DecisionBench-KJ를 개발 조직과 연결하고, 단일 모델 실험·결과 공개 범위 등 평가의 한계를 명시. 최근 arXiv 등록으로 확인한 ESG-Kor 데이터와 논문은 원 발표연도인 2024년으로 보완.
+- **국내 연구 논문 18건**: KBS·KOMOS·ESG-Kor·Gugak-VocalSet 및 Skim·ReForest·XTrack·V-LUMEN·GPA-VGGT·LOWN·MoGAP·ReCoPII·ClusterSplat·Partial Neural Collapse·장시간 음성 대화·FATE-5·OmniShowcase·QCP를 추가. 미배포 데이터·코드는 별도 자산으로 등재하지 않고 실제 공개 범위를 구분.
 - **10월 20일 모델 보강**: 고려대 NLP & AI Lab의 KURE-v3를 NVIDIA Nemotron 기반의 증류·Matryoshka 후속학습 모델로 명시해 추가. 9월 3일 공개됐으나 누락된 EXAONE Forecast for Finance 1.0과 기술보고서도 연결.
 - **AI 고객 상담·업무 도구**: 10월 16일 정식 출시한 채널웍스 AI 에디션과 개발사 채널코퍼레이션을 추가.
 - **한국어 멀티모달 대화**: 10월 7일 AI Hub에 공개된 K-MIND Dyadic 데이터셋과 LREC 2026 논문을 추가하고, 배포판과 논문 간 화자·클립 수 차이를 구분해 기록.
@@ -16,9 +19,10 @@
 - **AI 제품**: Upstage Studio, 네이버 플레이스 에이전트와 웨일 AI Chat을 추가하고 네이버 본사를 네이버클라우드와 구분해 연결.
 - **한국어 평가·문서 도구**: HanIFEval 429문항 벤치마크·데이터셋과 kordoc 문서 처리 CLI·MCP 서버를 추가. HanIFEval의 원본 계보와 사람 검수 부재를 명시.
 - **국내 연구**: EXAONE Demand, WASD, BoNG, LENS, Self-Index 논문 5건과 WASD·BoNG 공식 구현을 추가. KAIST 산업및시스템공학과 AAILab을 별도 조직으로 연결.
-- **데이터 확충**: 조직 158 · 모델 202 · 제품 82 · 오픈소스 71 · 데이터셋 131 · 벤치마크 30 · 논문 305 (합계 979).
+- **데이터 확충**: 조직 160 · 모델 209 · 제품 82 · 오픈소스 73 · 데이터셋 132 · 벤치마크 33 · 논문 323 (합계 1012).
 
 ### Changed
+- AI Hub 일상대화 한국어 멀티세션·초거대 언어모델 신뢰성 데이터의 10월 20일 배포판 1.2 검증용 라벨 수정 이력을 반영하고, 카카오·KRAFTON AI·upskyy·업스테이지의 신규 모델 역참조와 검증일을 갱신.
 - 카나나 독립 앱·PC 베타의 10월 15일 서비스 종료를 공식 공지로 확인해 보관 상태로 전환. 별도로 운영되는 카나나 인 카카오톡 및 카나나 모델군과 구분.
 - EXAONE Forecast의 일반·금융·수요 예측 모델별 가중치 공개 상태를 공식 저장소로 확인하고, LG AI연구원·고려대 NLP & AI Lab의 모델 역참조를 갱신.
 - 업스테이지·LG AI연구원의 모델·제품 역참조를 갱신하고 업스테이지 소재지를 현재 공식 회사 정보의 서울로 정정.

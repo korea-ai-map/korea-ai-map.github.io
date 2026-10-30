@@ -1,0 +1,26 @@
+title: 'Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs'
+authors_org: KAIST · AITRICS
+venue: arXiv
+year: 2026
+arxiv_id: '2610.36671'
+url: https://arxiv.org/abs/2610.36671
+abstract_ko: >-
+  확산 시각 언어 모델이 매 디노이징 단계에서 이미지를 다시 처리할지 결정하는 LOWN을
+  제안한다. 텍스트만으로 얻은 예측이 직전 이미지 조건부 예측과 일치하면 이를 재사용하고,
+  일치하는 토큰 수에 따라 한 단계에서 확정할 토큰 수도 조절한다. 추가 학습이나 임계값
+  튜닝 없이 시각 토큰 처리 비용을 줄이며, 공개 구현을 제공한다.
+related_ids:
+  - kaist-mlilab
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.36671
+  - type: paper
+    url: https://arxiv.org/html/2610.36671v1
+  - type: github
+    url: https://github.com/hyeon9698/LOWN
+  - type: official-website
+    url: https://hyeon9698.github.io/LOWN/
+  - type: official-website
+    url: https://mli.kaist.ac.kr/
+last_verified: '2026-10-30'
+verification_status: verified

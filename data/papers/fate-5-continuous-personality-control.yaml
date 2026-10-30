@@ -1,0 +1,19 @@
+title: 'FATE-5: Faithful Alignment of Trait Expression for Continuous Big Five Personality Control'
+authors_org: Sungkyunkwan University, Department of Artificial Intelligence
+venue: arXiv
+year: 2026
+arxiv_id: '2610.34889'
+url: https://arxiv.org/abs/2610.34889
+abstract_ko: >-
+  대화 에이전트의 Big Five 성격 특성을 연속적인 값으로 조절하는 FATE-5를 제안한다.
+  대화와 설문 목적함수로 성격 프로필을 소프트 프롬프트에 인코딩한 뒤, 성격 일치도와
+  대화 품질을 함께 반영한 선호 정렬로 자연스러움을 개선한다. 세 언어 모델에서
+  성격 표현·대화 자연스러움·미학습 설문으로의 일반화를 평가한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.34889
+  - type: paper
+    url: https://arxiv.org/html/2610.34889v2
+last_verified: '2026-10-30'
+verification_status: official-source

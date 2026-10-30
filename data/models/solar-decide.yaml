@@ -1,0 +1,47 @@
+name: Solar Decide
+organization_id: upstage
+model_family: solar
+# 공식 변경 이력에 기록된 최초 베타 API 공개일.
+release_date: '2026-09-22'
+# 검증일 현재 공개 API로 제공되는 베타 모델이다.
+status: active
+modalities:
+  - text
+tasks:
+  - structured-decision
+  - classification
+  - routing
+  - policy-checking
+parameter_count:
+  value: null
+  disclosure: undisclosed
+context_length:
+  # 공식 문서는 512K로 표기하며 정확한 정수 토큰 수는 공개하지 않는다.
+  value: null
+  confidence: undisclosed
+availability:
+  api: true
+  weights: false
+  demo: false
+license:
+  # API 제공 사실만으로 모델 가중치 라이선스나 상업 이용 조건을 추정하지 않는다.
+  name: unknown
+  commercial_use: unknown
+deployment:
+  cloud: true
+  on_premise: false
+languages:
+  - ko
+# 검증일 현재 공식 모델 문서가 명시하는 기반 모델. 출시일과 구분해 기록한다.
+base_model: Solar Mini 4
+links:
+  official: https://console.upstage.ai/docs/models/solar-decide
+sources:
+  - type: official-docs
+    url: https://console.upstage.ai/docs/models/solar-decide
+  - type: official-docs
+    url: https://console.upstage.ai/api/systemone
+  - type: official-docs
+    url: https://console.upstage.ai/docs/resources/changelog
+last_verified: '2026-10-30'
+verification_status: official-source

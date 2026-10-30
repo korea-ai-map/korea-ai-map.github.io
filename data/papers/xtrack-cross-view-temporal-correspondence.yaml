@@ -1,0 +1,19 @@
+title: Repurposing Video Diffusion Transformers for Cross-View Temporal Object Correspondence
+authors_org: KAIST AI · Korea University
+venue: arXiv
+year: 2026
+arxiv_id: '2610.37633'
+url: https://arxiv.org/abs/2610.37633
+abstract_ko: >-
+  서로 다른 시점의 영상에서 같은 물체의 정체성을 시간에 걸쳐 유지하는 XTrack을
+  제안한다. 사전학습 비디오 확산 트랜스포머를 RGB 영상에서 물체 마스크로 변환하는
+  데 활용하고, 시점 간 주의 정렬·혼동하기 쉬운 오답 객체·국소 영역으로 대응을 학습한다.
+  Ego-Exo4D의 희소 주석을 조밀한 의사 라벨로 확장하는 학습 데이터 구성 방법도 제시한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.37633
+  - type: paper
+    url: https://arxiv.org/html/2610.37633v1
+last_verified: '2026-10-30'
+verification_status: official-source

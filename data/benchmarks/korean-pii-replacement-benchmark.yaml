@@ -1,0 +1,16 @@
+name: Korean PII Replacement Benchmark
+organization_id: cubig
+category: safety
+description_ko: >-
+  큐빅이 2026년 10월 공개한 한국어 개인정보 치환 방식별 LLM 정보 조회·추출 평가.
+  OpenPII 문서 500개와 KDPII 대화 500개에 두 과제와 네 조건(원문·별표·해시 복원·유형표지 복원)을
+  적용한 저장 응답 8,000개와 오프라인 채점 코드를 CC BY 4.0으로 제공한다.
+  정답 개인정보 구간을 고정한 단일 모델 실험으로, 개인정보 탐지나 LLM Capsule 제품 전체의 성능을 평가하지 않는다.
+url: https://huggingface.co/datasets/CUBIGCorp/korean-pii-replacement-benchmark
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/CUBIGCorp/korean-pii-replacement-benchmark
+  - type: official-docs
+    url: https://huggingface.co/datasets/CUBIGCorp/korean-pii-replacement-benchmark/blob/main/scoring/README.md
+last_verified: '2026-10-30'
+verification_status: official-source

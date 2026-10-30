@@ -1,0 +1,15 @@
+name: Thunder Korean Benchmark Suite Evaluation
+repo_type: eval-tool
+url: https://github.com/mcrl/korean_benchmarks
+description_ko: >-
+  서울대 Thunder 연구진의 KBS 한국어 평가 코드와 태스크 설정.
+  Language Model Evaluation Harness 기반으로 한국어 지시 이행 등 여섯 벤치마크의 평가를 지원한다.
+  MIT는 코드 라이선스이며 평가 데이터의 이용 조건은 각 배포 카드에서 별도로 확인해야 한다.
+license: MIT
+sources:
+  - type: github
+    url: https://github.com/mcrl/korean_benchmarks
+  - type: paper
+    url: https://arxiv.org/abs/2610.21227
+last_verified: '2026-10-30'
+verification_status: verified
