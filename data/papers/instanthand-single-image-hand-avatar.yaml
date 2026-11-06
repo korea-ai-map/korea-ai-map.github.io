@@ -1,0 +1,24 @@
+title: 'InstantHand: Feed-Forward 3D Gaussian Splatting for Animatable Hand Avatar Reconstruction from a Single Image'
+authors_org: UNIST
+venue: NeurIPS 2026
+year: 2026
+arxiv_id: '2611.08330'
+url: https://arxiv.org/abs/2611.08330
+abstract_ko: >-
+  한 장의 손 이미지와 추정된 손 자세·카메라·마스크로 움직일 수 있는 3D 가우시안
+  손 아바타를 복원하는 InstantHand를 제안한다. 경계 정규화와 신뢰도에 따른 색상
+  전달을 결합해 가려진 부분을 보완하며, 개별 입력의 반복 최적화 없이 추론한다.
+  InterHand2.6M과 HanCo에서 평가하고 학습·추론 코드를 공개한다.
+related_ids:
+  - instanthand
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2611.08330
+  - type: paper
+    url: https://arxiv.org/html/2611.08330v1
+  - type: github
+    url: https://github.com/coolho1129/InstantHand
+  - type: official-website
+    url: https://coolho1129.github.io/InstantHand-page/
+last_verified: '2026-11-06'
+verification_status: verified

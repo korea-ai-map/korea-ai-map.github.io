@@ -1,0 +1,21 @@
+title: 'DreamX: Video Diffusion Model is a Universal Latent Action Learner'
+authors_org: KAIST · NVIDIA
+venue: arXiv
+year: 2026
+arxiv_id: '2611.05377'
+url: https://arxiv.org/abs/2611.05377
+abstract_ko: >-
+  사전학습 비디오 확산 모델에서 외형과 분리된 압축 행동 표현을 학습하는 DreamX를
+  제안한다. 사람과 로봇 영상의 움직임을 소수의 잠재 토큰으로 읽고, 이를 영상 재구성·
+  서로 다른 몸체 간 동작 전달·로봇 행동 예측에 재사용한다. 공개 프로젝트 페이지에서
+  영상 및 실제 로봇 실험을 제시하며, 검증 시점에 코드는 공개 예정 상태다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2611.05377
+  - type: paper
+    url: https://arxiv.org/html/2611.05377v1
+  - type: official-website
+    url: https://cvlab-kaist.github.io/DreamX/
+last_verified: '2026-11-06'
+verification_status: official-source

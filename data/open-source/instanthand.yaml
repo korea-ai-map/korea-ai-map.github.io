@@ -1,0 +1,22 @@
+name: InstantHand
+repo_type: github-repo
+url: https://github.com/coolho1129/InstantHand
+description_ko: >-
+  UNIST 연구진의 단일 이미지 기반 손 아바타 복원 논문 InstantHand 공식 구현.
+  3D 가우시안 손 아바타의 학습·추론·평가 코드와 예제, 체크포인트 링크를 제공한다.
+  자체 코드는 Apache-2.0이지만 가우시안 래스터라이저와 사전학습 모델의 조건 때문에
+  저장소 전체의 사용은 비상업 연구로 제한된다. DINOv3 등 구성요소의 별도 조건도
+  적용되며 MANO 모델은 포함되지 않는다.
+language: Python
+license: Apache-2.0 (own code); non-commercial research only for the complete system; component-specific terms
+sources:
+  - type: github
+    url: https://github.com/coolho1129/InstantHand
+  - type: official-website
+    url: https://coolho1129.github.io/InstantHand-page/
+  - type: paper
+    url: https://arxiv.org/abs/2611.08330
+  - type: paper
+    url: https://arxiv.org/html/2611.08330v1
+last_verified: '2026-11-06'
+verification_status: verified

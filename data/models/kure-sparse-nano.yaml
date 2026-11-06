@@ -1,0 +1,48 @@
+name: KURE-Sparse-nano
+organization_id: korea-university-nlpai-lab
+model_family: KURE
+release_date: '2026-10-12'
+status: active
+modalities:
+  - text
+tasks:
+  - sparse-embedding
+  - semantic-search
+  - retrieval
+parameter_count:
+  value: 149373778
+  disclosure: confident
+context_length:
+  value: 8192
+  confidence: confident
+availability:
+  api: true
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+# A.X-Encoder 기반 KURE-v2-unsupervised에 MLM head를 결합하고 2070만 쌍 사전 파인튜닝을 거쳤다.
+# KURE-v2 SFT 데이터로 대조학습·Qwen3-Reranker 교사 KL 증류·L1 희소성 정규화를 수행했다.
+# 36282개 어휘의 희소 검색 모델이며 train/sparse에 학습 코드를 공개했다.
+base_model: nlpai-lab/KURE-v2-unsupervised
+links:
+  official: https://kure.kullm.ai/docs/models
+  model_card: https://huggingface.co/nlpai-lab/KURE-Sparse-nano
+  huggingface: https://huggingface.co/nlpai-lab/KURE-Sparse-nano
+  github: https://github.com/nlpai-lab/KURE
+sources:
+  - type: model-card
+    url: https://huggingface.co/nlpai-lab/KURE-Sparse-nano
+  - type: github
+    url: https://github.com/nlpai-lab/KURE
+  - type: official-docs
+    url: https://kure.kullm.ai/docs/models
+last_verified: '2026-11-06'
+verification_status: verified

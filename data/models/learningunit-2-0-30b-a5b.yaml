@@ -1,0 +1,50 @@
+name: LearningUnit 2.0 (L1-30B-A5B)
+organization_id: lunit
+model_family: LearningUnit
+# 공식 HF의 모델 카드 공개와 6개 가중치 shard 업로드가 확인되는 날짜.
+# 11월 6일 보도 시점과 구분하며, 9월 10일 카드 제목이 LearningUnit 2.0으로 변경됐다.
+release_date: '2026-09-08'
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - reasoning
+  - medical-question-answering
+  - tool-use
+  - retrieval-augmented-generation
+parameter_count:
+  value: 29558815872
+  disclosure: confident
+context_length:
+  value: 131072
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+# 루닛 컨소시엄이 한국 의료 환경의 대화·추론 및 자체 RAG 도구 호출 흐름으로 후속 학습했다.
+# 기반 Gravity는 트릴리온랩스·루닛 컨소시엄 개발 모델이며 DeepSeek-V3 호환 아키텍처를 사용한다.
+# 전체 29.56B 중 토큰당 약 5.34B가 활성화된다. 임상 판단을 대체하는 모델로 소개하지 않는다.
+base_model: trillionlabs/Gravity-30B-A5B-Base
+links:
+  model_card: https://huggingface.co/learning-unit/L1-30B-A5B
+  huggingface: https://huggingface.co/learning-unit/L1-30B-A5B
+sources:
+  - type: model-card
+    url: https://huggingface.co/learning-unit/L1-30B-A5B
+  - type: huggingface
+    url: https://huggingface.co/learning-unit/L1-30B-A5B/commit/d7a755c05f3481b6c5baf64a4e1ad08116cd69b3
+  - type: model-card
+    url: https://huggingface.co/trillionlabs/Gravity-30B-A5B-Base
+last_verified: '2026-11-06'
+verification_status: official-source

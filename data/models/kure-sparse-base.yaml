@@ -1,0 +1,48 @@
+name: KURE-Sparse-base
+organization_id: korea-university-nlpai-lab
+model_family: KURE
+release_date: '2026-10-12'
+status: active
+modalities:
+  - text
+tasks:
+  - sparse-embedding
+  - semantic-search
+  - retrieval
+parameter_count:
+  value: 592637046
+  disclosure: confident
+context_length:
+  value: 8192
+  confidence: confident
+availability:
+  api: true
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+# 외산 MILCO 기반에 KURE-v2 SFT 데이터와 Qwen3-Reranker 교사 증류를 적용했다.
+# 대조학습·KL 증류·L1 희소성 정규화를 결합하며 train/sparse에 학습 코드를 공개했다.
+# 영어 pivot 어휘 30522개와 원문 언어 어휘 250002개를 사용하는 희소 검색 모델이다.
+base_model: omai-research/milco-650m
+links:
+  official: https://kure.kullm.ai/docs/models
+  model_card: https://huggingface.co/nlpai-lab/KURE-Sparse-base
+  huggingface: https://huggingface.co/nlpai-lab/KURE-Sparse-base
+  github: https://github.com/nlpai-lab/KURE
+sources:
+  - type: model-card
+    url: https://huggingface.co/nlpai-lab/KURE-Sparse-base
+  - type: github
+    url: https://github.com/nlpai-lab/KURE
+  - type: official-docs
+    url: https://kure.kullm.ai/docs/models
+last_verified: '2026-11-06'
+verification_status: verified

@@ -13,17 +13,20 @@ categories:
   - ocr
   - government-research
 status: active
-description_ko: 산업 기술 연구를 수행하는 한국 연구기관. AI 파운데이션모델 연구센터를 통해 한국 문화유산·OCR·에이전트 특화 HAECHI 모델을 개발한다.
+description_ko: 산업 기술 연구를 수행하는 한국 연구기관. 한국 문화유산·OCR·에이전트 특화 HAECHI 모델과 한국어 멀티모달 대화·환각·안전성 평가 데이터를 개발한다.
 models:
   - qwen3-5-keti-haechi-27b
   - hyperclovax-keti-haechi-32b
 products: []
 open_source_links:
   - https://huggingface.co/KETI-NLP
+  - https://github.com/alsgur0720/K-Prism
 sources:
   - type: official-website
     url: https://www.keti.re.kr
   - type: huggingface
     url: https://huggingface.co/KETI-NLP
-last_verified: '2026-09-18'
+  - type: official-website
+    url: https://keti.re.kr/dept/press.php?at=view&idx=148421
+last_verified: '2026-11-06'
 verification_status: verified

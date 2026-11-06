@@ -1,0 +1,21 @@
+title: Where Do Distilled Students Store Thinking?
+authors_org: Chosun University · Korea University Sejong Campus
+venue: arXiv
+year: 2026
+arxiv_id: '2611.04141'
+url: https://arxiv.org/abs/2611.04141
+abstract_ko: >-
+  추론 과정 증류로 학습한 학생 모델에서 생각 표현과 긴 독백형 답변이 어떤 가중치
+  부분공간에 저장되는지 분석한다. 교사 모델의 보간과 학생 LoRA 부분공간의 제거·
+  이식 실험을 통해 공통된 응답 양식을 조사한다. 부분공간 이식이 생각 표현을
+  활성화해도 답변 완결성을 보장하지 않음을 보고하며 재현 코드를 공개한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2611.04141
+  - type: paper
+    url: https://arxiv.org/html/2611.04141v1
+  - type: github
+    url: https://github.com/kimtaeyeong1229/cot-distill-lora-subspace
+last_verified: '2026-11-06'
+verification_status: verified

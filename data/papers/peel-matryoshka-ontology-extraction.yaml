@@ -1,0 +1,21 @@
+title: 'Peeling the Matryoshka: Extracting Ontological Structure from Retrieval Embeddings'
+authors_org: Hanyang University
+venue: EMNLP 2026
+year: 2026
+arxiv_id: '2610.41785'
+url: https://arxiv.org/abs/2610.41785
+abstract_ko: >-
+  Matryoshka 검색 임베딩의 앞쪽 차원이 개념 분류의 거친 수준부터 세밀한 수준까지
+  계층 구조를 담는지 분석한다. PEEL은 고정된 임베딩 위에 작은 순서 임베딩 프로브를
+  학습해 개념 어휘의 부모·자식 관계를 그래프로 추출한다. 두 OLLM 벤치마크에서
+  구조 복원과 다른 도메인으로의 전이를 평가하고 코드와 프로브를 공개한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.41785
+  - type: paper
+    url: https://arxiv.org/html/2610.41785v1
+  - type: github
+    url: https://github.com/Eunchan24/PEEL
+last_verified: '2026-11-06'
+verification_status: verified

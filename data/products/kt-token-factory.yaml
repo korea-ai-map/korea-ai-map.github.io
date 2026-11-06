@@ -1,0 +1,32 @@
+name_ko: KT 토큰팩토리
+name_en: KT Token Factory
+organization_id: kt
+description_ko: >-
+  KT가 2026년 10월 29일 개통한 기업용 AI 추론·API 플랫폼.
+  KT 국내 인프라에서 직접 제공하는 국내 개발 모델·오픈웨이트 모델과 글로벌 제공사의 모델을 하나의 API로 연결하고,
+  모델별 토큰 사용량·요금·원화 결제를 통합 관리한다. 글로벌 모델은 제공 구조에 따라 국외에서 처리될 수 있다.
+  법인 인증과 계약 후 이용하며, 선불 상품과 워크스페이스 추가·관리는 2026년 12월 출시 예정으로 구분된다.
+categories:
+  - enterprise-ai
+  - inference
+  - ai-infrastructure
+target_users:
+  - enterprise
+delivery_type:
+  - api
+  - saas
+models_used:
+  - midm-k-30-pro
+model_ownership: hybrid
+pricing_public: true
+status: active
+website: https://tokenfactory.kt.com/
+sources:
+  - type: official-docs
+    url: https://tokenfactory.kt.com/notices/af40df2b-c3e2-4e32-957e-516912a1ab7d
+  - type: official-website
+    url: https://tokenfactory.kt.com/models
+  - type: official-docs
+    url: https://tokenfactory.kt.com/faq
+last_verified: '2026-11-06'
+verification_status: official-source

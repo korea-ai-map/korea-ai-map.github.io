@@ -1,0 +1,17 @@
+name: K-Prism
+organization_id: keti
+category: hallucination
+description_ko: >-
+  한국어 시각 언어 모델의 사실·추론·오도 관련 환각을 진단하는 1,002문항 벤치마크.
+  텍스트 504문항과 이미지 498문항을 원래 입력 및 가우시안 잡음 이미지 조건에서 비교한다.
+  참조 이미지 165개와 정답·해설을 공개하며, 두 조건의 예측 2,004건을 독립 문항 수로 세지 않는다.
+url: https://huggingface.co/datasets/KETI-NLP/K-prism
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/KETI-NLP/K-prism
+  - type: github
+    url: https://github.com/alsgur0720/K-Prism
+  - type: official-website
+    url: https://keti.re.kr/dept/press.php?at=view&idx=148421
+last_verified: '2026-11-06'
+verification_status: verified

@@ -11,14 +11,18 @@ categories:
 status: active
 description_ko: 흉부 X선·유방촬영 영상판독 AI(INSIGHT)와 병리 조직 분석 AI(SCOPE)를 자체 딥러닝으로 개발하는 의료 AI 기업. 2022년 코스닥 상장.
 models:
+  - learningunit-2-0-30b-a5b
   - lunit-insight-cxr
   - lunit-scope
 products:
   - lunit-insight-mmg
   - lunit-scope-io
-open_source_links: []
+open_source_links:
+  - https://huggingface.co/learning-unit
 sources:
+  - type: huggingface
+    url: https://huggingface.co/learning-unit
   - type: official-website
     url: https://www.lunit.io/ko/company
-last_verified: '2026-07-22'
+last_verified: '2026-11-06'
 verification_status: official-source

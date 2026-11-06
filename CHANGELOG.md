@@ -5,6 +5,21 @@
 
 형식은 [Keep a Changelog](https://keepachangelog.com/), 버전은 데이터 스냅샷 기준 `YYYY.MM`을 사용합니다.
 
+## [2026.11]
+
+### Added
+- **11월 6일 모델 보강 7건**: 당일 공개된 Kanana-2-v-decide-3b-2611과 10월 30일 출시한 Mi:dm K 3.0 Pro를 추가. LearningUnit 2.0과 KURE Sparse·Reranker 각 2종의 누락분은 실제 가중치 공개일 기준으로 보완하고, 기반 모델과 의료 후속학습·검색 증류 등 국내 연구진의 학습 기여를 명시.
+- **기업용 AI 제품**: 10월 29일 개통한 KT 토큰팩토리와 SK AX의 G-Fit Studio를 추가. SK AX 조직을 연결하고, 국내·외부 모델 제공 방식 및 미공개 기반 모델을 구분.
+- **평가·데이터 자산**: K-Prism·KMME·KoEVD-Vision100 벤치마크, KoMMERCE·AI Hub 금융거래 합성데이터·ICIR-MCQ 데이터셋을 추가. 발표일과 최초 공개일, 부분집합 중복, 합성 이미지·사람 검수 범위 및 이용 조건을 구분.
+- **공개 코드 4건**: K-Prism 평가 도구, local-jev-bench, InstantHand, Axis-LoRA를 추가. 코드·데이터·모델별 라이선스와 미명시 라이선스를 구분하고 외산 평가 대상 모델을 국내 모델로 등재하지 않음.
+- **국내 연구 논문 12건**: TOPSD·Axis-LoRA·InstantHand·DreamX·Image Retrieval Heads·LeNO·Distilled Students·TRACK·Asynchronous Flow Map Language Models·PEEL·KEEPER·SciGraphSelect를 원문 소속과 제출일 기준으로 추가. 실제 공개된 데이터·코드만 별도 자산으로 연결.
+- **데이터 확충**: 조직 161 · 모델 216 · 제품 84 · 오픈소스 77 · 데이터셋 135 · 벤치마크 36 · 논문 335 (합계 1044).
+
+### Changed
+- K-MIND Dyadic에 KETI 공식 발표를 보강하고, KoEVD 발화 수 설명을 정정. KoEVD-Compact의 주 과업 400건·선택적 도구 진단 200건은 원본과 겹치는 파생 평가로 기존 항목에 반영.
+- 카카오·KETI·고려대 NLP & AI Lab·루닛·KT의 신규 자산 연결과 검증일을 갱신.
+- README와 PLAN의 집계 기준일·수록 규모를 실제 YAML 파일 수에 맞춤.
+
 ## [2026.10]
 
 ### Added

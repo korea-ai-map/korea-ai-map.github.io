@@ -1,0 +1,20 @@
+title: 'TRACK: Multiple Instance Learning for Anti-Money Laundering in Transaction Networks'
+authors_org: KFTC · UNIST · KAIST · LG AI Research · Sogang University · LinqAlpha
+venue: WSDM 2027
+year: 2026
+arxiv_id: '2611.06035'
+url: https://arxiv.org/abs/2611.06035
+abstract_ko: >-
+  계좌 단위 자금세탁 탐지에서 일부 의심 거래의 정보가 집계 과정에 묻히는 문제를
+  다중 인스턴스 학습으로 다룬다. TRACK은 일정 기간의 계좌를 거래 묶음으로 보고
+  개별 거래를 인코딩한 뒤 선택적으로 집계한다. 거래별 정답 없이 계좌 수준의
+  지도만 사용하며, 다섯 데이터셋에서 계좌 탐지와 의심 거래 순위화를 평가한다.
+related_ids:
+  - lg-ai-research
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2611.06035
+  - type: paper
+    url: https://arxiv.org/html/2611.06035v1
+last_verified: '2026-11-06'
+verification_status: official-source

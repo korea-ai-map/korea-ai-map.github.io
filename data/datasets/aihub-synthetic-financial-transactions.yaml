@@ -1,0 +1,16 @@
+name: 이상 판별을 위한 금융거래 정보 및 사용자 패턴 합성데이터
+organization_id: nia
+category: domain-specific
+description_ko: >-
+  타임게이트 주관 컨소시엄이 금융결제원·카드 거래 패턴을 바탕으로 구축한 정상·이상 금융거래 합성데이터 7,096,642건.
+  전자금융공동망 4,926,785건과 카드 거래 2,169,857건을 CSV로 제공해 이상거래 탐지 학습·검증에 활용한다.
+  2026년 6월 최종 개방 후 11월 3일 활용 가이드라인을 수정했으며 AI Hub 신청 절차로 이용한다.
+languages:
+  - ko
+license: AI-Hub 이용약관
+url: https://www.aihub.or.kr/aihubdata/data/view.do?dataSetSn=71925
+sources:
+  - type: gov
+    url: https://www.aihub.or.kr/aihubdata/data/view.do?dataSetSn=71925
+last_verified: '2026-11-06'
+verification_status: official-source

@@ -1,0 +1,14 @@
+name: KMME (Korean Multimodal Evidence-grounded Evaluation)
+organization_id: keti
+category: multimodal
+description_ko: >-
+  한국어 질문과 합성 이미지를 이용해 시각적 근거를 넘어선 신원·역할·동의·발언 귀속 추론을 진단한다.
+  고정본 168문항은 42개의 네 이미지 묶음으로 구성되며, 비교용 76문항은 그 부분집합이다.
+  연구·교육·평가용 조건을 적용하며 학습·튜닝·재판매는 별도 협의 대상이다.
+  보편적인 윤리 능력이나 새로운 독립적 인간 검수를 보증하는 평가로 해석하지 않는다.
+url: https://huggingface.co/datasets/KETI-NLP/KMME
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/KETI-NLP/KMME
+last_verified: '2026-11-06'
+verification_status: official-source

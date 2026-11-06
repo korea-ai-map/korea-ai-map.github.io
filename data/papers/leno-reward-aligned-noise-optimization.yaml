@@ -1,0 +1,19 @@
+title: Learning Noise Optimization for Reward Alignment in Few-Step Generative Models
+authors_org: KAIST AI
+venue: arXiv
+year: 2026
+arxiv_id: '2611.06255'
+url: https://arxiv.org/abs/2611.06255
+abstract_ko: >-
+  적은 단계로 생성하는 모델의 초기 잡음을 보상에 맞춰 교정하는 LeNO를 제안한다.
+  사전학습 생성기는 고정하고 Local GRPO로 잡음의 잔차 변환을 학습해 추론 시 반복
+  탐색을 한 번의 교정으로 대체한다. 원래 잡음 분포와의 차이를 제한하는 정규화를
+  도출하고 텍스트 기반 이미지 및 단백질 구조 생성에서 평가한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2611.06255
+  - type: paper
+    url: https://arxiv.org/html/2611.06255v1
+last_verified: '2026-11-06'
+verification_status: official-source

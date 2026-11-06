@@ -1,0 +1,17 @@
+name: KoMMERCE (복합대화 연구용 데이터셋 V.2)
+organization_id: keti
+category: multimodal
+description_ko: >-
+  KETI와 셀렉트스타가 구축한 한국어 패션 상담 대화 15,293건·30,792세션.
+  텍스트·이미지와 감정·의도·요구 패션 속성·모달 간 상호참조 주석을 제공한다.
+  배포 카드의 V.2 최초 공개일은 2024년 11월 14일이며, 2026년 11월 공식 발표에서 KoMMERCE로 소개됐다.
+languages:
+  - ko
+url: https://huggingface.co/datasets/KETI-NLP/multimodal_dialogue_coreference_resolution
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/KETI-NLP/multimodal_dialogue_coreference_resolution
+  - type: official-website
+    url: https://keti.re.kr/dept/press.php?at=view&idx=148421
+last_verified: '2026-11-06'
+verification_status: verified

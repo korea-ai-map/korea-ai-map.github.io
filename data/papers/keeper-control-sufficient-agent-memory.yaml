@@ -1,0 +1,19 @@
+title: 'KEEPER: Learning Control-Sufficient Textual Memory for Long-Horizon LLM Agents'
+authors_org: Sejong University
+venue: arXiv
+year: 2026
+arxiv_id: '2610.41482'
+url: https://arxiv.org/abs/2610.41482
+abstract_ko: >-
+  장기 작업을 수행하는 언어 에이전트의 재귀적 텍스트 기억에 이전 오류가 남는 문제를
+  분석한다. KEEPER는 동일한 기억 갱신 구조에서 보상·미래 예측·의미 보존·갱신 안정성의
+  네 보조 학습 목표를 비교한다. 과제 성공률 외에도 잘못된 주장 지속과 유효 정보의
+  보존을 함께 평가해야 한다는 점을 실험과 사례 분석으로 제시한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.41482
+  - type: paper
+    url: https://arxiv.org/html/2610.41482v1
+last_verified: '2026-11-06'
+verification_status: official-source

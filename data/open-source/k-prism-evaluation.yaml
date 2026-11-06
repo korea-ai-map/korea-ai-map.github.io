@@ -1,0 +1,16 @@
+name: K-Prism Evaluation Toolkit
+organization_id: keti
+repo_type: eval-tool
+url: https://github.com/alsgur0720/K-Prism
+description_ko: >-
+  K-Prism의 데이터 검증·시각 언어 모델 추론·재현 가능한 이미지 교란·정답 집합 채점을 제공하는 Python 평가 도구.
+  한국어 프롬프트와 데이터·모델 버전을 결과에 기록하며, 리더보드 서버 없이 실행할 수 있다.
+  공개 저장소에서 별도 코드 라이선스는 확인되지 않았다.
+language: Python
+sources:
+  - type: github
+    url: https://github.com/alsgur0720/K-Prism
+  - type: huggingface
+    url: https://huggingface.co/datasets/KETI-NLP/K-prism
+last_verified: '2026-11-06'
+verification_status: official-source

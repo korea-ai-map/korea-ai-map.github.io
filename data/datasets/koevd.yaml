@@ -1,7 +1,11 @@
 name: KoEVD
 organization_id: keti
 category: safety
-description_ko: 한국어 안전성 평가 데이터셋. 13,552개 안전성 출처와 71,395개 응답 후보를 바탕으로 발화 위험·응답 선택·유해성·전략·도구 행동의 5단계 평가를 제공한다.
+description_ko: >-
+  한국어 안전성 평가 데이터셋. 유해·민감 발화 13,552개와 응답 후보 71,395개를 바탕으로
+  발화 위험·응답 선택·유해성·전략·도구 행동의 5단계 평가를 제공한다.
+  별도 KoEVD-Compact는 기존 모델 응답으로 선정한 주 과업 400건과 선택적 도구 진단 200건이며,
+  원본 공식 평가 분할을 대체하지 않고 과업 간 원발화도 겹칠 수 있다.
 languages: [ko]
 license: KoEVD Dataset Research Use Terms v1.0
 url: https://huggingface.co/datasets/KETI-NLP/KoEVD
@@ -10,5 +14,9 @@ sources:
     url: https://huggingface.co/datasets/KETI-NLP/KoEVD
   - type: github
     url: https://github.com/KETI-NLP/KoEVD
-last_verified: '2026-09-18'
+  - type: huggingface
+    url: https://huggingface.co/datasets/KETI-NLP/KoEVD-Compact
+  - type: official-website
+    url: https://keti.re.kr/dept/press.php?at=view&idx=148421
+last_verified: '2026-11-06'
 verification_status: verified

@@ -1,0 +1,13 @@
+name: KoEVD-Vision100
+organization_id: keti
+category: safety
+description_ko: >-
+  한국어 시각 언어 모델이 보이는 증거와 근거 없는 신원·민감 속성·사건·집단 추론을 구분하는지 평가하는 연구 프리뷰.
+  AI가 생성한 가상 장면 100개에 네 선택지·지정 정답·해설을 제공하며 여섯 평가 범주를 다룬다.
+  CC BY 4.0으로 공개됐지만 완료된 독립적 사람 검수는 0건이며, 일반적인 윤리 능력이나 실제 안전성을 인증하지 않는다.
+url: https://huggingface.co/datasets/KETI-NLP/KoEVD-Vision100
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/KETI-NLP/KoEVD-Vision100
+last_verified: '2026-11-06'
+verification_status: official-source

@@ -1,0 +1,23 @@
+title: 'Axis-LoRA: Probing and Adapting Embedding Models for Personal-Memory Retrieval'
+authors_org: Seoul National University · Samsung Electronics MX
+venue: EMNLP 2026
+year: 2026
+arxiv_id: '2611.07820'
+url: https://arxiv.org/abs/2611.07820
+abstract_ko: >-
+  개인 경험 검색에서 시간·장소·인물·사건의 차이를 임베딩 모델이 구별하도록 학습하는
+  Axis-LoRA를 제안한다. 모델 내부의 네 LoRA 분기를 질의별 게이트로 결합하고,
+  특정 정보 축을 바꾼 대조 학습 예시를 사용한다. LongMemEval·ATM-Bench·LoCoMo에서
+  검색 성능을 평가하며 학습 및 평가 코드를 공개한다.
+related_ids:
+  - snu-aiis
+  - axis-lora
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2611.07820
+  - type: paper
+    url: https://arxiv.org/html/2611.07820v1
+  - type: github
+    url: https://github.com/dohoonkim-ai/axis-lora
+last_verified: '2026-11-06'
+verification_status: verified

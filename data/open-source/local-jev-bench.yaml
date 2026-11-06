@@ -1,0 +1,22 @@
+name: local-jev-bench
+repo_type: eval-tool
+url: https://github.com/tak-bro/local-jev-bench
+description_ko: >-
+  서울 기반 개발자 tak-bro가 공개한 Apple Silicon용 로컬 의사결정 모델 평가 도구.
+  한국어 NSMC·KLUE-YNAT와 영문 의도분류 등에서 정확도·지연·선택지 순서에 따른 변화를 측정하는 Python 코드와 실행 로그를 제공한다.
+  2026년 11월에는 영어·한국어 응답쌍의 판정 편향 분석을 추가했다.
+  외산 모델을 평가하는 도구이며, 코드의 MIT 라이선스와 외부 모델·데이터의 이용 조건은 별개다.
+  판정 실험용 원본 데이터는 재배포하지 않으며, 공개 결과는 M3 Max 장비에서 측정한 조건에 한정된다.
+language: Python
+license: MIT
+sources:
+  - type: github
+    url: https://github.com/tak-bro/local-jev-bench
+  - type: github
+    url: https://github.com/tak-bro
+  - type: github
+    url: https://github.com/tak-bro/local-jev-bench/blob/main/LICENSE
+  - type: github
+    url: https://github.com/tak-bro/local-jev-bench/blob/main/reports/2026-11-02-judge-bias-analysis.md
+last_verified: '2026-11-06'
+verification_status: official-source

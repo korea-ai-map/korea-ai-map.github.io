@@ -1,0 +1,25 @@
+name: ICIR-MCQ
+organization_id: snu-aiis
+category: multimodal
+description_ko: >-
+  서울대학교 주도 연구진이 시각 언어 모델의 이미지 검색 헤드를 분석하기 위해 공개한
+  영어 다중 이미지 객관식 데이터셋. 이미지 5개 또는 6개를 긴 텍스트와 함께 제시하고
+  목표 이미지의 설명을 고르는 총 6,000개 예시를 제공한다. 배포 파일은 이미지 경로·
+  텍스트·질문·선택지·정답을 담으며 COCO 이미지는 별도로 받아야 한다.
+  편집물과 COCO 주석은 CC BY 4.0이지만, 제3자 웹 텍스트와 이미지에는 원출처의
+  이용 조건이 별도로 적용된다.
+languages:
+  - en
+license: CC BY 4.0 (compilation and COCO annotations); third-party content subject to original terms
+url: https://huggingface.co/datasets/jerryray/ICIR-MCQ
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/jerryray/ICIR-MCQ
+  - type: github
+    url: https://github.com/parkquasar/Image-Retrieval-Heads
+  - type: paper
+    url: https://arxiv.org/abs/2611.04903
+  - type: paper
+    url: https://arxiv.org/html/2611.04903v1
+last_verified: '2026-11-06'
+verification_status: verified

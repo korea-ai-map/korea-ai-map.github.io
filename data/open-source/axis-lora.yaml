@@ -1,0 +1,20 @@
+name: Axis-LoRA
+organization_id: snu-aiis
+repo_type: github-repo
+url: https://github.com/dohoonkim-ai/axis-lora
+description_ko: >-
+  서울대학교·삼성전자 연구진의 개인 기억 검색 방법 Axis-LoRA 공식 구현.
+  시간·장소·인물·사건별 LoRA 분기와 질의별 게이트, 학습·평가 스크립트 및
+  AxisCF 데이터 생성 코드를 제공한다. 검증 시점에 코드의 별도 라이선스는
+  확인되지 않았으며, README의 CC BY-NC 4.0 표기는 동봉된 ATM-Bench
+  메모리 풀에 적용된다.
+language: Python
+sources:
+  - type: github
+    url: https://github.com/dohoonkim-ai/axis-lora
+  - type: paper
+    url: https://arxiv.org/abs/2611.07820
+  - type: paper
+    url: https://arxiv.org/html/2611.07820v1
+last_verified: '2026-11-06'
+verification_status: verified

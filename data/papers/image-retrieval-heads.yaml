@@ -1,0 +1,24 @@
+title: 'Heads That Write, Not Just Point: Image Retrieval Heads in Vision-Language Models'
+authors_org: Seoul National University · Upstage AI · Korea University · Samsung Electronics
+venue: NeurIPS 2026
+year: 2026
+arxiv_id: '2611.04903'
+url: https://arxiv.org/abs/2611.04903
+abstract_ko: >-
+  시각 언어 모델이 여러 이미지 중 질의에 맞는 이미지를 찾는 내부 과정을 분석한다.
+  목표 이미지에 주의를 주는 포인터 헤드와 출력에 목표 이미지 정보를 담는 라이터 헤드를
+  구별하고, 두 기준에 함께 해당하는 헤드를 제거할 때의 영향을 실험한다. 분석용
+  ICIR-MCQ 데이터와 헤드 탐색·평가 코드를 공개한다.
+related_ids:
+  - snu-aiis
+  - upstage
+  - icir-mcq
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2611.04903
+  - type: paper
+    url: https://arxiv.org/html/2611.04903v1
+  - type: github
+    url: https://github.com/parkquasar/Image-Retrieval-Heads
+last_verified: '2026-11-06'
+verification_status: verified

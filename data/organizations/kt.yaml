@@ -18,8 +18,10 @@ models:
   - midm-2-0-base
   - midm-2-0-mini-instruct
   - midm-k-25-pro
+  - midm-k-30-pro
 products:
   - kt-k-intelligence
+  - kt-token-factory
 open_source_links:
   - https://huggingface.co/K-intelligence
   - https://github.com/K-intelligence-Midm/Midm-2.0
@@ -28,5 +30,7 @@ sources:
     url: https://huggingface.co/K-intelligence/Midm-2.0-Base-Instruct
   - type: github
     url: https://github.com/K-intelligence-Midm/Midm-2.0
-last_verified: "2026-07-22"
+  - type: official-docs
+    url: https://tokenfactory.kt.com/notices/af40df2b-c3e2-4e32-957e-516912a1ab7d
+last_verified: "2026-11-06"
 verification_status: verified

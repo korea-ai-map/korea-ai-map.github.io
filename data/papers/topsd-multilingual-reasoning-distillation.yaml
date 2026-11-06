@@ -1,0 +1,19 @@
+title: 'Knowing When to Teach: Learning from Teachable Prefixes in Multilingual Reasoning Distillation'
+authors_org: KAIST · Korea University
+venue: arXiv
+year: 2026
+arxiv_id: '2611.08179'
+url: https://arxiv.org/abs/2611.08179
+abstract_ko: >-
+  다국어 추론 자기 증류에서 교사 모델이 학생의 누적된 오류를 따라가는 현상을 분석하고,
+  교사가 교정할 수 있는 추론 구간만 사용하는 TOPSD를 제안한다. 교사와 학생의 우도로
+  지도할 접두 구간을 고른 뒤 교사가 정답을 복구하는지 확인하며, 10개 언어와 세 모델
+  규모의 수학 추론 실험에서 기존 자기 증류와 비교한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2611.08179
+  - type: paper
+    url: https://arxiv.org/html/2611.08179v1
+last_verified: '2026-11-06'
+verification_status: official-source

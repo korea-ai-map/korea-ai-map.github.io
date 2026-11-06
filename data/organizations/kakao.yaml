@@ -27,6 +27,7 @@ models:
   - kanana-2-3b-base
   - kanana-2-3b-embedding
   - kanana-2-3b-instruct
+  - kanana-2-v-decide-3b-2611
   - kanana-2-vision-encoder-medium
   - kanana-2-vision-encoder-tiny
   - kanana-25
@@ -44,5 +45,5 @@ sources:
     url: https://huggingface.co/kakaocorp
   - type: model-card
     url: https://huggingface.co/kakaocorp/kanana-1.5-8b-instruct-2505
-last_verified: '2026-10-30'
+last_verified: '2026-11-06'
 verification_status: verified

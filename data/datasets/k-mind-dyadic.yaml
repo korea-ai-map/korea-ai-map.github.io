@@ -17,5 +17,7 @@ sources:
     url: https://aclanthology.org/2026.lrec-1.715/
   - type: github
     url: https://github.com/AIRC-KETI/K-MIND
-last_verified: '2026-10-20'
+  - type: official-website
+    url: https://keti.re.kr/dept/press.php?at=view&idx=148421
+last_verified: '2026-11-06'
 verification_status: official-source

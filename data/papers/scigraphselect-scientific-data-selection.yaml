@@ -1,0 +1,20 @@
+title: 'SciGraphSelect: Auditable Scientific Data Selection through Knowledge–Reasoning Graphs'
+authors_org: KT Corporation
+venue: NeurIPS 2026 AI4Science Workshop
+year: 2026
+arxiv_id: '2610.41280'
+url: https://arxiv.org/abs/2610.41280
+abstract_ko: >-
+  과학 학습 문서를 선택한 근거를 추적할 수 있도록 기준 자료의 지식과 추론 관계를
+  그래프로 구성하는 SciGraphSelect를 제안한다. 후보 문서의 개념 포함 범위와 관계·
+  경로의 공동 근거, 방향 일치성을 점수화한다. 임베딩 유사성만으로 관계가 성립한다고
+  가정하지 않으면서 과학 말뭉치 선별 과정을 검토할 수 있도록 설계한다.
+related_ids:
+  - kt
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2610.41280
+  - type: paper
+    url: https://arxiv.org/html/2610.41280v1
+last_verified: '2026-11-06'
+verification_status: official-source

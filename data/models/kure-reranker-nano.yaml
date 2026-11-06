@@ -1,0 +1,48 @@
+name: KURE-Reranker-nano
+organization_id: korea-university-nlpai-lab
+model_family: KURE
+release_date: '2026-10-01'
+status: active
+modalities:
+  - text
+tasks:
+  - reranking
+  - text-ranking
+  - retrieval
+parameter_count:
+  value: 149323009
+  disclosure: confident
+context_length:
+  value: 8192
+  confidence: confident
+availability:
+  api: true
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+# A.X-Encoder-base에 단일 로짓 head를 붙여 KURE-v2 SFT의 3330만 질의·문서 쌍으로 학습했다.
+# Qwen3-Reranker 교사 점수를 pointwise MSE로 1 epoch 증류한 별도 검색 재정렬 모델이다.
+# train/cross-encoder에 학습 코드를 공개했다.
+base_model: skt/A.X-Encoder-base
+links:
+  official: https://kure.kullm.ai/docs/models
+  model_card: https://huggingface.co/nlpai-lab/KURE-Reranker-nano
+  huggingface: https://huggingface.co/nlpai-lab/KURE-Reranker-nano
+  github: https://github.com/nlpai-lab/KURE
+sources:
+  - type: model-card
+    url: https://huggingface.co/nlpai-lab/KURE-Reranker-nano
+  - type: github
+    url: https://github.com/nlpai-lab/KURE
+  - type: official-docs
+    url: https://kure.kullm.ai/docs/models
+last_verified: '2026-11-06'
+verification_status: verified
