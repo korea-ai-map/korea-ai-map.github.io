@@ -1,0 +1,19 @@
+title: 'KLEAR: Knowledge-Matched LLM Evaluation in Korean across Application Requirements via Controlled Benchmark Transformation'
+authors_org: Yonsei University · DATUMO INC.
+venue: arXiv
+year: 2026
+arxiv_id: '2611.09223'
+url: https://arxiv.org/abs/2611.09223
+abstract_ko: >-
+  한국어 언어 모델의 오답이 지식 부족 때문인지 지식을 적용하지 못해서인지 구별하기
+  위한 평가 구성 방법 KLEAR를 제안한다. 기존 문제의 필수 지식을 고정한 채 적용
+  요구 수준을 바꾼 문항을 생성하고 자동·사람 검증으로 수정한다. 287개 구성 문항에서
+  지식이 주어져도 남는 적용 오류를 분석한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2611.09223
+  - type: paper
+    url: https://arxiv.org/html/2611.09223v1
+last_verified: '2026-11-12'
+verification_status: official-source

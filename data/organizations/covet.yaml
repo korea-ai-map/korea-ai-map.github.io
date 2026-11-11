@@ -1,0 +1,30 @@
+name_ko: 코벳
+name_en: COVET
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://covet.kr/
+founded_year: 2022
+ai_core_level: ai_enabled
+categories:
+  - medical-ai
+  - veterinary-ai
+  - computer-vision
+status: active
+description_ko: >-
+  동물병원 네트워크와 AI 영상진단 보조·의료장비·교육 서비스를 운영하는 국내 기업.
+  2026년 8월 SK텔레콤으로부터 엑스칼리버 사업을 인수해 서비스 운영과 개발을 맡았으며,
+  개·고양이의 X-ray 분석 및 자동 계측을 지원하는 엑스칼리버 2.0을 제공한다.
+models: []
+products:
+  - x-caliber
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://covet.kr/about/
+  - type: official-blog
+    url: https://covet.kr/news/xcaliber-acquisition-dailyvet/
+  - type: official-website
+    url: https://lab.covet.kr/solutions/x-caliber
+last_verified: '2026-11-12'
+verification_status: official-source

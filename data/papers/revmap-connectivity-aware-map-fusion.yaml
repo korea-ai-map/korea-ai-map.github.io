@@ -1,0 +1,19 @@
+title: 'ReVMap: Vectorized Global Mapping via Connectivity-Aware Local Map Fusion'
+authors_org: Seoul National University
+venue: arXiv
+year: 2026
+arxiv_id: '2611.12346'
+url: https://arxiv.org/abs/2611.12346
+abstract_ko: >-
+  지역별 벡터 지도 예측을 합쳐 전역 고정밀 지도를 만드는 ReVMap을 제안한다.
+  위치 예측의 불확실성에 따라 기존 지도 정보를 활용하고, 지역·전역 요소의 연결 관계를
+  학습해 신뢰할 수 있는 예측으로 지도를 갱신한다. nuScenes와 Argoverse 2에서
+  지역 지도 정확도와 전역 지도 일관성을 평가한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2611.12346
+  - type: paper
+    url: https://arxiv.org/html/2611.12346v1
+last_verified: '2026-11-12'
+verification_status: official-source

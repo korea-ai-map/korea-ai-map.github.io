@@ -1,0 +1,19 @@
+name: TANGO2
+organization_id: etri
+repo_type: framework
+url: https://github.com/ML-TANGO/TANGO2
+description_ko: >-
+  ETRI가 개발하는 노코드 LLM/VLM 개발·운영 프레임워크.
+  Kubernetes 기반 웹 UI에서 데이터 준비, 파인튜닝, 양자화, 배포·추론과 평가를 연결하며 산업별 실증 및 실행환경 코드도 제공한다.
+  저장소는 2025년 7월부터 운영됐고, 2026년 11월 9일 공식 발표에서 VLM 학습·전문가 평가·현장 배포 등의 개발 성과를 소개했다.
+  라이선스 규약은 GPLv3 이상을 기본으로 명시하면서 상업화에는 ETRI 표준기술이전계약이 적용된다고 별도로 규정한다.
+license: TANGO2 License and Service Agreement
+sources:
+  - type: github
+    url: https://github.com/ML-TANGO/TANGO2
+  - type: github
+    url: https://github.com/ML-TANGO/TANGO2/blob/main/LICENSE_ko.md
+  - type: gov
+    url: https://www.etri.re.kr/preview/1794199231267/index.html
+last_verified: '2026-11-12'
+verification_status: official-source

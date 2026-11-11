@@ -16,9 +16,12 @@ status: active
 description_ko: 1976년 설립된 정부출연 연구기관. 자동통역·음성인식·자율성장형 AI·AI 반도체 등 자체 AI 기술과 모델을 개발한다.
 models: []
 products: []
-open_source_links: []
+open_source_links:
+  - https://github.com/ML-TANGO/TANGO2
 sources:
   - type: official-website
     url: https://www.etri.re.kr/kor/sub6/sub6_0101.etri
-last_verified: '2026-07-22'
+  - type: gov
+    url: https://www.etri.re.kr/preview/1794199231267/index.html
+last_verified: '2026-11-12'
 verification_status: official-source

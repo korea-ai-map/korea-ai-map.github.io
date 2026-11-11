@@ -1,0 +1,24 @@
+title: 'PCBWorld: A Benchmark Environment for Engine-Grounded PCB Design Automation'
+authors_org: LG AI Research
+venue: KDD 2026 Workshop on Evaluation and Trustworthiness of Agentic AI
+year: 2026
+arxiv_id: '2607.05915'
+url: https://arxiv.org/abs/2607.05915
+abstract_ko: >-
+  KiCad의 배선 동작과 설계 규칙 검사를 사용해 강화학습 및 도구 사용 언어 에이전트를
+  평가하는 PCBWorld를 제안한다. 합성 보드 생성기와 679개 실제 공개 보드를 포함한
+  PCBWorld-Bench, 완성된 보드를 검사하는 여덟 지표를 제공한다. 2026년 7월 최초
+  제출된 논문이며, 공개 환경·학습·평가 구현을 함께 제공한다.
+related_ids:
+  - lg-ai-research
+  - pcbworld
+  - pcbworld-routing-policy
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2607.05915
+  - type: paper
+    url: https://arxiv.org/html/2607.05915v4
+  - type: github
+    url: https://github.com/LGAI-Research/PCBWorld
+last_verified: '2026-11-12'
+verification_status: verified

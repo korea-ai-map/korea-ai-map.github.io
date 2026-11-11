@@ -1,0 +1,20 @@
+title: 'HolidayFactory 1.0: Simulating, Generating, and Evaluating Industrial Robot Tasks'
+authors_org: Holiday Robotics
+venue: arXiv
+year: 2026
+arxiv_id: '2611.11789'
+url: https://arxiv.org/abs/2611.11789
+abstract_ko: >-
+  산업용 로봇 작업의 물리 시뮬레이션·환경 생성·평가를 통합하는 HolidayFactory 1.0
+  기술 보고서. 접촉·구동기·촉각을 모델링하는 Holiday-Sim과 검증을 거치는 환경 생성,
+  장면을 초기화하지 않고 반복 작업을 평가하는 7개 과제의 24/7-Bench를 제시한다.
+  스크립트 궤적으로 평가 방식을 점검했으며 지속 실행에서 정책 간 비교는 아직 수행하지 않았다.
+related_ids:
+  - holiday-robotics
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2611.11789
+  - type: paper
+    url: https://arxiv.org/html/2611.11789v1
+last_verified: '2026-11-12'
+verification_status: official-source

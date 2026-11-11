@@ -12,6 +12,8 @@ categories:
 status: active
 description_ko: 기업용 및 산업용 인공지능 모델을 연구·개발하는 LG 그룹의 AI 연구조직.
 models:
+  - cadet-pcb-routing
+  - pcbworld-routing-policy
   - exaone-3-0-7-8b-instruct
   - exaone-35
   - exaone-4-0-1-2b
@@ -38,5 +40,5 @@ sources:
     url: https://www.lgresearch.ai
   - type: huggingface
     url: https://huggingface.co/LG-AI-Research
-last_verified: '2026-10-20'
+last_verified: '2026-11-12'
 verification_status: verified

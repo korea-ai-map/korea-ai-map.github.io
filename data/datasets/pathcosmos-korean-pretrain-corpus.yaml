@@ -1,0 +1,20 @@
+name: Korean Pretraining Corpus (pathcosmos)
+category: korean-corpus
+description_ko: >-
+  부산 기반 개발자 pathcosmos가 위키백과·FineWeb2·HPLT·FineWeb-Edu·OpenWebMath·GitHub 코드의
+  여섯 공개 원천을 정제·정확중복 제거하고 한국어 중심 사전학습용으로 구성한 코퍼스.
+  배포 카드 기준 128,856,258문서·122,402,393,813토큰이며 텍스트, 학습·검증 분할,
+  토큰 위치와 재현 자료를 제공한다. 토큰 수는 자체 토크나이저 기준이며 실제 학습 소비량과 다르다.
+  원천별 라이선스가 적용되고 문서별 귀속·코드 고지 확인이 진행 중이며, 전역 유사중복 제거를 보증하지 않는다.
+languages:
+  - ko
+  - en
+license: Source-specific licenses and original-content conditions; see LICENSE-SCOPE.md
+url: https://huggingface.co/datasets/pathcosmos/korean-pretrain-corpus
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/pathcosmos/korean-pretrain-corpus
+  - type: github
+    url: https://github.com/pathcosmos
+last_verified: '2026-11-12'
+verification_status: official-source

@@ -1,0 +1,33 @@
+name_ko: 소나 AI
+name_en: SONA AI
+organization_id: post-ai
+description_ko: >-
+  포스트에이아이가 2026년 11월 6일 공식 출시한 AI 페르소나 기반 사회·시장 반응 시뮬레이션 서비스.
+  실제 한국인 조사 패널과 인구통계에 기반해 성별·연령·지역 등의 조건으로 가상 패널을 구성하고,
+  제품·가격·정책 시나리오에 대한 응답 분포와 선택 이유를 비교·분석한다.
+  결과는 LLM 기반 모의실험으로 실제 조사 응답이나 미래 행동을 보장하지 않으며, 기반 모델의 명칭·소유권은 공개되지 않았다.
+categories:
+  - social-simulation
+  - market-research
+  - agent
+target_users:
+  - enterprise
+  - researcher
+  - public-sector
+  - entrepreneur
+delivery_type:
+  - saas
+models_used: []
+model_ownership: unknown
+pricing_public: true
+status: active
+website: https://www.sona.ai.kr/
+sources:
+  - type: official-website
+    url: https://www.post-ai.com/
+  - type: official-website
+    url: https://www.sona.ai.kr/
+  - type: official-docs
+    url: https://www.sona.ai.kr/guide
+last_verified: '2026-11-12'
+verification_status: official-source

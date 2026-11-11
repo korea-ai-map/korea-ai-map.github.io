@@ -1,0 +1,19 @@
+title: Leveraging Psychophysical Attentional Distribution for Gaze-Augmented Reward Modeling
+authors_org: KAIST 디지털인문사회과학부 · 뇌인지과학과 · 데이터사이언스대학원
+venue: NeurIPS 2026
+year: 2026
+arxiv_id: '2611.13477'
+url: https://arxiv.org/abs/2611.13477
+abstract_ko: >-
+  사람이 글을 읽을 때의 시선 정보를 언어 모델 보상 학습에 활용하는 방법을 연구한다.
+  시선이 고정된 단어만 사용하는 대신 주변 글자에도 걸치는 공간적 주의 분포를
+  구성하고 보상 모델에 반영한다. 기존 시선 기반 방법과 선호 예측 정확도를 비교하며,
+  분포 설정과 읽기 행동에 관한 인지심리학 결과의 관계를 분석한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2611.13477
+  - type: paper
+    url: https://arxiv.org/html/2611.13477v1
+last_verified: '2026-11-12'
+verification_status: official-source

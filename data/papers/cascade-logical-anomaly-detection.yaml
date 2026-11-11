@@ -1,0 +1,19 @@
+title: 'CASCADE: Constraint-Aware SCAffolded DEcomposition for Logical Anomaly Detection'
+authors_org: Ajou University Department of Artificial Intelligence
+venue: ICDM 2026
+year: 2026
+arxiv_id: '2611.13820'
+url: https://arxiv.org/abs/2611.13820
+abstract_ko: >-
+  물체 수·짝 관계·측정 범위 같은 논리 조건을 검사할 때 시각 언어 모델에 조건별로
+  가공한 이미지를 제공하는 CASCADE를 제안한다. 물체 식별 표시와 기준 격자를 통해
+  대상 혼동과 척도 오류를 줄이며, CASCADE++는 조건 구조와 정상 참조의 분포에 맞춰
+  표시를 조절한다. 추가 학습 없이 MVTec-LOCO와 VID-AD에서 평가한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2611.13820
+  - type: paper
+    url: https://arxiv.org/html/2611.13820v1
+last_verified: '2026-11-12'
+verification_status: official-source

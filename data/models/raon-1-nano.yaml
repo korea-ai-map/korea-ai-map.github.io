@@ -1,0 +1,47 @@
+name: Raon-1 nano
+organization_id: krafton-ai
+model_family: Raon
+# 저장소의 초기 가중치 이력과 실제 공개 전환일을 구별할 수 없어 출시일은 생략한다.
+# 2026-11-10 가중치 갱신과 검증일 현재 공개 배포를 확인했다.
+status: active
+modalities:
+  - text
+tasks:
+  - chat
+  - reasoning
+  - tool-use
+parameter_count:
+  # 공식 카드의 본체 총 3.1B(층별 임베딩 1.5B 포함), 유효 1.5B 표기 기준.
+  # 별도 55M MTP 모듈 및 중복 저장된 tied LM head는 본체 수치에 합산하지 않는다.
+  value: 3100000000
+  disclosure: confident
+context_length:
+  value: 262144
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+# 자사 MoE 모델을 MoE-to-Dense 방식으로 가지치기·증류하고 3T 토큰 추가 사전학습을 수행했다.
+# SFT·on-policy distillation·RL 후학습을 거친 24층 dense 모델로, 단순 양자화 변환이 아니다.
+# GGUF·MLX·LiteRT-LM은 동일 모델의 배포 형식이므로 별도 항목으로 만들지 않는다.
+base_model: KRAFTON/Raon-1-mini-preview
+links:
+  model_card: https://huggingface.co/KRAFTON/Raon-1-nano
+  huggingface: https://huggingface.co/KRAFTON/Raon-1-nano
+sources:
+  - type: model-card
+    url: https://huggingface.co/KRAFTON/Raon-1-nano
+  - type: huggingface
+    url: https://huggingface.co/KRAFTON/Raon-1-nano/commit/0bed13e3a306a815298a8bd4939c581553d9f0cb
+last_verified: '2026-11-12'
+verification_status: official-source

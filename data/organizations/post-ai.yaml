@@ -1,0 +1,26 @@
+name_ko: 포스트에이아이
+name_en: Post AI Inc.
+organization_type: startup
+country: KR
+headquarters: Seoul
+website: https://www.post-ai.com/
+ai_core_level: ai_native
+categories:
+  - social-simulation
+  - agent
+  - market-research
+status: active
+description_ko: >-
+  실제 조사 패널과 인구통계에 기반한 AI 페르소나로 집단의 반응을 모의실험하는 소셜트윈 기술을 개발하는 국내 기업.
+  제품·가격·정책 등의 시나리오를 비교하는 SONA AI 서비스를 제공한다.
+models: []
+products:
+  - sona-ai
+open_source_links: []
+sources:
+  - type: official-website
+    url: https://www.post-ai.com/
+  - type: official-website
+    url: https://www.sona.ai.kr/
+last_verified: '2026-11-12'
+verification_status: official-source

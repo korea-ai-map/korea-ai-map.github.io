@@ -8,14 +8,20 @@
 ## [2026.11]
 
 ### Added
+- **11월 12일 모델 보강 6건**: Raon-1 nano, KURE-Sparse-nano-inference-free, LG AI연구원의 CADET·PCBWorld 배선 정책, Zoro-1, ThakiOCR-KOEN-V1-Dense를 추가. 원 모델·공동 학습 기여와 실제 가중치 제공을 확인하고, 최초 공개일이 불명확한 모델은 날짜를 추정하지 않음. LG 가중치의 비상업 조건과 Zoro의 승인형 배포·데모 오류 상태를 명시.
+- **11월 제품·개발 도구**: 포스트에이아이의 SONA AI와 코벳의 엑스칼리버 2.0을 개발·운영 조직과 연결. ETRI TANGO2와 음성 보호 연구 MUTE의 공개 구현을 추가하고 코드·구성요소별 이용 조건을 구분.
+- **한국어 학습 데이터**: ENERZAi의 UltraData 에이전트 한국어 번역·정제 데이터와 pathcosmos의 사전학습 코퍼스를 추가. 외부 원천 계보, 접근 승인, 알려진 번역 오류, 원천별 라이선스·귀속 확인 범위를 기록하고 에너자이 조직을 연결.
+- **국내 연구 논문 12건 보강**: KLEAR·HolidayFactory·TimeTraveler·SRA·MuCa-ViT·Channels4World·MUTE·시선 기반 보상 모델·CASCADE·FastWild-GS·ReVMap의 최근 논문 11편과 7월 최초 제출된 PCBWorld 논문 누락분을 추가. 배포를 확인하지 못한 코드·데이터는 별도 자산으로 등재하지 않음.
 - **11월 6일 모델 보강 7건**: 당일 공개된 Kanana-2-v-decide-3b-2611과 10월 30일 출시한 Mi:dm K 3.0 Pro를 추가. LearningUnit 2.0과 KURE Sparse·Reranker 각 2종의 누락분은 실제 가중치 공개일 기준으로 보완하고, 기반 모델과 의료 후속학습·검색 증류 등 국내 연구진의 학습 기여를 명시.
 - **기업용 AI 제품**: 10월 29일 개통한 KT 토큰팩토리와 SK AX의 G-Fit Studio를 추가. SK AX 조직을 연결하고, 국내·외부 모델 제공 방식 및 미공개 기반 모델을 구분.
 - **평가·데이터 자산**: K-Prism·KMME·KoEVD-Vision100 벤치마크, KoMMERCE·AI Hub 금융거래 합성데이터·ICIR-MCQ 데이터셋을 추가. 발표일과 최초 공개일, 부분집합 중복, 합성 이미지·사람 검수 범위 및 이용 조건을 구분.
 - **공개 코드 4건**: K-Prism 평가 도구, local-jev-bench, InstantHand, Axis-LoRA를 추가. 코드·데이터·모델별 라이선스와 미명시 라이선스를 구분하고 외산 평가 대상 모델을 국내 모델로 등재하지 않음.
 - **국내 연구 논문 12건**: TOPSD·Axis-LoRA·InstantHand·DreamX·Image Retrieval Heads·LeNO·Distilled Students·TRACK·Asynchronous Flow Map Language Models·PEEL·KEEPER·SciGraphSelect를 원문 소속과 제출일 기준으로 추가. 실제 공개된 데이터·코드만 별도 자산으로 연결.
-- **데이터 확충**: 조직 161 · 모델 216 · 제품 84 · 오픈소스 77 · 데이터셋 135 · 벤치마크 36 · 논문 335 (합계 1044).
+- **데이터 확충**: 조직 164 · 모델 222 · 제품 86 · 오픈소스 79 · 데이터셋 137 · 벤치마크 36 · 논문 347 (합계 1071).
 
 ### Changed
+- PCBWorld의 현재 공개 코드 라이선스를 BSD-3-Clause로 갱신하고, 별도 엔진의 GPLv3 및 모델 가중치의 비상업 조건과 구분. PCBWorld 논문·정책 모델·공개 구현을 연결.
+- KRAFTON AI·고려대 NLP & AI Lab·LG AI연구원·트릴리온랩스·타키클라우드·ETRI의 자산 연결과 검증일을 갱신.
 - K-MIND Dyadic에 KETI 공식 발표를 보강하고, KoEVD 발화 수 설명을 정정. KoEVD-Compact의 주 과업 400건·선택적 도구 진단 200건은 원본과 겹치는 파생 평가로 기존 항목에 반영.
 - 카카오·KETI·고려대 NLP & AI Lab·루닛·KT의 신규 자산 연결과 검증일을 갱신.
 - README와 PLAN의 집계 기준일·수록 규모를 실제 YAML 파일 수에 맞춤.

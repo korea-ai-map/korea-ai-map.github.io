@@ -1,0 +1,19 @@
+title: 'CHANNELS4WORLD: An Environment-Scale Dataset for Wireless Foundation Models'
+authors_org: Yonsei University · NVIDIA · University of California San Diego
+venue: arXiv
+year: 2026
+arxiv_id: '2611.11428'
+url: https://arxiv.org/abs/2611.11428
+abstract_ko: >-
+  무선 통신 기반 모델이 다양한 배치 환경으로 일반화하도록 10만 개의 실외 전파 장면을
+  절차적으로 생성하는 Channels4World를 제시한다. 장면의 기하·재질·송수신기 위치와
+  두 주파수의 다중 경로 기록을 연결하고, 장면 단위 학습·평가 분할과 여러 규모의
+  부분집합을 설계한다. 환경 다양성과 장면 내부 관측 밀도의 효과를 나누어 분석한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2611.11428
+  - type: paper
+    url: https://arxiv.org/html/2611.11428v1
+last_verified: '2026-11-12'
+verification_status: official-source

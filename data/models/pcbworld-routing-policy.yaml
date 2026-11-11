@@ -1,0 +1,46 @@
+name: PCBWorld Routing Policies
+organization_id: lg-ai-research
+model_family: PCBWorld
+release_date: '2026-11-11'
+status: active
+modalities:
+  - structured-data
+tasks:
+  - pcb-routing
+  - reinforcement-learning
+parameter_count:
+  value: 1600000
+  disclosure: confident
+context_length:
+  value: null
+  confidence: not-applicable
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: EXAONE AI Model License Agreement 1.2 - NC
+  commercial_use: prohibited
+deployment:
+  cloud: true
+  on_premise: true
+languages: []
+# 4층 decoder-only Transformer 정책(d_model 128, 8 heads, FFN 512)을 처음부터 학습했다.
+# 합성 PCB의 D1 격자·D2 비격자 환경에서 학습한 PPO·GRPO 및 절제 실험 가중치 묶음이다.
+# 개별 시드·보상 설정을 별도 모델로 중복 등재하지 않는다.
+# 가중치와 출력의 비상업 조건은 PCBWorld 도구·엔진의 코드 라이선스와 별개다.
+base_model: from-scratch
+links:
+  model_card: https://huggingface.co/LG-AI-Research/PCBWorld
+  huggingface: https://huggingface.co/LG-AI-Research/PCBWorld
+  github: https://github.com/LGAI-Research/PCBWorld
+  paper: https://arxiv.org/abs/2607.05915
+sources:
+  - type: model-card
+    url: https://huggingface.co/LG-AI-Research/PCBWorld
+  - type: official-docs
+    url: https://huggingface.co/LG-AI-Research/PCBWorld/blob/main/LICENSE
+  - type: paper
+    url: https://arxiv.org/abs/2607.05915
+last_verified: '2026-11-12'
+verification_status: official-source

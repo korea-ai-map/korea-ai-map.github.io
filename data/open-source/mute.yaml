@@ -1,0 +1,22 @@
+name: MUTE
+repo_type: github-repo
+url: https://github.com/jindl465/MUTE
+description_ko: >-
+  숭실대학교·중앙대학교·AIM Intelligence 연구진의 말하는 얼굴 합성 악용 방지 방법
+  MUTE 공식 구현. 음성의 지각 품질을 유지하며 음성·영상 정렬을 교란하는 보호 코드와
+  입 모양·동기화·영상 품질 평가를 제공한다. 코드는 MIT이며 사전학습 체크포인트와
+  데이터에는 각 원출처 조건이 적용된다. 영상 생성기와 일부 음성 품질 평가 스크립트는
+  별도로 준비해야 한다.
+language: Python
+license: MIT (code); pretrained checkpoints and datasets subject to their respective terms
+sources:
+  - type: github
+    url: https://github.com/jindl465/MUTE
+  - type: paper
+    url: https://arxiv.org/abs/2611.11989
+  - type: paper
+    url: https://arxiv.org/html/2611.11989v1
+  - type: official-website
+    url: https://jindl465.github.io/website/MUTE/
+last_verified: '2026-11-12'
+verification_status: verified

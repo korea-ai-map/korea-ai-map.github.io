@@ -1,0 +1,19 @@
+title: 'FastWild-GS: Minutes-Scale In-the-Wild Gaussian Splatting via Compact Per-Image Appearance Adaptation'
+authors_org: Chung-Ang University
+venue: arXiv
+year: 2026
+arxiv_id: '2611.13808'
+url: https://arxiv.org/abs/2611.13808
+abstract_ko: >-
+  조명·노출이 서로 다른 인터넷 사진으로 장면을 복원하는 FastWild-GS를 제안한다.
+  사진별 외형 토큰과 채널별 색 변환으로 가우시안의 색을 조절하고, 같은 보정을
+  가우시안 증식·제거 판단에도 적용해 외형 차이를 기하 복원 오류로 오인하지 않게 한다.
+  PhotoTourism과 NeRF-OSR에서 화질과 장면별 학습 시간을 평가한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2611.13808
+  - type: paper
+    url: https://arxiv.org/html/2611.13808v1
+last_verified: '2026-11-12'
+verification_status: official-source

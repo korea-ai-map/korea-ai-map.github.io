@@ -1,0 +1,43 @@
+name: CADET PCB Routing Policy
+organization_id: lg-ai-research
+model_family: PCBWorld
+release_date: '2026-11-11'
+status: active
+modalities:
+  - structured-data
+tasks:
+  - pcb-routing
+  - reinforcement-learning
+  - imitation-learning
+parameter_count:
+  value: 6800000
+  disclosure: confident
+context_length:
+  value: null
+  confidence: not-applicable
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: EXAONE AI Model License Agreement 1.2 - NC
+  commercial_use: prohibited
+deployment:
+  cloud: true
+  on_premise: true
+languages: []
+# PCBWorld 환경의 6층 decoder-only Transformer 정책(d_model 256, 8 heads, FFN 1024).
+# 대표 cadet.pt는 RouteDemos 행동 복제(BC) 후 PPO로 미세조정한 가중치이다.
+# 함께 공개한 BC 및 PPO 비교 체크포인트는 같은 연구 묶음으로 취급한다.
+# 가중치와 출력(배선된 보드 포함)의 상업 이용을 금지하며 코드 라이선스와 구분한다.
+links:
+  model_card: https://huggingface.co/LG-AI-Research/CADET
+  huggingface: https://huggingface.co/LG-AI-Research/CADET
+  github: https://github.com/LGAI-Research/PCBWorld
+sources:
+  - type: model-card
+    url: https://huggingface.co/LG-AI-Research/CADET
+  - type: official-docs
+    url: https://huggingface.co/LG-AI-Research/CADET/blob/main/LICENSE
+last_verified: '2026-11-12'
+verification_status: official-source

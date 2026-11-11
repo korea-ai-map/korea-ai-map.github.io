@@ -1,0 +1,48 @@
+name: ThakiOCR-KOEN-V1-Dense
+organization_id: thakicloud
+model_family: ThakiOCR
+# 11월 1일 private staging 업로드와 구분해 공식 공개 블로그 발표일을 기록한다.
+release_date: '2026-11-02'
+status: active
+modalities:
+  - image
+  - text
+tasks:
+  - ocr
+  - text-recognition
+parameter_count:
+  # 모델 카드의 학습 파라미터 수. 저장 파일의 비학습 버퍼는 합산하지 않는다.
+  value: 2130249
+  disclosure: confident
+context_length:
+  value: null
+  confidence: not-applicable
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+# 합성 한국어·영어 텍스트 행 879645개로 20000 step 처음부터 CTC 학습한 경량 합성곱 OCR.
+# NVIDIA OCR-Synthetic-Multilingual-v1 데이터의 CC BY 4.0 출처를 별도 고지한다.
+# 한 줄로 잘린 이미지의 문자 인식용 연구 모델이며 페이지 텍스트 검출기는 포함하지 않는다.
+# 합성 데이터만 학습했고 실제 문서의 과도한 띄어쓰기 및 도메인 차이 한계가 보고됐다.
+base_model: from-scratch
+links:
+  official: https://thakicloud.com/tech-blog/en/research/thakiocr-a-small-korean-english-line-ocr/
+  model_card: https://huggingface.co/ThakiCloud/ThakiOCR-KOEN-V1-Dense
+  huggingface: https://huggingface.co/ThakiCloud/ThakiOCR-KOEN-V1-Dense
+sources:
+  - type: model-card
+    url: https://huggingface.co/ThakiCloud/ThakiOCR-KOEN-V1-Dense
+  - type: official-blog
+    url: https://thakicloud.com/tech-blog/en/research/thakiocr-a-small-korean-english-line-ocr/
+last_verified: '2026-11-12'
+verification_status: verified

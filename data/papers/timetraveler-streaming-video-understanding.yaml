@@ -1,0 +1,23 @@
+title: 'TimeTraveler: Temporal Strategy Planning with Time Dictionary for Streaming Video Understanding'
+authors_org: Kyung Hee University · University of Illinois Urbana-Champaign
+venue: NeurIPS 2026
+year: 2026
+arxiv_id: '2611.10337'
+url: https://arxiv.org/abs/2611.10337
+abstract_ko: >-
+  실시간 영상의 각 순간을 시각과 구조화된 설명으로 저장하고, 질의에 따라 과거를
+  검색하거나 현재를 읽거나 미래 관측을 기다리는 TimeTraveler를 제안한다.
+  고정된 시각 언어 모델을 추가 학습 없이 조합하며 OVO-Bench와 StreamingBench에서
+  평가한다. 검증 시점에 프로젝트 페이지는 공개됐고 구현 코드는 공개 예정 상태다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2611.10337
+  - type: paper
+    url: https://arxiv.org/html/2611.10337v1
+  - type: official-website
+    url: https://geppa.github.io/TimeTraveler/
+  - type: github
+    url: https://github.com/KHU-AMI/TimeTraveler
+last_verified: '2026-11-12'
+verification_status: official-source

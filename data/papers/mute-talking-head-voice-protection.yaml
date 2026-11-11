@@ -1,0 +1,25 @@
+title: 'MUTE: Multi-Level Alignment Uncoupling Against Talking-Head Exploitation for Voice Protection'
+authors_org: Soongsil University · Chung-Ang University · AIM Intelligence
+venue: NeurIPS 2026
+year: 2026
+arxiv_id: '2611.11989'
+url: https://arxiv.org/abs/2611.11989
+abstract_ko: >-
+  음성이 말하는 얼굴 영상 생성에 무단으로 이용되는 것을 어렵게 만드는 MUTE를
+  제안한다. 음성에 작은 변형을 가해 생성 모델의 음성·영상 정렬과 시간별 음성 표현을
+  교란하며, 청취 품질과 입 모양 동기화의 변화를 함께 평가한다. 후처리 및 다른 생성
+  모델로의 전이 실험과 공개 보호·평가 코드를 제공한다.
+related_ids:
+  - aim-intelligence
+  - mute
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2611.11989
+  - type: paper
+    url: https://arxiv.org/html/2611.11989v1
+  - type: github
+    url: https://github.com/jindl465/MUTE
+  - type: official-website
+    url: https://jindl465.github.io/website/MUTE/
+last_verified: '2026-11-12'
+verification_status: verified

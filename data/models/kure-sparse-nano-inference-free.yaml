@@ -1,0 +1,48 @@
+name: KURE-Sparse-nano-inference-free
+organization_id: korea-university-nlpai-lab
+model_family: KURE
+release_date: '2026-11-09'
+status: active
+modalities:
+  - text
+tasks:
+  - sparse-embedding
+  - semantic-search
+  - retrieval
+parameter_count:
+  # 공식 safetensors 헤더의 문서 인코더 149373778개와 질의 가중치표 36282개를 합산.
+  value: 149410060
+  disclosure: confident
+context_length:
+  # 모델 카드가 명시한 문서 입력 한도. 백본 설정의 최대 위치값과 구분한다.
+  value: 8192
+  confidence: confident
+availability:
+  api: false
+  weights: true
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+# A.X-Encoder 계열 KURE-v2-unsupervised 백본의 문서 인코더와 BM25 IDF로 초기화한
+# 질의 가중치표를 함께 대조학습하고 한국어·영어 검색 데이터로 Qwen3-Reranker-8B를 증류했다.
+# 질의는 토큰화·가중치 조회만 수행하며 문서에는 신경망 인코더를 적용하는 별도 학습 모델이다.
+# 질의 확장은 하지 않으므로 질의와 문서의 어휘 차이가 큰 검색에는 한계가 있다.
+base_model: nlpai-lab/KURE-v2-unsupervised
+links:
+  model_card: https://huggingface.co/nlpai-lab/KURE-Sparse-nano-inference-free
+  huggingface: https://huggingface.co/nlpai-lab/KURE-Sparse-nano-inference-free
+  github: https://github.com/nlpai-lab/KURE
+sources:
+  - type: model-card
+    url: https://huggingface.co/nlpai-lab/KURE-Sparse-nano-inference-free
+  - type: huggingface
+    url: https://huggingface.co/nlpai-lab/KURE-Sparse-nano-inference-free/commit/c91da1a505d73e537ac79b3a6c9a784182e7f2ba
+last_verified: '2026-11-12'
+verification_status: official-source

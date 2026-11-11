@@ -1,0 +1,19 @@
+title: 'SRA: Spatial Reasoning Adapter via Evolving Social Interaction Graphs for Trajectory Prediction'
+authors_org: KAIST · DGIST · UNIVA
+venue: NeurIPS 2026
+year: 2026
+arxiv_id: '2611.10506'
+url: https://arxiv.org/abs/2611.10506
+abstract_ko: >-
+  확산 및 흐름 매칭 기반 이동 궤적 예측기에 결합하는 공간 추론 어댑터 SRA를 제안한다.
+  생성 단계마다 현재 예측한 미래 궤적으로 상호작용 그래프를 다시 만들고, 불확실성을
+  반영한 메시지 전달로 예측을 보정한다. 세 가지 예측기와 보행자·스포츠의 네 벤치마크에서
+  여러 개체의 미래 움직임을 평가한다.
+related_ids: []
+sources:
+  - type: paper
+    url: https://arxiv.org/abs/2611.10506
+  - type: paper
+    url: https://arxiv.org/html/2611.10506v1
+last_verified: '2026-11-12'
+verification_status: official-source

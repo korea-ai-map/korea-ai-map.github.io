@@ -1,0 +1,33 @@
+name_ko: 엑스칼리버 2.0
+name_en: X Caliber 2.0
+organization_id: covet
+description_ko: >-
+  SK텔레콤에서 사업을 인수한 코벳이 운영·개발하는 수의 영상판독 보조 AI 서비스.
+  개·고양이의 X-ray에서 부위별 이상 소견 가능성과 위치를 표시하고 VHS 등 지표를 자동 계측한다.
+  DICOM 업로드 및 PACS 연동을 지원하며, 일부 요금제에서 영상 공유 링크와 별도 과금의 GPT API 연동을 제공한다.
+  2026년 11월에는 2.0 서비스와 개편 요금제를 제공하고 있으며, 최종 진단은 수의사가 수행한다.
+categories:
+  - medical-ai
+  - veterinary-ai
+  - computer-vision
+target_users:
+  - veterinarian
+  - animal-hospital
+delivery_type:
+  - saas
+models_used: []
+model_ownership: unknown
+pricing_public: true
+status: active
+website: https://lab.covet.kr/solutions/x-caliber
+sources:
+  - type: official-website
+    url: https://lab.covet.kr/solutions/x-caliber
+  - type: official-website
+    url: https://www.xcaliber.ai/ko/services
+  - type: official-website
+    url: https://www.xcaliber.ai/ko/pricing
+  - type: official-blog
+    url: https://covet.kr/news/xcaliber-acquisition-dailyvet/
+last_verified: '2026-11-12'
+verification_status: official-source

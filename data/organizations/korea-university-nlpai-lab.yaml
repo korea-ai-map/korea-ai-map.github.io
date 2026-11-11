@@ -16,6 +16,7 @@ models:
   - kure-reranker-nano
   - kure-sparse-base
   - kure-sparse-nano
+  - kure-sparse-nano-inference-free
   - kure-v3
   - kure-v2
   - koe5
@@ -31,5 +32,5 @@ sources:
     url: https://huggingface.co/nlpai-lab
   - type: github
     url: https://github.com/nlpai-lab/KURE
-last_verified: '2026-11-06'
+last_verified: '2026-11-12'
 verification_status: official-source

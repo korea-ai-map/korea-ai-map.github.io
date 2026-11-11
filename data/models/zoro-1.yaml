@@ -1,0 +1,55 @@
+name: Zoro-1
+organization_id: trillion-labs
+model_family: Trida
+# 최초 공개일을 확인하지 못해 저장소 생성일·최근 수정일로 대체하지 않는다.
+status: active
+modalities:
+  - text
+  - image
+tasks:
+  - text-generation
+  - tool-use
+  - structured-decision
+  - classification
+  - routing
+parameter_count:
+  # 카드의 4B는 백본 호칭이며 비전 타워·별도 결정 헤드를 포함한 총량은 확정하지 않는다.
+  value: null
+  disclosure: undisclosed
+context_length:
+  value: null
+  confidence: undisclosed
+availability:
+  api: false
+  # Hugging Face에서 이용자 정보 공유 및 접근 승인이 필요한 gated 가중치 배포.
+  weights: true
+  # 공식 Space는 검증일 현재 RUNTIME_ERROR이므로 제공 중인 데모로 표시하지 않는다.
+  demo: false
+license:
+  name: Apache-2.0
+  commercial_use: allowed
+deployment:
+  cloud: true
+  on_premise: true
+languages:
+  - ko
+  - en
+# 외산 Qwen3.5-4B를 기반으로 블록 확산 SFT·AR 보조손실과 typed-decision pointer head를
+# 공동 학습한 파생 모델. 확산 스트림이 8토큰 블록을 제안하고 같은 가중치의 AR 스트림이 검증한다.
+# 공개 trida-stack이 학습·추론 구현을 제공하며 단순 서빙 형식 변경과 구분한다.
+# 이미지 입력을 지원하지만 모델 카드의 공개 성능 평가는 텍스트 기준이다.
+base_model: Qwen/Qwen3.5-4B
+links:
+  official: https://trida.trillionlabs.co/decision/
+  model_card: https://huggingface.co/trillionlabs/Zoro-1
+  huggingface: https://huggingface.co/trillionlabs/Zoro-1
+  github: https://github.com/trillion-labs/trida-stack
+sources:
+  - type: model-card
+    url: https://huggingface.co/trillionlabs/Zoro-1
+  - type: github
+    url: https://github.com/trillion-labs/trida-stack
+  - type: official-website
+    url: https://trida.trillionlabs.co/decision/
+last_verified: '2026-11-12'
+verification_status: verified

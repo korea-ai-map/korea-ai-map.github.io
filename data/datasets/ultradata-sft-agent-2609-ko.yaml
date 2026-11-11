@@ -1,0 +1,21 @@
+name: UltraData-SFT-Agent-2609-ko
+organization_id: enerzai
+category: korean-corpus
+description_ko: >-
+  ENERZAi가 OpenBMB의 UltraData-SFT-Agent-2609를 한국어로 번역·정제한 에이전트 SFT 데이터셋.
+  자연어 대화·추론을 번역하고 도구 스키마·식별자·환경 관측은 원문과 연결해 보존한다.
+  도구 사용·검색에 이어 11월 6일 일반 에이전트, 9일 코드 에이전트를 추가했으며,
+  최신 수정 이력 기준 두 추가 분할은 각각 142,738행과 47,489행이다.
+  공개 카드에 전문 용어 오역 등 한계를 명시하며, 파일 이용에는 Hugging Face 정보 제공 동의와 접근 승인이 필요하다.
+languages:
+  - ko
+  - en
+license: Apache-2.0
+url: https://huggingface.co/datasets/ENERZAiKR/UltraData-SFT-Agent-2609-ko
+sources:
+  - type: huggingface
+    url: https://huggingface.co/datasets/ENERZAiKR/UltraData-SFT-Agent-2609-ko
+  - type: huggingface
+    url: https://huggingface.co/datasets/openbmb/UltraData-SFT-Agent-2609
+last_verified: '2026-11-12'
+verification_status: official-source
